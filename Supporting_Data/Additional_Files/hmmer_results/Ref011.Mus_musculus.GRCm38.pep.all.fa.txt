@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSMUSP00000086342   -          KOG4160              -            1.7e-45  155.7   4.2   1.7e-45  155.7   4.2   1.6   2   0   0   2   2   2   1 -
+ENSMUSP00000159206   -          KOG4160              -              9e-42  143.6   1.3   1.3e-41  143.0   1.3   1.2   1   0   0   1   1   1   1 -
+ENSMUSP00000080501   -          KOG4160              -            2.2e-41  142.3   3.9   6.6e-33  114.7   0.0   2.0   1   1   1   2   2   2   2 -
+ENSMUSP00000086347   -          KOG4160              -            4.2e-37  128.4   0.3     7e-37  127.7   0.3   1.3   1   0   0   1   1   1   1 -
+ENSMUSP00000063107   -          KOG4160              -            4.5e-34  118.5   0.7   7.6e-34  117.8   0.7   1.3   1   0   0   1   1   1   1 -
+ENSMUSP00000028985   -          KOG4160              -            4.7e-34  118.5   2.7   6.2e-34  118.1   2.7   1.1   1   0   0   1   1   1   1 -
+ENSMUSP00000028983   -          KOG4160              -            4.2e-32  112.1   6.2   4.2e-32  112.1   6.2   1.6   2   1   0   2   2   2   1 -
+ENSMUSP00000028986   -          KOG4160              -            2.5e-29  103.1   0.2   3.2e-29  102.7   0.2   1.1   1   0   0   1   1   1   1 -
+ENSMUSP00000028984   -          KOG4160              -            1.3e-27   97.5   0.0   1.6e-27   97.3   0.0   1.0   1   0   0   1   1   1   1 -
+ENSMUSP00000046080   -          KOG4160              -            1.6e-13   51.7  13.7   1.9e-13   51.5  12.8   1.5   1   1   0   1   1   1   1 -
+ENSMUSP00000016168   -          KOG4160              -            5.5e-11   43.5   0.1   1.2e-10   42.4   0.1   1.5   1   0   0   1   1   1   1 -
+ENSMUSP00000067837   -          KOG4160              -            5.8e-09   36.9   0.0   1.2e-08   35.9   0.0   1.5   1   1   0   1   1   1   1 -
+ENSMUSP00000046683   -          KOG4160              -            6.9e-08   33.4   0.0    0.0032   18.3   2.5   2.5   1   1   0   2   2   2   2 -
+ENSMUSP00000104939   -          KOG4160              -            1.3e-06   29.2   0.2   2.3e-06   28.4   0.2   1.3   1   0   0   1   1   1   1 -
+ENSMUSP00000081784   -          KOG4160              -               0.22   12.3   0.0      0.27   12.0   0.0   1.1   1   0   0   1   1   1   0 -
+ENSMUSP00000105375   -          KOG4160              -               0.32   11.8   0.3       1.5    9.6   0.0   2.0   2   0   0   2   2   2   0 -
+ENSMUSP00000145946   -          KOG4160              -               0.61   10.8   0.1       1.1   10.0   0.1   1.4   1   0   0   1   1   1   0 -
+ENSMUSP00000043240   -          KOG4160              -               0.64   10.8   3.6        14    6.4   0.1   3.0   2   0   0   2   2   2   0 -
+ENSMUSP00000128736   -          KOG4160              -                0.8   10.5   0.0        41    4.9   0.0   2.7   2   1   0   2   2   2   0 -
+ENSMUSP00000029989   -          KOG4160              -               0.84   10.4   0.0   1.5e+02    3.0   0.1   2.9   2   2   1   3   3   3   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG011.strict.hmm
+# Target file:     Mus_musculus.GRCm38.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref011.Mus_musculus.GRCm38.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG011.strict.hmm Mus_musculus.GRCm38.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:27:08 2020
+# [ok]

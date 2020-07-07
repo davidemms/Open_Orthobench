@@ -1,0 +1,36 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSTNIP00000015159   -          NOG42950             -           3.5e-169  565.0  60.8  3.5e-169  565.0  60.8   2.0   1   1   1   2   2   1   1 -
+ENSTNIP00000007231   -          NOG42950             -           2.1e-161  539.3  48.7  2.1e-161  539.3  48.7   2.1   1   1   1   2   2   1   1 -
+ENSTNIP00000003120   -          NOG42950             -             0.0016   18.3   5.8    0.0016   18.3   5.8   2.0   2   0   0   2   2   2   1 -
+ENSTNIP00000021583   -          NOG42950             -              0.016   14.9   0.3       8.1    6.0   0.0   2.6   2   1   0   2   2   2   0 -
+ENSTNIP00000017461   -          NOG42950             -              0.016   14.9   0.1     0.016   14.9   0.1   2.2   1   1   0   2   2   1   0 -
+ENSTNIP00000000663   -          NOG42950             -              0.034   13.9  13.7     0.043   13.5  13.7   1.4   1   0   0   1   1   1   0 -
+ENSTNIP00000001694   -          NOG42950             -              0.044   13.5   0.3     0.093   12.4   0.3   1.5   1   1   0   1   1   1   0 -
+ENSTNIP00000018918   -          NOG42950             -              0.084   12.6  15.4     0.095   12.4  15.4   1.1   1   0   0   1   1   1   0 -
+ENSTNIP00000020189   -          NOG42950             -               0.15   11.7   0.0      0.38   10.4   0.0   1.4   1   1   0   1   1   1   0 -
+ENSTNIP00000016522   -          NOG42950             -                0.2   11.4   2.9      0.26   11.0   2.9   1.2   1   0   0   1   1   1   0 -
+ENSTNIP00000019811   -          NOG42950             -               0.21   11.2  18.5      0.29   10.8  18.5   1.1   1   0   0   1   1   1   0 -
+ENSTNIP00000022899   -          NOG42950             -               0.32   10.7   0.2      0.34   10.5   0.2   1.0   1   0   0   1   1   1   0 -
+ENSTNIP00000012127   -          NOG42950             -               0.43   10.2   5.2      0.57    9.8   5.2   1.2   1   0   0   1   1   1   0 -
+ENSTNIP00000007606   -          NOG42950             -               0.46   10.1   5.6      0.97    9.1   5.6   1.5   1   0   0   1   1   1   0 -
+ENSTNIP00000019907   -          NOG42950             -               0.49   10.0   9.9      0.55    9.9   9.9   1.1   1   0   0   1   1   1   0 -
+ENSTNIP00000008635   -          NOG42950             -               0.51   10.0   5.5      0.63    9.7   5.5   1.1   1   0   0   1   1   1   0 -
+ENSTNIP00000006314   -          NOG42950             -               0.54    9.9   0.0       1.2    8.7   0.0   1.5   1   1   0   1   1   1   0 -
+ENSTNIP00000020817   -          NOG42950             -               0.63    9.7   3.5      0.76    9.4   3.5   1.1   1   0   0   1   1   1   0 -
+ENSTNIP00000018743   -          NOG42950             -               0.65    9.6   0.3      0.87    9.2   0.3   1.2   1   0   0   1   1   1   0 -
+ENSTNIP00000010510   -          NOG42950             -               0.67    9.6  11.4      0.97    9.1  11.4   1.2   1   0   0   1   1   1   0 -
+ENSTNIP00000017499   -          NOG42950             -                0.7    9.5  10.8      0.85    9.3  10.8   1.1   1   0   0   1   1   1   0 -
+ENSTNIP00000000017   -          NOG42950             -               0.73    9.5   1.4         1    9.0   1.4   1.1   1   0   0   1   1   1   0 -
+ENSTNIP00000011182   -          NOG42950             -               0.95    9.1  13.1       6.9    6.3   0.0   3.2   3   0   0   3   3   3   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG061.strict.hmm
+# Target file:     Tetraodon_nigroviridis.TETRAODON8.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref061.Tetraodon_nigroviridis.TETRAODON8.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG061.strict.hmm Tetraodon_nigroviridis.TETRAODON8.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:37:15 2020
+# [ok]

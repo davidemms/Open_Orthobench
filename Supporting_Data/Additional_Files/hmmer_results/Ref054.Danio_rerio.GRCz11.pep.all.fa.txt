@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSDARP00000111575   -          NOG08919             -           5.5e-285  946.3   0.0  6.2e-285  946.1   0.0   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000110477   -          NOG08919             -             4e-151  504.6   0.7  4.9e-151  504.3   0.7   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000050527   -          NOG08919             -           6.8e-149  497.2   0.7  3.1e-148  495.0   0.7   1.7   1   1   0   1   1   1   1 -
+ENSDARP00000073055   -          NOG08919             -           4.2e-147  491.3   0.7    7e-147  490.6   0.7   1.3   1   1   0   1   1   1   1 -
+ENSDARP00000122387   -          NOG08919             -              0.084   11.8   0.1      0.13   11.2   0.1   1.2   1   0   0   1   1   1   0 -
+ENSDARP00000099349   -          NOG08919             -               0.19   10.7   0.0      0.28   10.1   0.0   1.2   1   0   0   1   1   1   0 -
+ENSDARP00000119064   -          NOG08919             -               0.29   10.1   0.0      0.39    9.6   0.0   1.2   1   0   0   1   1   1   0 -
+ENSDARP00000151801   -          NOG08919             -               0.52    9.2   0.2      0.57    9.1   0.2   1.0   1   0   0   1   1   1   0 -
+ENSDARP00000127975   -          NOG08919             -               0.64    8.9   0.1       0.8    8.6   0.1   1.3   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG054.strict.hmm
+# Target file:     Danio_rerio.GRCz11.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref054.Danio_rerio.GRCz11.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG054.strict.hmm Danio_rerio.GRCz11.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:30:25 2020
+# [ok]

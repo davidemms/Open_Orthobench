@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSTNIP00000010150   -          KOG4160              -            1.1e-22   81.3   0.4   1.7e-22   80.7   0.4   1.2   1   0   0   1   1   1   1 -
+ENSTNIP00000000293   -          KOG4160              -            8.7e-14   52.4   0.0   1.3e-13   51.8   0.0   1.2   1   0   0   1   1   1   1 -
+ENSTNIP00000005555   -          KOG4160              -            3.5e-09   37.4   0.0     7e-09   36.4   0.0   1.5   1   1   0   1   1   1   1 -
+ENSTNIP00000009287   -          KOG4160              -               0.54   10.8   0.0       3.2    8.3   0.0   2.4   1   0   0   1   1   1   0 -
+ENSTNIP00000000487   -          KOG4160              -               0.67   10.5   0.0         2    9.0   0.0   1.7   1   1   0   2   2   2   0 -
+ENSTNIP00000002766   -          KOG4160              -               0.72   10.4   0.1       1.4    9.5   0.1   1.4   1   0   0   1   1   1   0 -
+ENSTNIP00000015174   -          KOG4160              -                0.8   10.2   0.0        68    4.0   0.4   2.4   2   1   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG011.strict.hmm
+# Target file:     Tetraodon_nigroviridis.TETRAODON8.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref011.Tetraodon_nigroviridis.TETRAODON8.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG011.strict.hmm Tetraodon_nigroviridis.TETRAODON8.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:27:16 2020
+# [ok]

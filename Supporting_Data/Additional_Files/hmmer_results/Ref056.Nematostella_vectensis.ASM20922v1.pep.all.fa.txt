@@ -1,0 +1,37 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EDO41643             -          NOG73730             -            4.6e-12   45.8   0.0   3.5e-11   42.9   0.0   2.5   1   1   0   1   1   1   1 -
+EDO30311             -          NOG73730             -            1.9e-06   27.2   3.2   2.2e-06   27.0   3.2   1.3   1   0   0   1   1   1   1 -
+EDO40602             -          NOG73730             -            6.8e-06   25.4   0.9   6.9e-06   25.4   0.9   1.2   1   0   0   1   1   1   1 -
+EDO35713             -          NOG73730             -            0.00048   19.3   0.0       5.4    6.0  10.6   1.7   1   1   0   1   1   1   1 -
+EDO31608             -          NOG73730             -             0.0016   17.6  14.2    0.0057   15.8  13.9   1.9   1   1   0   1   1   1   1 -
+EDO44706             -          NOG73730             -              0.009   15.1   0.6      0.98    8.4   0.0   2.9   1   1   1   2   2   2   1 -
+EDO25846             -          NOG73730             -               0.01   14.9  14.7     0.092   11.8  14.7   2.2   1   1   0   1   1   1   0 -
+EDO44119             -          NOG73730             -               0.02   14.0   1.4     0.037   13.1   1.4   1.4   1   1   0   1   1   1   0 -
+EDO49702             -          NOG73730             -              0.042   12.9  14.9      0.19   10.7  14.9   1.9   1   1   0   1   1   1   0 -
+EDO45774             -          NOG73730             -              0.054   12.6   5.6      0.18   10.9   5.5   2.0   1   1   0   1   1   1   0 -
+EDO39177             -          NOG73730             -              0.061   12.4   7.1     0.085   11.9   7.1   1.1   1   0   0   1   1   1   0 -
+EDO47193             -          NOG73730             -               0.33   10.0   1.2      0.45    9.5   1.2   1.4   1   1   0   1   1   1   0 -
+EDO48365             -          NOG73730             -               0.34    9.9   0.2      0.39    9.7   0.2   1.2   1   0   0   1   1   1   0 -
+EDO46195             -          NOG73730             -               0.35    9.9   0.0      0.44    9.5   0.0   1.3   1   1   0   1   1   1   0 -
+EDO41819             -          NOG73730             -               0.39    9.7   0.6      0.73    8.8   0.1   1.5   1   1   0   1   1   1   0 -
+EDO36139             -          NOG73730             -               0.44    9.5   0.7      0.46    9.5   0.7   1.1   1   0   0   1   1   1   0 -
+EDO25713             -          NOG73730             -               0.48    9.4   0.5      0.61    9.1   0.5   1.1   1   0   0   1   1   1   0 -
+EDO27422             -          NOG73730             -               0.65    9.0   4.5      0.75    8.8   4.5   1.0   1   0   0   1   1   1   0 -
+EDO39223             -          NOG73730             -               0.65    9.0   0.0       1.2    8.1   0.0   1.5   1   1   0   1   1   1   0 -
+EDO27142             -          NOG73730             -               0.66    9.0   8.5      0.18   10.9   2.1   2.1   2   0   0   2   2   2   0 -
+EDO27517             -          NOG73730             -               0.66    9.0   1.4      0.62    9.1   1.4   1.3   1   0   0   1   1   1   0 -
+EDO28784             -          NOG73730             -               0.77    8.8   1.3       1.2    8.1   1.3   1.3   1   0   0   1   1   1   0 -
+EDO40620             -          NOG73730             -               0.97    8.4   4.0        28    3.6   0.0   2.9   2   1   0   2   2   2   0 -
+EDO46889             -          NOG73730             -               0.98    8.4   4.5       1.2    8.1   4.5   1.1   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG056.strict.hmm
+# Target file:     Nematostella_vectensis.ASM20922v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref056.Nematostella_vectensis.ASM20922v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG056.strict.hmm Nematostella_vectensis.ASM20922v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:31:52 2020
+# [ok]

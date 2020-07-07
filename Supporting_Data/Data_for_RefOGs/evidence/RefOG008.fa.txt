@@ -1,0 +1,3 @@
+The RefOG tree is rooted on a Nematostella gene and shows an orthogroup of single-copy genes present in all species.
+
+The newly inferred tree shows a clear metazoan orthogroup as part of a larger gene family, it has been rooted at the root of this metazoan orthogroup. It provides strong support for the orthogroup from teh original study. As with the previous study the Ciona gene has been judged to be part of the orthogroup despite being placed within a clade with Trichoplax and Nematostella with low bootstrap support. 

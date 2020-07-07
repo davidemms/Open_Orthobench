@@ -1,0 +1,39 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSTNIP00000019695   -          NOG149771            -                  0 1037.9  75.7         0 1037.6  75.7   1.2   1   0   0   1   1   1   1 -
+ENSTNIP00000015175   -          NOG149771            -                  0 1029.9  75.7         0 1029.9  75.7   2.4   1   1   1   2   2   1   1 -
+ENSTNIP00000020582   -          NOG149771            -           2.4e-300  997.5 101.3  2.9e-299  993.9 100.4   2.1   1   1   0   1   1   1   1 -
+ENSTNIP00000012955   -          NOG149771            -           1.4e-297  988.3  65.9  1.9e-297  987.9  65.9   1.1   1   0   0   1   1   1   1 -
+ENSTNIP00000018477   -          NOG149771            -           3.2e-278  924.4  70.4  6.2e-278  923.4  69.8   1.6   1   1   0   1   1   1   1 -
+ENSTNIP00000017286   -          NOG149771            -           1.9e-276  918.5  91.6  2.1e-275  915.1  90.9   2.2   1   1   0   1   1   1   1 -
+ENSTNIP00000003343   -          NOG149771            -            1.1e-28  100.4  31.3   1.6e-28   99.9  29.4   1.8   1   1   0   1   1   1   1 -
+ENSTNIP00000023097   -          NOG149771            -            2.2e-16   59.8   9.8   2.2e-16   59.8   9.8   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000000263   -          NOG149771            -            2.3e-05   23.4   0.1   2.3e-05   23.4   0.1   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000016966   -          NOG149771            -              5e-05   22.3  19.8     5e-05   22.3  19.8   2.5   1   1   1   2   2   1   1 -
+ENSTNIP00000020233   -          NOG149771            -            0.00032   19.6 398.6     0.011   14.5  10.9  21.6   1   1  18  19  19  18  13 -
+ENSTNIP00000015351   -          NOG149771            -             0.0004   19.3  39.9     0.001   17.9  20.6   8.5   1   1   7   8   8   6   2 -
+ENSTNIP00000008029   -          NOG149771            -            0.00059   18.7  11.5   0.00059   18.7  11.5   5.3   1   1   4   5   5   5   3 -
+ENSTNIP00000000598   -          NOG149771            -             0.0061   15.4  18.0      0.15   10.8   6.7   2.2   1   1   1   2   2   2   2 -
+ENSTNIP00000019767   -          NOG149771            -               0.02   13.7  58.2       1.7    7.3   8.5   4.3   2   1   1   3   3   3   0 -
+ENSTNIP00000004623   -          NOG149771            -              0.024   13.4  16.6     0.045   12.5  16.6   1.4   1   1   0   1   1   1   0 -
+ENSTNIP00000010708   -          NOG149771            -              0.028   13.2   4.6     0.049   12.4   4.6   1.2   1   0   0   1   1   1   0 -
+ENSTNIP00000020672   -          NOG149771            -              0.091   11.5   0.8      0.15   10.8   0.8   1.4   1   0   0   1   1   1   0 -
+ENSTNIP00000014383   -          NOG149771            -               0.25   10.0  27.7      0.53    9.0  27.7   1.5   1   1   0   1   1   1   0 -
+ENSTNIP00000004159   -          NOG149771            -               0.37    9.5   0.1      0.59    8.8   0.1   1.2   1   0   0   1   1   1   0 -
+ENSTNIP00000001013   -          NOG149771            -               0.37    9.5   0.9      0.52    9.0   0.9   1.1   1   0   0   1   1   1   0 -
+ENSTNIP00000000617   -          NOG149771            -               0.38    9.5  28.4      0.63    8.7  28.4   1.3   1   0   0   1   1   1   0 -
+ENSTNIP00000001221   -          NOG149771            -               0.41    9.3   1.3      0.55    8.9   1.3   1.1   1   0   0   1   1   1   0 -
+ENSTNIP00000016570   -          NOG149771            -               0.64    8.7   4.6      0.96    8.1   4.6   1.2   1   0   0   1   1   1   0 -
+ENSTNIP00000004209   -          NOG149771            -               0.65    8.7  19.2     0.035   12.9   7.2   2.1   1   1   1   2   2   2   0 -
+ENSTNIP00000002418   -          NOG149771            -               0.69    8.6   0.2       1.1    7.9   0.2   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG037.strict.hmm
+# Target file:     Tetraodon_nigroviridis.TETRAODON8.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref037.Tetraodon_nigroviridis.TETRAODON8.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG037.strict.hmm Tetraodon_nigroviridis.TETRAODON8.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:09:02 2020
+# [ok]

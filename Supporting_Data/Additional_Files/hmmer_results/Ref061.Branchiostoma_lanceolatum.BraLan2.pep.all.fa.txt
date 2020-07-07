@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BL85368_cuf0         -          NOG42950             -            0.00054   20.7  16.3   0.00054   20.7  16.3   1.9   1   1   1   2   2   1   1 -
+BL07736_cuf5         -          NOG42950             -             0.0039   17.8  13.4    0.0039   17.8  13.4   1.2   1   0   0   1   1   1   1 -
+BL05597_evm0         -          NOG42950             -             0.0059   17.2   0.0      0.18   12.3   0.0   2.6   1   1   0   1   1   1   1 -
+BL13088_cuf4         -          NOG42950             -              0.051   14.1   0.0     0.051   14.1   0.0   5.9   1   1   5   6   6   2   0 -
+BL96181_cuf6         -          NOG42950             -              0.057   14.0  20.2     0.087   13.4  20.2   1.4   1   0   0   1   1   1   0 -
+BL02822_evm0         -          NOG42950             -               0.09   13.3   0.4      0.17   12.4   0.3   1.4   1   1   0   1   1   1   0 -
+BL01161_evm1         -          NOG42950             -               0.13   12.8  13.5      0.14   12.7  13.5   1.1   1   0   0   1   1   1   0 -
+BL03614_evm18        -          NOG42950             -               0.14   12.7   3.4      0.22   12.1   3.4   1.2   1   0   0   1   1   1   0 -
+BL05766_evm0         -          NOG42950             -               0.24   11.9  13.2      0.29   11.6  13.2   1.0   1   0   0   1   1   1   0 -
+BL12532_evm3         -          NOG42950             -               0.31   11.6   7.6      0.34   11.4   7.6   1.2   1   0   0   1   1   1   0 -
+BL22111_evm0         -          NOG42950             -               0.34   11.4   0.7      0.37   11.3   0.7   1.1   1   0   0   1   1   1   0 -
+BL21553_cuf2         -          NOG42950             -               0.43   11.1   3.6      0.48   10.9   3.6   1.1   1   0   0   1   1   1   0 -
+BL10717_evm0         -          NOG42950             -               0.52   10.8   0.3       2.8    8.4   0.0   2.2   1   1   2   3   3   2   0 -
+BL30812_evm0         -          NOG42950             -               0.55   10.7  20.9      0.65   10.5  20.9   1.2   1   0   0   1   1   1   0 -
+BL17102_cuf4         -          NOG42950             -               0.63   10.6   9.2      0.78   10.2   9.2   1.1   1   0   0   1   1   1   0 -
+BL24504_cuf1         -          NOG42950             -               0.69   10.4   4.2      0.82   10.2   4.2   1.0   1   0   0   1   1   1   0 -
+BL90680_cuf14        -          NOG42950             -               0.86   10.1  12.2       1.1    9.7  12.2   1.2   1   0   0   1   1   1   0 -
+BL02655_cuf3         -          NOG42950             -               0.93   10.0   4.7       1.3    9.5   4.7   1.1   1   0   0   1   1   1   0 -
+BL22145_evm0         -          NOG42950             -               0.95   10.0   6.2       1.3    9.5   6.2   1.1   1   0   0   1   1   1   0 -
+BL24768_cuf0         -          NOG42950             -               0.98    9.9  12.5       1.3    9.5  12.5   1.1   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG061.strict.hmm
+# Target file:     Branchiostoma_lanceolatum.BraLan2.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref061.Branchiostoma_lanceolatum.BraLan2.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG061.strict.hmm Branchiostoma_lanceolatum.BraLan2.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:37:37 2020
+# [ok]

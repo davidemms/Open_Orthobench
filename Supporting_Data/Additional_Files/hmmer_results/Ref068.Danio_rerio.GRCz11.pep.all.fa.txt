@@ -1,0 +1,35 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSDARP00000157488   -          KOG3604              -           1.1e-107  360.0   0.8  5.8e-104  347.8   0.1   2.1   2   0   0   2   2   2   2 -
+ENSDARP00000118137   -          KOG3604              -           8.2e-107  357.2   0.2  9.2e-104  347.2   0.1   2.1   2   0   0   2   2   2   2 -
+ENSDARP00000116424   -          KOG3604              -           8.3e-103  344.0   1.2  7.6e-100  334.3   0.2   2.6   2   1   0   2   2   2   2 -
+ENSDARP00000151902   -          KOG3604              -            3.8e-98  328.7   1.5   5.2e-93  311.9   0.3   2.1   2   0   0   2   2   2   2 -
+ENSDARP00000080453   -          KOG3604              -              1e-66  225.6   0.1   1.2e-66  225.4   0.1   1.1   1   0   0   1   1   1   1 -
+ENSDARP00000131597   -          KOG3604              -             0.0046   16.8   0.0       5.2    6.7   0.0   3.0   1   1   0   3   3   3   1 -
+ENSDARP00000151799   -          KOG3604              -              0.055   13.2   0.0       3.3    7.4   0.0   3.1   2   2   0   2   2   1   0 -
+ENSDARP00000037780   -          KOG3604              -               0.25   11.1   0.1      0.28   10.9   0.1   1.1   1   0   0   1   1   1   0 -
+ENSDARP00000116385   -          KOG3604              -               0.26   11.0   0.4      0.36   10.6   0.4   1.3   1   0   0   1   1   1   0 -
+ENSDARP00000136785   -          KOG3604              -               0.27   11.0   0.4       4.4    7.0   0.3   2.6   2   1   0   2   2   2   0 -
+ENSDARP00000087097   -          KOG3604              -                0.3   10.8   0.0        53    3.5   1.3   1.3   1   1   0   1   1   1   0 -
+ENSDARP00000089794   -          KOG3604              -               0.31   10.8   0.0        44    3.7   0.0   3.2   2   1   0   2   2   2   0 -
+ENSDARP00000073355   -          KOG3604              -               0.32   10.7   0.8       0.5   10.1   0.8   1.4   1   0   0   1   1   1   0 -
+ENSDARP00000133919   -          KOG3604              -                0.6    9.8   0.0         1    9.1   0.0   1.6   1   1   0   1   1   1   0 -
+ENSDARP00000137158   -          KOG3604              -               0.64    9.8   0.1       0.7    9.6   0.1   1.1   1   0   0   1   1   1   0 -
+ENSDARP00000058523   -          KOG3604              -               0.66    9.7   0.2      0.85    9.3   0.2   1.2   1   0   0   1   1   1   0 -
+ENSDARP00000069263   -          KOG3604              -               0.68    9.7   0.0        48    3.6   0.3   3.2   3   2   0   3   3   3   0 -
+ENSDARP00000075271   -          KOG3604              -               0.72    9.6   0.2      0.83    9.4   0.2   1.1   1   0   0   1   1   1   0 -
+ENSDARP00000067740   -          KOG3604              -               0.73    9.6   2.3        60    3.3   0.0   2.0   1   1   1   2   2   2   0 -
+ENSDARP00000077379   -          KOG3604              -               0.87    9.3   0.0       6.5    6.4   0.0   2.4   1   1   0   1   1   1   0 -
+ENSDARP00000155503   -          KOG3604              -               0.95    9.2   0.1      0.89    9.3   0.1   1.1   1   0   0   1   1   1   0 -
+ENSDARP00000153836   -          KOG3604              -               0.96    9.2   0.0       2.2    8.0   0.0   1.4   1   1   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG068.strict.hmm
+# Target file:     Danio_rerio.GRCz11.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref068.Danio_rerio.GRCz11.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG068.strict.hmm Danio_rerio.GRCz11.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:45:42 2020
+# [ok]

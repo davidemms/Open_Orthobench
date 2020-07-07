@@ -1,0 +1,39 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSDARP00000131691   -          KOG3511              -                  0 1122.6   3.2         0 1122.3   3.2   1.1   1   0   0   1   1   1   1 -
+ENSDARP00000025601   -          KOG3511              -                  0 1122.2   3.2         0 1121.9   3.2   1.1   1   0   0   1   1   1   1 -
+ENSDARP00000119088   -          KOG3511              -                  0 1096.4   0.9         0 1096.2   0.9   1.1   1   0   0   1   1   1   1 -
+ENSDARP00000073048   -          KOG3511              -           8.5e-100  335.7   0.3   1.1e-99  335.4   0.3   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000101400   -          KOG3511              -            1.9e-54  186.0   1.5   3.1e-54  185.2   1.5   1.2   1   0   0   1   1   1   1 -
+ENSDARP00000129655   -          KOG3511              -            8.8e-50  170.5   0.1   1.8e-49  169.5   0.1   1.4   1   0   0   1   1   1   1 -
+ENSDARP00000101170   -          KOG3511              -            1.2e-41  143.7   1.3   1.8e-41  143.1   1.3   1.1   1   0   0   1   1   1   1 -
+ENSDARP00000137727   -          KOG3511              -            4.5e-35  121.9   0.8   6.9e-35  121.3   0.8   1.2   1   0   0   1   1   1   1 -
+ENSDARP00000133578   -          KOG3511              -              0.032   13.5   0.0     0.037   13.3   0.0   1.0   1   0   0   1   1   1   0 -
+ENSDARP00000131379   -          KOG3511              -              0.057   12.6   0.3     0.062   12.5   0.3   1.0   1   0   0   1   1   1   0 -
+ENSDARP00000114208   -          KOG3511              -              0.082   12.1   0.4     0.088   12.0   0.4   1.0   1   0   0   1   1   1   0 -
+ENSDARP00000131868   -          KOG3511              -              0.082   12.1   0.4     0.088   12.0   0.4   1.0   1   0   0   1   1   1   0 -
+ENSDARP00000128946   -          KOG3511              -               0.12   11.5   0.1      0.13   11.5   0.1   1.0   1   0   0   1   1   1   0 -
+ENSDARP00000135987   -          KOG3511              -               0.14   11.4   0.0      0.14   11.3   0.0   1.0   1   0   0   1   1   1   0 -
+ENSDARP00000157080   -          KOG3511              -               0.16   11.2   0.1      0.16   11.2   0.1   1.0   1   0   0   1   1   1   0 -
+ENSDARP00000104754   -          KOG3511              -               0.19   10.9   0.0      0.33   10.1   0.0   1.3   1   0   0   1   1   1   0 -
+ENSDARP00000101371   -          KOG3511              -               0.19   10.9   0.1      0.24   10.6   0.1   1.1   1   0   0   1   1   1   0 -
+ENSDARP00000145322   -          KOG3511              -               0.24   10.6   0.4      0.33   10.1   0.4   1.1   1   0   0   1   1   1   0 -
+ENSDARP00000098259   -          KOG3511              -               0.38    9.9   0.0       2.4    7.3   0.0   2.2   2   1   0   3   3   3   0 -
+ENSDARP00000136243   -          KOG3511              -               0.38    9.9   0.4      0.41    9.8   0.4   1.0   1   0   0   1   1   1   0 -
+ENSDARP00000087423   -          KOG3511              -               0.46    9.6   0.0      0.65    9.1   0.0   1.1   1   0   0   1   1   1   0 -
+ENSDARP00000114642   -          KOG3511              -                0.5    9.5   0.0       0.5    9.5   0.0   1.0   1   0   0   1   1   1   0 -
+ENSDARP00000118164   -          KOG3511              -               0.54    9.4   0.2      0.66    9.1   0.2   1.0   1   0   0   1   1   1   0 -
+ENSDARP00000107898   -          KOG3511              -               0.77    8.9   0.0       4.5    6.4   0.0   2.2   3   0   0   3   3   3   0 -
+ENSDARP00000141186   -          KOG3511              -               0.96    8.6   0.0        14    4.7   0.0   2.0   2   0   0   2   2   2   0 -
+ENSDARP00000137699   -          KOG3511              -               0.96    8.6   0.0       5.9    6.0   0.0   2.1   3   0   0   3   3   3   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG052.strict.hmm
+# Target file:     Danio_rerio.GRCz11.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref052.Danio_rerio.GRCz11.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG052.strict.hmm Danio_rerio.GRCz11.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:29:11 2020
+# [ok]

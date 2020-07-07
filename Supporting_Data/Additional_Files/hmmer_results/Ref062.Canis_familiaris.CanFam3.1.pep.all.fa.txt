@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSCAFP00000016075   -          NOG133129            -           1.5e-268  891.4   5.5  1.8e-268  891.1   5.5   1.1   1   0   0   1   1   1   1 -
+ENSCAFP00000014088   -          NOG133129            -             0.0019   17.0   0.1     0.005   15.6   0.1   1.5   1   1   1   2   2   2   1 -
+ENSCAFP00000029665   -          NOG133129            -              0.022   13.5   0.1       2.2    6.9   0.0   2.2   2   0   0   2   2   2   0 -
+ENSCAFP00000020906   -          NOG133129            -              0.059   12.1   0.1      0.09   11.5   0.1   1.2   1   0   0   1   1   1   0 -
+ENSCAFP00000054153   -          NOG133129            -              0.062   12.0   0.1      0.08   11.7   0.1   1.2   1   0   0   1   1   1   0 -
+ENSCAFP00000009456   -          NOG133129            -                0.3    9.8   0.2       0.5    9.0   0.2   1.2   1   0   0   1   1   1   0 -
+ENSCAFP00000048192   -          NOG133129            -               0.34    9.6   0.2      0.53    9.0   0.2   1.4   1   0   0   1   1   1   0 -
+ENSCAFP00000063784   -          NOG133129            -               0.45    9.2   0.0      0.53    9.0   0.0   1.1   1   0   0   1   1   1   0 -
+ENSCAFP00000024626   -          NOG133129            -               0.56    8.9   0.5       5.7    5.6   0.1   2.4   3   0   0   3   3   3   0 -
+ENSCAFP00000034209   -          NOG133129            -               0.86    8.3   0.0         1    8.0   0.0   1.1   1   0   0   1   1   1   0 -
+ENSCAFP00000052145   -          NOG133129            -               0.87    8.3   0.1       1.1    8.0   0.1   1.1   1   0   0   1   1   1   0 -
+ENSCAFP00000031147   -          NOG133129            -               0.94    8.1   0.0       1.1    7.9   0.0   1.1   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG062.strict.hmm
+# Target file:     Canis_familiaris.CanFam3.1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref062.Canis_familiaris.CanFam3.1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG062.strict.hmm Canis_familiaris.CanFam3.1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:37:20 2020
+# [ok]

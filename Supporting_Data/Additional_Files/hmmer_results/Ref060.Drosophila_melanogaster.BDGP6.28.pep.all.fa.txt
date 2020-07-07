@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FBpp0076940          -          NOG43394             -              2e-74  249.0   0.3     2e-74  249.0   0.3   1.3   1   1   0   1   1   1   1 -
+FBpp0290400          -          NOG43394             -            1.4e-13   50.6   3.4   2.3e-07   30.3   0.1   2.2   2   0   0   2   2   2   2 -
+FBpp0309626          -          NOG43394             -            1.9e-13   50.1   3.3   4.2e-13   49.0   3.4   1.4   1   1   0   1   1   1   1 -
+FBpp0085373          -          NOG43394             -            3.4e-09   36.3   0.7     1e-08   34.7   0.7   1.8   1   1   0   1   1   1   1 -
+FBpp0076842          -          NOG43394             -            3.8e-08   32.8   3.8   6.8e-08   32.0   3.8   1.4   1   1   0   1   1   1   1 -
+FBpp0072300          -          NOG43394             -            2.8e-05   23.5   4.3   4.2e-05   22.9   4.3   1.2   1   0   0   1   1   1   1 -
+FBpp0310734          -          NOG43394             -             0.0026   17.1   2.3       1.1    8.4   0.0   2.3   2   0   0   2   2   2   2 -
+FBpp0301215          -          NOG43394             -             0.0034   16.7   0.1    0.0058   15.9   0.1   1.4   1   0   0   1   1   1   1 -
+FBpp0083296          -          NOG43394             -              0.007   15.7   0.3     0.045   13.0   0.0   2.5   2   0   0   2   2   2   1 -
+FBpp0078549          -          NOG43394             -               0.12   11.6   9.1      0.24   10.7   9.1   1.5   1   1   0   1   1   1   0 -
+FBpp0292972          -          NOG43394             -               0.21   10.8   0.0      0.34   10.1   0.0   1.2   1   0   0   1   1   1   0 -
+FBpp0074832          -          NOG43394             -               0.33   10.2   0.0      0.47    9.7   0.0   1.3   1   0   0   1   1   1   0 -
+FBpp0080984          -          NOG43394             -               0.35   10.1   0.1      0.72    9.1   0.1   1.4   1   0   0   1   1   1   0 -
+FBpp0075355          -          NOG43394             -               0.49    9.6   0.1      0.48    9.7   0.1   1.1   1   0   0   1   1   1   0 -
+FBpp0077856          -          NOG43394             -               0.59    9.4   0.0      0.62    9.3   0.0   1.1   1   0   0   1   1   1   0 -
+FBpp0291641          -          NOG43394             -               0.74    9.0   0.5      0.86    8.8   0.5   1.2   1   0   0   1   1   1   0 -
+FBpp0301062          -          NOG43394             -               0.77    9.0   0.0       2.4    7.4   0.0   1.7   2   0   0   2   2   2   0 -
+FBpp0080798          -          NOG43394             -               0.89    8.8   2.5        19    4.4   0.0   2.6   2   1   1   3   3   3   0 -
+FBpp0074920          -          NOG43394             -               0.89    8.8   1.4       1.1    8.5   1.0   1.4   1   1   0   1   1   1   0 -
+FBpp0071804          -          NOG43394             -               0.92    8.7   0.4       2.6    7.3   0.4   1.9   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG060.strict.hmm
+# Target file:     Drosophila_melanogaster.BDGP6.28.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref060.Drosophila_melanogaster.BDGP6.28.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG060.strict.hmm Drosophila_melanogaster.BDGP6.28.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:34:15 2020
+# [ok]

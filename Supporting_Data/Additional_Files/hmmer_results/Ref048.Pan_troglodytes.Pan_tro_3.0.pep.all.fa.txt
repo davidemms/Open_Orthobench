@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSPTRP00000002306   -          COG2051              -            4.8e-49  164.5   0.6   5.3e-49  164.4   0.6   1.0   1   0   0   1   1   1   1 -
+ENSPTRP00000055354   -          COG2051              -            4.8e-49  164.5   0.6   5.3e-49  164.4   0.6   1.0   1   0   0   1   1   1   1 -
+ENSPTRP00000081657   -          COG2051              -            4.8e-48  161.3   0.5   5.3e-48  161.2   0.5   1.0   1   0   0   1   1   1   1 -
+ENSPTRP00000075709   -          COG2051              -            6.4e-48  160.9   0.7   7.1e-48  160.8   0.7   1.0   1   0   0   1   1   1   1 -
+ENSPTRP00000092483   -          COG2051              -            1.9e-47  159.4   0.6   2.3e-47  159.1   0.6   1.1   1   0   0   1   1   1   1 -
+ENSPTRP00000091617   -          COG2051              -            2.5e-47  159.0   0.4   2.7e-47  158.9   0.4   1.0   1   0   0   1   1   1   1 -
+ENSPTRP00000069586   -          COG2051              -              3e-47  158.8   0.6   3.3e-47  158.6   0.6   1.0   1   0   0   1   1   1   1 -
+ENSPTRP00000077042   -          COG2051              -            6.4e-47  157.7   1.0   7.1e-47  157.6   1.0   1.0   1   0   0   1   1   1   1 -
+ENSPTRP00000066134   -          COG2051              -            1.4e-46  156.6   0.7   1.5e-46  156.5   0.7   1.0   1   0   0   1   1   1   1 -
+ENSPTRP00000082703   -          COG2051              -            1.4e-45  153.5   0.8   1.5e-45  153.3   0.8   1.0   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG048.strict.hmm
+# Target file:     Pan_troglodytes.Pan_tro_3.0.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref048.Pan_troglodytes.Pan_tro_3.0.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG048.strict.hmm Pan_troglodytes.Pan_tro_3.0.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:25:48 2020
+# [ok]

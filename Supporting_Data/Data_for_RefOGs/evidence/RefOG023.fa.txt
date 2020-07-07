@@ -1,0 +1,176 @@
+Roadmap of the Analysis performed on the RefOG
+==============================================
+Part 1: The gene sequence in most of the species is made up of a number of domains, and not all these domains have the same evolutionary history. The analysis of just this RefOG took well over a week. An alignment of the complete gene sequence gave a reasonable picture of how many of the genes within the vertebrates were related but the relationships between these larger clades of genes and between these larger clades and the outgroup species was unclear. This was because differnt parts had different histories and so concatenating them together produced inconsistent trees, as should be expected. Specifically, these clades moved relative to one another. 
+
+This calls into question whether the concept of orthogroup makes sense here. In the strict sense it doesn't, orthology should be traced for the each of the individual units that have a consistent history. Nevertheless, the final analysis did show that there was a core gene sequence that appeared to have a single evolutionary history and so (in the spirit of the original benchmarks) and orthogroup could be determined.
+
+Part 2: Back to the analysis. The next step was to align the individual domains and examine the trees for these domains. There were 3 domains which were present in >90% of the genes likely constituting the orthogroup. Each of these domains had already been duplicated prior to the divergence of the metazoa so each of these 3 trees had around 5 copies of the history of the gene tree, as shown by the subtrees reconstructed from the domain sequences, giving about 15 versions of the 'gene tree' with various levels of presence/absence and various levels of resolution. The sequences that these trees were determined from, however, were quite short and so although the general picture could be teased out for most of the genes in the vertbrates, the picture was hard to piece togther nearer tha base of the orthogroup.
+
+Part 3: As hinted at by the analysis in part 2, there was a single evolutionary history that was shared by a number of the domains suggesting a core gene sequence inherited without other domains with different histories being inserted into it and appearing to be descended from the original core sequence. This was made up of the sequence of domains: VWD, C8, TIL, VWC, Pacifastin_I. A tree was inferred using this part of the gene sequence and allowed the orthogroup membership to be determined.
+
+Part 1
+======
+(This can largely be ignored but is kept here for completeness)
+
+The RefOG tree is rooted on a Hydra gene. A number of the branches have low support. It shows an orthgroup with a number of duplications around the vertebrates and mammals.
+
+The newly inferred tree has been rooted on a well-defined metazoaon-level orthogroup at some distance from the target genes. The tree recovers a deuterostome clade with mostly high bootstrap support, as did the original RefOG tree. This is clade A (from ENSP00000382323 to ENSCINP00000014936). Earlier, there is a duplication giving rise to a second duterostome clade, clade B (from ENSCINP00000028688 to ENSP00000485659). Many of the genes in this clade were identified in the original study as members of the orthogroup, but strangely many have not, even though the tree gives very strong support for them being orthologs--they are in the same clade, the topology matches what would be expected from the species tree and the bootstrap support values are high.
+
+The next earliest clade to diverge contains 4 genes from Nematostella & Mnemiopsis and so would appear to mark the extent of the orthogroup. This would require the gene to have been lost in the protostomes, which is a possibility. The next clade is potentially and entire metazoan-level orthogroup, (clade C, from Trichoplax_adhaerens_TriadP21952 to Mus_musculus_ENSMUSP00000131401) which would support this. However, the branches here are short and could be hard to resolve in a large tree. Therefore a second tree will be inferred on a clade encompassing all of the genes of interest, but smaller than the original tree. Original tree 458 genes, 89 genes so far identified as part of the orthrogroup, the clade of 170 genes has been selected for the tree, going back to the clade of 8 Mnemiopsis genes.
+
+The new tree (v2) has been rooted on these 8 Mnemiopsis genes. Unlike the first tree, it has placed two Nematostella genes as the sister clade to Clade B rather than to the combined Clade A+B. This has 80% bootstrap support, but the distribution of species makes this appear less likely (Clade B is vertebrates, Clade A is a vertebrate clade sister to Branchiostoma/Ciona clade). In the v1 tree, on the otehr hand, there was 83% bootstrap support for Clade A being the sister of Clade B with the Nematostella genes as the outgroup to these. The interpretation of the bilaterian-orthogroup suggested by the (v1) tree appears more parsimonious and better supported. It is also in closer agreement with the original study. 
+
+However, both trees agree on the 101 gene clade included the target orthogroup and stretching back to the first Mnemiopsis genes, the earliest diverging outgroup in the study. A such, one final tree will be inferred on just these genes and examined.
+
+This new tree (v3) serves only to emphasise that the relationships of these clades are uncertain.
+
+
+Part 2
+======
+(Informative towards the analysis performed in part 3, but can be skipped)
+Trees were inferred for the domains VWD, C8 & TIL. These occur multiple times in each gene and from the gene trees this was the case in the ancestral gene sequence. Thus, these three trees give around 15 incomplete pictures of the evolution of the gene family between them. However, they didn't provide sufficient resolution near the base of the orthogroup.
+
+
+Domain tree
+-----------
+Label with respect to v3 tree
+
+C8 Part 1
+---------
+(((R2, P1),B3),B3),Mnemiopsis
+
+Part 3:
+(R12, B3), B3),P1,Mnemiopsis
+
+VWD Part1
+(R2, B)
+
+VWD part 2:
+(((B12,P2),B3),P1),R,
+
+VWD Part 3:
+(((R, Mnemiospsis), B124),B3)
+
+
+Overall interpretation of these domain trees:
+Start at Homo_sapiens_ENSP00000382323
+Blue/Purple clade
+
+(ENSP00000382323,ENSP00000447211),Purple),ENSP00000261405)
+
+
+(((ENSP00000436812,(ENSP00000485659,ENSP00000490794)),(ENSP00000486476,ENSP00000494473))
+- Entire Red clade is well-supported. Whenever they are all present thet are all in a clade.
+
+TIL - 100 of 101 genes
+C8  - 98 of 101 genes
+VWD - 93 of 101 genes
+
+
+
+Building out from ENSP00000382323
+---------------------------------
+- Note, we should expect genes to be missing from some clades since that particular copy of the domain may have been lost
+- Note, the numbers at the end of gene names are arbitrary namings added by me. They will differ between clades (arbitray labellings of different copies of the domain before knowing the tree structure)
+
+First confident clade: 
+Clade1_TIL.tree: Back to duplication prior to divergence of Danio
+
+TIL 5 and TIL 4 both give the most complete picture and are also consistent with TIL 1, 2 & 3 for where tehy overlap.
+
+TIL 5: unclear. There is a Menmiopsis gene in the middle of the tree
+TIL 4: Trichoplax gene in middle of tree.
+
+
+TIL: ((blue,green),purple),red     or (blue, red),green
+
+C8 1: blue,(green, (red,purple)), black
+
+Nematostella_vectensis_EDO44199 appears as an outgroup to 
+TIL 5 & TIL 3
+and
+C8 -3 (with misrooting)
+C8 - 2.5 (blue clade is missing, it's well supported by al the other subtrees)
+
+There seems to be good evidence for Blue, green/red/purple drosophila, outgroup. With no outgroup comming between these in order to suggest a duplication prior to the orthogroup.
+TIL 5: Matches this very well, other than Mnemiopsis_leidyi_ML231816a-PA_2 which falls in the middle of red. This never occurs elsewhere.
+
+TIL 4: Same, but slightly disordered. Trichoplax_adhaerens_TriadP21952_4 in a different place in the middle.
+
+There is an outgroup repeatedly coming in the middle of the red clade. But no otehr evidence, would expect other species to also come in the middle if this were the case.
+
+
+VWD tree gives the clearest idea of the tree, but with certain clades missing.
+
+VWD 4  ((blue,green):90,red),Drosophila
+VWD 3 - poorly resolved
+VWD 2 - poorly resolved
+
+
+Part 3
+======
+(This section covers the final determination of the orthogroup membership). The corresponding files are 'v4'
+
+A HMM was built around the sequence of pfam domains theat were observed as common to a large number of the genes:
+VWD
+C8
+TIL
+VWC
+Pacifastin_I
+
+Examples of this domain were extracted from a localised clade of genes within the vertebrates since it was certain that they were all descended from an ancestral sequence within the orthogroup. Using the hits from the original searh for all pfam domains, the subsequences within each gene corresponding to this sequence of domains was determined:
+Homo_sapiens_ENSP00000382323:152-512
+Homo_sapiens_ENSP00000447211:123-443
+Danio_rerio_ENSDARP00000142662:133-494
+Tetraodon_nigroviridis_ENSTNIP00000022420:39-360
+
+The sequences were aligned with linsi, a HMM was built, it was searched against the genes and the parts of the genes that were hit were extracted. All target genes were hit by this hmm. These sequences were aligned using linsi and the tree was inferred using IQTREE on the untrimmed alignment.
+
+Analysis of this tree
+---------------------
+Creating a combined profile for this sequence of 5 domains hit all 101 of the selected genes. A number of the genes scored multiple hits resulting in 498 hits in total. These hits were aligned and the tree inferred. This tree traced the history of various copies of this domain within the gene family. Clades were identified in the unrooted tree which showed the history of homologous copies of the combined domain (see 5doms.linsi.fa.treefile.names.pdf). The clades were labeled clockwise from the top: A, B, C, D, E & F.
+
+Clades B & D appeared to show the most complete history of the gene.
+
+The tree was rooted at the bade of Clade B, and this clade was examined first.
+
+Clade B
+-------
+The tree shows a number of duplications at the base of the vertebrates giving rise to 11 copies in Homo sapiens (plus a duplication of the domain within one of the genes giving rise to an extra copy of the domain in ENSP00000447211 & ENSP00000382323). This is made up of clades observed in all the previous single domain trees & these branches all have high bootstrap suppoort. The bootstrap support at the base of this clade is 80%. Next there is a clade of 3 Branchiostoma genes (81% bootstrap support for this) and then a final clade of vertebrate genes containing the gene ENSP00000261405 (97% bootstrap suppport overall for this complete set of genes described so far). This is the (approximate) extent of the orthogroup. The next sister clades contain genes from Nematostella, Ciona, Branchiostoma, Mnemiopsis & Drosophila. There is then a further clade of vertebrate genes (containing Mus_musculus_ENSMUSP00000131401), followed by Trichoplax, followed by Mnemiopsis_leidyi_ML03227a-PA.
+
+This is good evidence that the extent of the orthogroup has been (finally) located. Some further analysis is required to determine which of the genes from the 12 target species found around the base of the clade actaully belong to the orthogroup and which diverged before the origin of the orthogroup. Before this, the next most promising clade will be examined to determine if it supports this overall analysis and, secondly, what additonaly evidence it provides around the base of the orthogroup.
+
+Clade D
+-------
+This clade has lower average bootstrap support and doesn't have any copies of its domains in humans (for example). It does not represent the core of gene sequence of the gene family.
+
+Clade F (Mnemiopsis_leidyi_ML03226a-PA_4)
+-------
+This repeats the general picture of Clade B. The differences are: It shows that the duplication separating (ENSP00000382323, ENSP00000447211, ENSP00000261405) from (ENSP00000485659, ENSP00000490794, ENSP00000436812, ...., ENSP00000487059) actually occurred before the divergence of Branchiostoma rather than after (this was not visible from Clade B) with 92% bootstrap support.
+
+Where does Drosophila fit into this gene family?
+------------------------------------------------
+Clade A - This is made up of two metazoan-level orthogroups. A1: Drosophila_melanogaster_FBpp0075495_3 potentially duplicated (or this domain at least) and is in a separate bilaterian orthogorup supported by Branchiostoma genes in both apparent post-duplication clades (73%). A2 is less well resolved but potentially similar. 
+Clade B - it is present, one copy, likely part of the orthogroup rather than a duplication in the base of the metazoa and then loss within the orthogroup.
+Clade C - part of orthogroup but weak evidence as not outgroup species.
+Clade D - similar to B? But evidence is not strong either way.
+Clade E: Domain not present in Drosophila. 
+Clade F - this copy of the domain is not present
+
+C. elegans & S. mansoni
+-----------------------
+Not present
+
+So, the orthogroup contains a number of vertebrate clades that include 11 human genes. The gene was lost entirely in C. masoni and C. elegans (likely two events if the species tree is correct) but not in Drosophila. However, there is a question as to whether the Drosophila gene is a descendant of a different ancestral gene froma duplication just before teh anceestor of the bilateria or whether it is in the same orthogroup. In many ways, the concept of orthology and orthogroups is not appropriate for this gene, only for it individual domains. However, Clade B plus Clade F shows that there was a core gene sequence (made up of these two sequences) that was inherited, but was supplemented by additonal copies of overlapping domains that had diverged further back in time. The orthogroup will be determined for this core sequence.
+
+The genes for which membership needs to be resolved. 
+The clade (X): Monodelphis_domestica_ENSMODP00000003423	Tetraodon_nigroviridis_ENSTNIP00000011630	Canis_familiaris_ENSCAFP00000040196	Mus_musculus_ENSMUSP00000131401	Rattus_norvegicus_ENSRNOP00000037189	Danio_rerio_ENSDARP00000088544
+The gene: Drosophila_melanogaster_FBpp0075495
+
+Clade X there is 95% bootstrap support against it being in the same orthogroup in Clade F. 53% against in Clade A. Independent duplications in Clade D of no significance to the question. These genes will be excluded from the orthogroup.
+
+Drosophila_melanogaster_FBpp0075495: Clade A in two places the evidence is against it being in the orthogroup. Clade B also 89% against. In other RefOGs the placement of an early diverging gene as diverging apparently before the outgroup species has not been taken as strong evidence for the gene's exclusion. This is because in many cases the tree shows an incorrect topology with no evidence for a duplication. The bootstrap only performs a resampling of the (limited) gene sequence data and so doesn't settle the question. However, in this case there is 1) good evidence for duplication events around the base of the orthogroup 2) Repeated placement of separate domains from the gene sequence outside the orthogroup. This provides evidence that the gene is not part of the orthogroup. This is with low confidence. The genes that have been ascertained to be part of the orthogroup are all with high confidence.
+
+The members of the orthogroup were taken from Clade B & Clade F, they contained 71 & 73 genes respectively of which 70 were confirmed by both clades. Danio_rerio_ENSDARP00000150436_1 appears in the MSA to be in Clade B due to a duplication of a short part of Danio_rerio_ENSDARP00000130459_4 and its insertion into ENSDARP00000150436 and so it has been excluded. The three additional genes in Clade F (Gallus_gallus_ENSGALP00000051785, Pan_troglodytes_ENSPTRP00000092487 & Tetraodon_nigroviridis_ENSTNIP00000009471) all apear to be loss of one of the domains (the clade B) version but not the other (the Clade F) version, with the retention of the rest of the gene sequence and so are part of the orthogroup.
+
+

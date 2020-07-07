@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSCINP00000032129   -          KOG4764              -            3.4e-24   84.9  11.4   4.2e-24   84.6  11.4   1.1   1   0   0   1   1   1   1 -
+ENSCINP00000032865   -          KOG4764              -               0.82   10.0   0.3        43    4.5   0.1   2.6   2   0   0   2   2   2   0 -
+ENSCINP00000026198   -          KOG4764              -               0.85   10.0   0.2       1.2    9.5   0.2   1.2   1   0   0   1   1   1   0 -
+ENSCINP00000029978   -          KOG4764              -               0.91    9.9   0.2       2.8    8.3   0.0   1.9   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG018.strict.hmm
+# Target file:     Ciona_intestinalis.KH.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref018.Ciona_intestinalis.KH.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG018.strict.hmm Ciona_intestinalis.KH.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:40:53 2020
+# [ok]

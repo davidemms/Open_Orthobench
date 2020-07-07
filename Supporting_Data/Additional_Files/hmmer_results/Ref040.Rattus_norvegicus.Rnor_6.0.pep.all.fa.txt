@@ -1,0 +1,44 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSRNOP00000053848   -          KOG0951              -                  0 3718.8   1.4         0 3718.7   1.4   1.0   1   0   0   1   1   1   1 -
+ENSRNOP00000048598   -          KOG0951              -                  0 1853.0   9.8         0 1851.3   9.8   1.7   1   1   0   1   1   1   1 -
+ENSRNOP00000034409   -          KOG0951              -           1.5e-137  460.1   5.6  3.9e-121  405.7   0.5   2.0   1   1   1   2   2   2   2 -
+ENSRNOP00000061230   -          KOG0951              -            4.7e-31  107.0   0.0   8.4e-30  102.9   0.0   1.9   1   1   0   1   1   1   1 -
+ENSRNOP00000057426   -          KOG0951              -              1e-29  102.5   0.0     1e-18   66.1   0.0   2.1   2   0   0   2   2   2   2 -
+ENSRNOP00000000481   -          KOG0951              -            9.1e-28   96.1   0.2   2.8e-14   51.4   0.0   2.1   2   0   0   2   2   2   2 -
+ENSRNOP00000002974   -          KOG0951              -            1.2e-27   95.7   0.0   2.2e-27   94.8   0.0   1.3   1   1   0   1   1   1   1 -
+ENSRNOP00000074057   -          KOG0951              -            1.1e-20   72.6   3.2   1.1e-10   39.5   0.0   2.4   3   0   0   3   3   3   2 -
+ENSRNOP00000003600   -          KOG0951              -            1.2e-07   29.4   0.1    0.0055   14.0   0.1   2.1   2   0   0   2   2   2   2 -
+ENSRNOP00000069126   -          KOG0951              -            1.5e-07   29.1   5.0   2.4e-05   21.8   0.8   2.0   2   0   0   2   2   2   2 -
+ENSRNOP00000074177   -          KOG0951              -            5.5e-06   23.9   0.6   8.5e-06   23.3   0.0   1.5   2   0   0   2   2   2   1 -
+ENSRNOP00000030772   -          KOG0951              -            8.8e-06   23.2   0.0   0.00054   17.3   0.0   2.2   2   0   0   2   2   2   1 -
+ENSRNOP00000024718   -          KOG0951              -            0.00031   18.1   0.1    0.0011   16.2   0.0   1.7   2   0   0   2   2   2   1 -
+ENSRNOP00000057492   -          KOG0951              -            0.00046   17.5   0.0   0.00065   17.0   0.0   1.1   1   0   0   1   1   1   1 -
+ENSRNOP00000013035   -          KOG0951              -             0.0011   16.3   0.0    0.0014   15.9   0.0   1.0   1   0   0   1   1   1   1 -
+ENSRNOP00000000446   -          KOG0951              -             0.0012   16.2   0.0     0.053   10.7   0.0   2.0   2   0   0   2   2   2   1 -
+ENSRNOP00000007246   -          KOG0951              -             0.0031   14.8   0.0      0.61    7.2   0.0   2.1   2   0   0   2   2   2   2 -
+ENSRNOP00000047177   -          KOG0951              -             0.0038   14.5   0.0     0.046   10.9   0.0   2.0   2   0   0   2   2   2   1 -
+ENSRNOP00000073900   -          KOG0951              -               0.01   13.1   1.9     0.032   11.4   0.1   1.9   2   0   0   2   2   2   0 -
+ENSRNOP00000009621   -          KOG0951              -              0.024   11.8   0.0     0.038   11.2   0.0   1.2   1   0   0   1   1   1   0 -
+ENSRNOP00000004891   -          KOG0951              -              0.025   11.8   0.0     0.068   10.3   0.0   1.6   2   0   0   2   2   2   0 -
+ENSRNOP00000063494   -          KOG0951              -               0.22    8.7   0.0         1    6.4   0.0   1.8   2   0   0   2   2   2   0 -
+ENSRNOP00000001387   -          KOG0951              -               0.27    8.3   0.0      0.27    8.3   0.0   2.0   3   0   0   3   3   2   0 -
+ENSRNOP00000066027   -          KOG0951              -               0.38    7.9   0.0      0.98    6.5   0.0   1.6   2   0   0   2   2   2   0 -
+ENSRNOP00000049419   -          KOG0951              -               0.43    7.7   0.0       2.7    5.0   0.0   1.8   2   0   0   2   2   2   0 -
+ENSRNOP00000066302   -          KOG0951              -               0.47    7.6   0.0      0.74    6.9   0.0   1.2   1   0   0   1   1   1   0 -
+ENSRNOP00000060671   -          KOG0951              -               0.55    7.3   0.0       1.4    6.0   0.0   1.6   2   0   0   2   2   2   0 -
+ENSRNOP00000067297   -          KOG0951              -               0.95    6.5   1.3       1.2    6.1   1.3   1.1   1   0   0   1   1   1   0 -
+ENSRNOP00000072945   -          KOG0951              -               0.95    6.5   1.3       1.2    6.1   1.3   1.1   1   0   0   1   1   1   0 -
+ENSRNOP00000026817   -          KOG0951              -               0.97    6.5   0.0       1.4    6.0   0.0   1.1   1   0   0   1   1   1   0 -
+ENSRNOP00000073152   -          KOG0951              -               0.98    6.5   0.0       4.3    4.4   0.0   1.7   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG040.strict.hmm
+# Target file:     Rattus_norvegicus.Rnor_6.0.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref040.Rattus_norvegicus.Rnor_6.0.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG040.strict.hmm Rattus_norvegicus.Rnor_6.0.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:23:57 2020
+# [ok]

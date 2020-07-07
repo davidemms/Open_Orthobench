@@ -1,0 +1,37 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSGALP00000003357   -          NOG42950             -           2.1e-184  615.0 157.9  2.1e-184  615.0 157.9   2.7   1   1   1   2   2   1   1 -
+ENSGALP00000026433   -          NOG42950             -           1.7e-124  417.3  64.3    2e-124  417.0  64.3   1.0   1   0   0   1   1   1   1 -
+ENSGALP00000022545   -          NOG42950             -            1.5e-69  236.0 153.8   1.5e-69  236.0 153.8   3.5   1   1   1   2   2   1   1 -
+ENSGALP00000052211   -          NOG42950             -            0.00039   20.1   0.5   0.00039   20.1   0.5   5.6   3   3   2   5   5   1   1 -
+ENSGALP00000057875   -          NOG42950             -             0.0051   16.4   3.1      0.01   15.4   3.2   1.4   1   1   0   1   1   1   1 -
+ENSGALP00000008967   -          NOG42950             -             0.0089   15.6  10.5     0.018   14.6  10.5   1.5   1   1   0   1   1   1   1 -
+ENSGALP00000055327   -          NOG42950             -              0.017   14.6   0.0     0.017   14.6   0.0   2.9   2   1   0   3   3   2   0 -
+ENSGALP00000007395   -          NOG42950             -              0.018   14.6   5.8     0.027   14.0   5.8   1.2   1   0   0   1   1   1   0 -
+ENSGALP00000072231   -          NOG42950             -              0.058   12.9   0.0     0.058   12.9   0.0   3.4   1   1   2   3   3   1   0 -
+ENSGALP00000074005   -          NOG42950             -               0.17   11.3   4.1       0.4   10.1   4.1   1.6   1   1   0   1   1   1   0 -
+ENSGALP00000061552   -          NOG42950             -               0.17   11.3   1.4      0.28   10.6   1.4   1.4   1   1   0   1   1   1   0 -
+ENSGALP00000045810   -          NOG42950             -               0.18   11.3  30.2      0.22   11.0  30.2   1.1   1   0   0   1   1   1   0 -
+ENSGALP00000017271   -          NOG42950             -               0.19   11.2  28.5      0.27   10.7  28.5   1.4   1   0   0   1   1   1   0 -
+ENSGALP00000065125   -          NOG42950             -               0.26   10.7   2.9      0.23   10.9   0.1   1.8   2   0   0   2   2   2   0 -
+ENSGALP00000045770   -          NOG42950             -               0.27   10.7   2.1      0.33   10.4   2.1   1.1   1   0   0   1   1   1   0 -
+ENSGALP00000010544   -          NOG42950             -               0.28   10.6   1.8      0.42   10.0   1.8   1.4   1   0   0   1   1   1   0 -
+ENSGALP00000057791   -          NOG42950             -               0.32   10.5   0.0      0.32   10.5   0.0   2.4   1   1   0   2   2   1   0 -
+ENSGALP00000046188   -          NOG42950             -               0.37   10.2   7.5      0.45    9.9   7.5   1.1   1   0   0   1   1   1   0 -
+ENSGALP00000052769   -          NOG42950             -               0.45   10.0   9.4      0.52    9.7   9.4   1.1   1   0   0   1   1   1   0 -
+ENSGALP00000057338   -          NOG42950             -               0.55    9.7   8.0      0.69    9.3   8.0   1.1   1   0   0   1   1   1   0 -
+ENSGALP00000009819   -          NOG42950             -               0.58    9.6   9.5      0.73    9.3   9.5   1.2   1   0   0   1   1   1   0 -
+ENSGALP00000058822   -          NOG42950             -                0.6    9.5   9.9      0.76    9.2   9.9   1.2   1   0   0   1   1   1   0 -
+ENSGALP00000005262   -          NOG42950             -               0.69    9.3   4.8      0.87    9.0   4.8   1.1   1   0   0   1   1   1   0 -
+ENSGALP00000071163   -          NOG42950             -               0.74    9.2   3.8         1    8.8   3.8   1.1   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG061.strict.hmm
+# Target file:     Gallus_gallus.GRCg6a.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref061.Gallus_gallus.GRCg6a.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG061.strict.hmm Gallus_gallus.GRCg6a.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:36:47 2020
+# [ok]

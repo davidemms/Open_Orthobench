@@ -1,0 +1,39 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSMODP00000058915   -          NOG42950             -           8.1e-142  474.8  77.9   6.2e-76  257.3  63.1   2.0   1   1   1   2   2   2   2 -
+ENSMODP00000021775   -          NOG42950             -            9.2e-66  223.8 144.4   9.2e-66  223.8 144.4   4.1   1   1   1   2   2   1   1 -
+ENSMODP00000022235   -          NOG42950             -            3.6e-59  202.0 103.1     1e-55  190.6 103.1   2.2   1   1   0   1   1   1   1 -
+ENSMODP00000006216   -          NOG42950             -              1e-19   71.8 103.4   4.5e-12   46.6   6.3   3.2   1   1   2   3   3   2   2 -
+ENSMODP00000030355   -          NOG42950             -            8.5e-06   25.9   4.5   8.5e-06   25.9   4.5   5.4   2   1   1   5   5   2   1 -
+ENSMODP00000025593   -          NOG42950             -             0.0023   17.8   0.0     0.015   15.2   0.0   1.9   1   1   0   1   1   1   1 -
+ENSMODP00000015282   -          NOG42950             -             0.0035   17.2   1.1    0.0072   16.2   1.1   1.5   1   1   0   1   1   1   1 -
+ENSMODP00000041047   -          NOG42950             -             0.0094   15.8  12.8    0.0095   15.8  12.8   1.1   1   0   0   1   1   1   1 -
+ENSMODP00000046676   -          NOG42950             -               0.11   12.3   2.1      0.17   11.6   2.1   1.2   1   0   0   1   1   1   0 -
+ENSMODP00000041856   -          NOG42950             -               0.24   11.2   3.9      0.33   10.7   3.9   1.1   1   0   0   1   1   1   0 -
+ENSMODP00000056267   -          NOG42950             -               0.27   11.0   2.9      0.36   10.6   2.9   1.1   1   0   0   1   1   1   0 -
+ENSMODP00000042323   -          NOG42950             -                0.3   10.9   2.4       0.4   10.5   2.4   1.1   1   0   0   1   1   1   0 -
+ENSMODP00000041463   -          NOG42950             -               0.35   10.6  24.0      0.53   10.0  24.0   1.3   1   0   0   1   1   1   0 -
+ENSMODP00000031933   -          NOG42950             -               0.36   10.6   0.7       3.9    7.2   0.0   2.7   3   1   0   3   3   3   0 -
+ENSMODP00000007607   -          NOG42950             -               0.39   10.5   2.9      0.55   10.0   2.9   1.1   1   0   0   1   1   1   0 -
+ENSMODP00000013188   -          NOG42950             -                0.4   10.4   3.9      0.49   10.2   3.9   1.1   1   0   0   1   1   1   0 -
+ENSMODP00000026066   -          NOG42950             -               0.46   10.3   0.8       1.2    8.9   0.0   1.8   2   1   0   2   2   1   0 -
+ENSMODP00000053549   -          NOG42950             -               0.48   10.2  16.6      0.67    9.7  16.6   1.1   1   0   0   1   1   1   0 -
+ENSMODP00000029002   -          NOG42950             -               0.51   10.1   1.6      0.62    9.8   1.6   1.1   1   0   0   1   1   1   0 -
+ENSMODP00000047894   -          NOG42950             -               0.55   10.0   1.7         1    9.1   1.7   1.4   1   0   0   1   1   1   0 -
+ENSMODP00000011982   -          NOG42950             -               0.66    9.7  14.1         1    9.1  14.1   1.3   1   0   0   1   1   1   0 -
+ENSMODP00000022102   -          NOG42950             -               0.87    9.3   0.7         1    9.1   0.7   1.1   1   0   0   1   1   1   0 -
+ENSMODP00000034014   -          NOG42950             -               0.91    9.3   0.0       1.4    8.7   0.0   1.2   1   0   0   1   1   1   0 -
+ENSMODP00000046668   -          NOG42950             -               0.96    9.2   5.5       1.2    8.9   5.5   1.2   1   0   0   1   1   1   0 -
+ENSMODP00000048165   -          NOG42950             -               0.98    9.2   1.9       1.1    9.0   1.9   1.1   1   0   0   1   1   1   0 -
+ENSMODP00000041801   -          NOG42950             -               0.99    9.2   3.4       1.2    8.8   3.4   1.1   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG061.strict.hmm
+# Target file:     Monodelphis_domestica.ASM229v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref061.Monodelphis_domestica.ASM229v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG061.strict.hmm Monodelphis_domestica.ASM229v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:37:16 2020
+# [ok]

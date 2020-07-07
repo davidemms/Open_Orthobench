@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EDO44199             -          KOG1216              -           2.4e-224  747.8 167.4  1.1e-192  643.0  98.5   3.3   1   1   1   2   2   2   2 -
+EDO41877             -          KOG1216              -           4.4e-104  349.5  35.9  5.5e-104  349.2  35.9   1.0   1   0   0   1   1   1   1 -
+EDO41876             -          KOG1216              -            3.6e-89  300.1  39.9   1.8e-88  297.9  40.0   1.7   1   1   0   1   1   1   1 -
+EDO33061             -          KOG1216              -            4.3e-48  164.1   7.2   4.3e-48  164.1   7.2   2.4   2   1   0   2   2   2   1 -
+EDO33119             -          KOG1216              -            1.8e-15   56.0   0.4   1.8e-15   56.0   0.4   1.9   2   0   0   2   2   2   1 -
+EDO29039             -          KOG1216              -            4.1e-14   51.6   4.8   5.9e-14   51.0   0.1   2.5   2   0   0   2   2   2   1 -
+EDO34866             -          KOG1216              -            6.1e-14   51.0   0.1   6.1e-14   51.0   0.1   3.2   3   0   0   3   3   2   1 -
+EDO49603             -          KOG1216              -            1.8e-12   46.1  10.5   1.8e-12   46.1  10.5   1.0   1   0   0   1   1   1   1 -
+EDO42586             -          KOG1216              -            1.2e-11   43.4   0.5   1.9e-11   42.8   0.5   1.2   1   0   0   1   1   1   1 -
+EDO38646             -          KOG1216              -            1.4e-11   43.2  32.4   1.4e-11   43.2  32.4   5.0   1   1   4   5   5   4   1 -
+EDO44329             -          KOG1216              -            1.1e-10   40.2   1.1   1.7e-10   39.6   1.1   1.2   1   0   0   1   1   1   1 -
+EDO36372             -          KOG1216              -              3e-07   28.8   4.7     3e-07   28.8   4.7   1.8   2   0   0   2   2   1   1 -
+EDO27135             -          KOG1216              -            2.2e-06   26.0   0.1   7.3e-06   24.3   0.0   1.6   1   1   0   2   2   2   1 -
+EDO30683             -          KOG1216              -            1.4e-05   23.3   5.7   1.4e-05   23.3   5.7   1.5   1   1   0   1   1   1   1 -
+EDO40753             -          KOG1216              -              0.096   10.6   0.0      0.41    8.5   0.0   1.8   1   1   0   1   1   1   0 -
+EDO28759             -          KOG1216              -               0.18    9.7   3.7      0.21    9.5   3.7   1.0   1   0   0   1   1   1   0 -
+EDO30874             -          KOG1216              -                0.3    8.9   0.1      0.34    8.8   0.1   1.0   1   0   0   1   1   1   0 -
+EDO44342             -          KOG1216              -               0.34    8.8   0.1      0.32    8.9   0.1   1.1   1   0   0   1   1   1   0 -
+EDO30684             -          KOG1216              -                0.5    8.2   0.1      0.78    7.6   0.1   1.2   1   0   0   1   1   1   0 -
+EDO41836             -          KOG1216              -               0.52    8.2   2.0      0.47    8.3   2.0   1.0   1   0   0   1   1   1   0 -
+EDO36101             -          KOG1216              -               0.85    7.5   1.0       1.1    7.1   1.0   1.1   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG023.strict.hmm
+# Target file:     Nematostella_vectensis.ASM20922v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref023.Nematostella_vectensis.ASM20922v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG023.strict.hmm Nematostella_vectensis.ASM20922v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:54:17 2020
+# [ok]

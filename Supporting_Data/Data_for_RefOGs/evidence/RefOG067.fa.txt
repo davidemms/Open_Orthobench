@@ -1,0 +1,3 @@
+The RefOG tree is rooted on a Nematostella gene.
+
+The inferred tree agrees on the orthgroup, some genes are misplaced in the tree but not more than would be expected for these deeper branches and given the bootstrap values/length of the MSA.

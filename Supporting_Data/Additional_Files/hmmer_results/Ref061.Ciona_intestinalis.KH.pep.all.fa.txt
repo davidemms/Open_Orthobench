@@ -1,0 +1,31 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSCINP00000032799   -          NOG42950             -              0.014   14.9   1.5     0.018   14.6   1.5   1.1   1   0   0   1   1   1   0 -
+ENSCINP00000021230   -          NOG42950             -              0.019   14.4   0.9     0.021   14.3   0.9   1.1   1   0   0   1   1   1   0 -
+ENSCINP00000023825   -          NOG42950             -              0.021   14.4  14.8     0.028   13.9  14.8   1.3   1   0   0   1   1   1   0 -
+ENSCINP00000020718   -          NOG42950             -               0.03   13.8  26.9     0.033   13.7  26.9   1.0   1   0   0   1   1   1   0 -
+ENSCINP00000010837   -          NOG42950             -              0.032   13.7   0.0      0.24   10.8   0.0   2.0   1   1   0   1   1   1   0 -
+ENSCINP00000007417   -          NOG42950             -              0.039   13.4  14.6     0.053   13.0  14.6   1.4   1   0   0   1   1   1   0 -
+ENSCINP00000008523   -          NOG42950             -               0.14   11.6   0.6      0.12   11.8   0.6   1.1   1   0   0   1   1   1   0 -
+ENSCINP00000023614   -          NOG42950             -               0.16   11.4   5.9      0.14   11.6   4.9   1.3   2   0   0   2   2   2   0 -
+ENSCINP00000021718   -          NOG42950             -               0.22   11.0  13.0      0.26   10.7  13.0   1.0   1   0   0   1   1   1   0 -
+ENSCINP00000019842   -          NOG42950             -               0.29   10.6   8.2      0.44   10.0   8.2   1.3   1   0   0   1   1   1   0 -
+ENSCINP00000036383   -          NOG42950             -               0.42   10.0   1.0      0.54    9.7   1.0   1.0   1   0   0   1   1   1   0 -
+ENSCINP00000003904   -          NOG42950             -                0.5    9.8   3.0      0.58    9.6   3.0   1.1   1   0   0   1   1   1   0 -
+ENSCINP00000023609   -          NOG42950             -               0.63    9.4   4.7      0.82    9.1   4.7   1.1   1   0   0   1   1   1   0 -
+ENSCINP00000033195   -          NOG42950             -               0.73    9.2  13.6         1    8.7  13.6   1.2   1   0   0   1   1   1   0 -
+ENSCINP00000030807   -          NOG42950             -               0.85    9.0   0.6      0.92    8.9   0.6   1.0   1   0   0   1   1   1   0 -
+ENSCINP00000013056   -          NOG42950             -               0.87    9.0  19.1       1.2    8.5  19.1   1.1   1   0   0   1   1   1   0 -
+ENSCINP00000010535   -          NOG42950             -               0.92    8.9  13.1      0.32   10.4   5.8   2.3   2   0   0   2   2   2   0 -
+ENSCINP00000031675   -          NOG42950             -               0.93    8.9   1.8       1.4    8.3   1.8   1.3   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG061.strict.hmm
+# Target file:     Ciona_intestinalis.KH.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref061.Ciona_intestinalis.KH.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG061.strict.hmm Ciona_intestinalis.KH.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:35:54 2020
+# [ok]

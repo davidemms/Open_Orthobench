@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EDO37792             -          COG0506              -            7.9e-85  284.7   0.0   9.6e-85  284.4   0.0   1.1   1   0   0   1   1   1   1 -
+EDO39930             -          COG0506              -            2.2e-44  152.2   0.4   2.6e-44  152.0   0.4   1.1   1   0   0   1   1   1   1 -
+EDO30698             -          COG0506              -             0.0023   17.9  12.2       6.7    6.5   0.2   4.9   1   1   5   6   6   6   6 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG044.strict.hmm
+# Target file:     Nematostella_vectensis.ASM20922v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref044.Nematostella_vectensis.ASM20922v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG044.strict.hmm Nematostella_vectensis.ASM20922v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:24:15 2020
+# [ok]

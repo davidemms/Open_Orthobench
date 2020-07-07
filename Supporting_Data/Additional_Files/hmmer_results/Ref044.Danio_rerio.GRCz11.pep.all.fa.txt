@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSDARP00000085764   -          COG0506              -           1.4e-118  395.6   0.6  1.8e-118  395.2   0.6   1.2   1   0   0   1   1   1   1 -
+ENSDARP00000118592   -          COG0506              -           3.3e-101  338.6   0.1  4.3e-101  338.3   0.1   1.1   1   0   0   1   1   1   1 -
+ENSDARP00000108900   -          COG0506              -            4.2e-95  318.7   0.3     6e-95  318.1   0.3   1.2   1   0   0   1   1   1   1 -
+ENSDARP00000064508   -          COG0506              -               0.44   10.7   0.4      0.44   10.6   0.4   1.2   1   0   0   1   1   1   0 -
+ENSDARP00000103396   -          COG0506              -               0.63   10.1   0.0       6.9    6.7   0.0   2.1   1   1   1   2   2   2   0 -
+ENSDARP00000083123   -          COG0506              -               0.82    9.8   0.0       1.3    9.1   0.0   1.2   1   0   0   1   1   1   0 -
+ENSDARP00000148984   -          COG0506              -               0.83    9.8   0.0       2.5    8.2   0.0   1.9   1   1   0   1   1   1   0 -
+ENSDARP00000151131   -          COG0506              -               0.83    9.8   0.0       2.5    8.2   0.0   1.9   1   1   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG044.strict.hmm
+# Target file:     Danio_rerio.GRCz11.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref044.Danio_rerio.GRCz11.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG044.strict.hmm Danio_rerio.GRCz11.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:24:05 2020
+# [ok]

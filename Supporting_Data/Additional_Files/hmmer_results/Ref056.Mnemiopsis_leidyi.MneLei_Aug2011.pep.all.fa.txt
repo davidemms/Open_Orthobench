@@ -1,0 +1,35 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ML13023a-PA          -          NOG73730             -            5.4e-15   54.8  19.9   5.6e-11   41.6   0.0   3.3   1   1   1   2   2   1   1 -
+ML033234a-PA         -          NOG73730             -            3.8e-06   25.6   0.1      0.01   14.3   0.0   2.4   2   1   0   2   2   2   1 -
+ML22601a-PA          -          NOG73730             -             0.0048   15.4   0.0     0.019   13.4   0.0   2.0   1   1   0   1   1   1   1 -
+ML04388a-PA          -          NOG73730             -             0.0053   15.3   0.3    0.0072   14.8   0.3   1.3   1   0   0   1   1   1   1 -
+ML388112a-PA         -          NOG73730             -              0.013   14.0   0.0   1.6e+04  -20.6  31.7   1.8   1   1   0   1   1   0   0 -
+ML32098a-PA          -          NOG73730             -              0.035   12.5   1.0       1.4    7.3   0.0   2.5   2   1   0   2   2   2   0 -
+ML154182a-PA         -          NOG73730             -              0.061   11.7   0.0       0.1   11.0   0.0   1.4   1   1   0   1   1   1   0 -
+ML002127a-PA         -          NOG73730             -              0.089   11.2   0.0     0.089   11.2   0.0   2.0   1   1   1   2   2   1   0 -
+ML32996a-PA          -          NOG73730             -              0.096   11.1   0.4      0.11   11.0   0.4   1.2   1   0   0   1   1   1   0 -
+ML00121a-PA          -          NOG73730             -               0.17   10.3  14.5    0.0016   16.9   6.3   1.8   2   0   0   2   2   2   0 -
+ML01192a-PA          -          NOG73730             -               0.26    9.7   0.6      0.32    9.4   0.6   1.1   1   0   0   1   1   1   0 -
+ML047311a-PA         -          NOG73730             -               0.29    9.5   0.1      0.45    8.9   0.1   1.3   1   0   0   1   1   1   0 -
+ML01345a-PA          -          NOG73730             -                0.3    9.5   0.1       0.4    9.0   0.1   1.2   1   0   0   1   1   1   0 -
+ML005135a-PA         -          NOG73730             -                0.3    9.5   0.0      0.34    9.3   0.0   1.1   1   0   0   1   1   1   0 -
+ML10963a-PA          -          NOG73730             -               0.42    9.0   4.6       0.8    8.1   4.6   1.5   1   0   0   1   1   1   0 -
+ML034322a-PA         -          NOG73730             -               0.67    8.3   6.1      0.81    8.1   6.1   1.1   1   0   0   1   1   1   0 -
+ML063913a-PA         -          NOG73730             -               0.74    8.2   0.0      0.71    8.2   0.0   1.1   1   0   0   1   1   1   0 -
+ML082119a-PA         -          NOG73730             -               0.76    8.1   1.7      0.86    8.0   1.7   1.2   1   0   0   1   1   1   0 -
+ML13766a-PA          -          NOG73730             -               0.78    8.1   0.1      0.87    7.9   0.1   1.1   1   0   0   1   1   1   0 -
+ML04976a-PA          -          NOG73730             -               0.78    8.1   2.3      0.53    8.7   0.4   1.6   2   0   0   2   2   2   0 -
+ML17405a-PA          -          NOG73730             -               0.97    7.8   1.4      0.98    7.8   1.4   1.1   1   0   0   1   1   1   0 -
+ML305518a-PA         -          NOG73730             -               0.99    7.8  22.8       1.2    7.5  22.8   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG056.strict.hmm
+# Target file:     Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref056.Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG056.strict.hmm Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:31:47 2020
+# [ok]

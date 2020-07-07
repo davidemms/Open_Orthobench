@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WBGene00002248.1     -          KOG1836              -           1.1e-298  994.4 308.4  1.1e-213  712.7  11.9  10.3   3   2   6   9   9   9   7 -
+WBGene00001328.1     -          KOG1836              -           1.3e-266  888.1 431.0  2.5e-149  499.4  69.0  12.5   3   3   8  11  11  11  11 -
+WBGene00006787.1     -          KOG1836              -           4.6e-107  359.3 106.4   7.4e-41  139.9   9.6   8.2   6   2   1   8   8   7   7 -
+WBGene00016913.1     -          KOG1836              -            1.5e-91  307.9 241.7   8.7e-46  156.2  41.4   7.1   2   2   4   6   6   6   6 -
+WBGene00002247.1     -          KOG1836              -            6.4e-85  285.9 283.8   3.6e-24   84.6  46.4   8.9   3   2   5   8   8   8   8 -
+WBGene00007799.1     -          KOG1836              -            5.2e-40  137.1  21.7   1.8e-21   75.6   0.2   6.1   3   2   2   6   6   6   5 -
+WBGene00020581.1     -          KOG1836              -            2.4e-31  108.3   0.2   4.4e-13   47.8   0.0   3.1   1   1   2   3   3   3   3 -
+WBGene00018304.1     -          KOG1836              -            1.3e-25   89.3  18.3   2.7e-20   71.7   0.0   6.8   3   2   2   6   6   3   2 -
+WBGene00006746.1     -          KOG1836              -            4.9e-19   67.6  43.9   7.4e-19   67.0  43.9   1.2   1   0   0   1   1   1   1 -
+WBGene00004854.1     -          KOG1836              -            6.1e-11   40.7   0.3   6.1e-11   40.7   0.3   4.6   1   1   2   4   4   2   1 -
+WBGene00003772.1     -          KOG1836              -            8.8e-11   40.2  11.5   1.7e-08   32.6   0.0   4.2   2   1   0   3   3   3   2 -
+WBGene00006432.1     -          KOG1836              -            1.3e-10   39.6  49.5   1.3e-10   39.6  49.5   3.4   3   1   0   3   3   2   1 -
+WBGene00020908.1     -          KOG1836              -            1.7e-10   39.2  49.6   1.3e-07   29.7  30.0   2.1   1   1   1   2   2   2   2 -
+WBGene00000396.1     -          KOG1836              -            2.1e-08   32.3   0.1   2.1e-08   32.3   0.1   3.7   1   1   1   3   3   1   1 -
+WBGene00002201.1     -          KOG1836              -            3.3e-08   31.6   0.0   6.4e-08   30.7   0.0   1.5   1   1   0   1   1   1   1 -
+WBGene00001980.1     -          KOG1836              -              4e-08   31.4   0.0     4e-08   31.4   0.0   2.5   2   1   1   3   3   3   1 -
+WBGene00001475.1     -          KOG1836              -            3.1e-07   28.4   3.9   1.8e-06   25.9   2.3   5.2   1   1   4   5   5   3   2 -
+WBGene00013416.1     -          KOG1836              -            0.00032   18.4  63.3   0.00032   18.4  63.3  15.9   2   2  12  14  14   4   1 -
+WBGene00019794.1     -          KOG1836              -             0.0005   17.8  26.3   0.00059   17.6  26.3   1.1   1   0   0   1   1   1   1 -
+WBGene00012437.1     -          KOG1836              -            0.00054   17.7  32.8   0.00054   17.7  32.8   2.4   2   0   0   2   2   2   1 -
+WBGene00021298.1     -          KOG1836              -            0.00074   17.2   0.5   0.00089   17.0   0.5   1.1   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG009.strict.hmm
+# Target file:     Caenorhabditis_elegans.WBcel235.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref009.Caenorhabditis_elegans.WBcel235.pep.all.fa.txt --noali -E 0.001 --max --cpu 2 ../../profiles/RefOG009.strict.hmm Caenorhabditis_elegans.WBcel235.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 18 14:43:42 2020
+# [ok]

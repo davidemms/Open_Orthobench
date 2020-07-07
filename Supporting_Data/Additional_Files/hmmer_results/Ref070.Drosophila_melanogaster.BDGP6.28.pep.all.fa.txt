@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FBpp0078414          -          COG0123              -           2.1e-247  820.3   5.6  2.4e-247  820.1   5.6   1.0   1   0   0   1   1   1   1 -
+FBpp0073173          -          COG0123              -           4.7e-196  651.2   3.0  5.7e-196  650.9   3.0   1.0   1   0   0   1   1   1   1 -
+FBpp0303431          -          COG0123              -            1.1e-57  195.5   0.3   3.4e-33  114.8   0.2   2.1   2   0   0   2   2   2   2 -
+FBpp0305523          -          COG0123              -              6e-19   67.8   0.0     1e-18   67.1   0.0   1.3   1   0   0   1   1   1   1 -
+FBpp0084109          -          COG0123              -            7.1e-17   61.0   0.2   1.2e-16   60.2   0.2   1.3   1   1   0   1   1   1   1 -
+FBpp0072006          -          COG0123              -               0.21   10.1   0.0      0.29    9.6   0.0   1.2   1   0   0   1   1   1   0 -
+FBpp0087712          -          COG0123              -                0.9    8.0   0.0        12    4.2   0.0   2.0   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG070.strict.hmm
+# Target file:     Drosophila_melanogaster.BDGP6.28.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref070.Drosophila_melanogaster.BDGP6.28.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG070.strict.hmm Drosophila_melanogaster.BDGP6.28.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:45:25 2020
+# [ok]

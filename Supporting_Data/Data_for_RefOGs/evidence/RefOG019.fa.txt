@@ -1,0 +1,4 @@
+The RefOG tree is rooted on a Nematostella gene, there is very little resolution within the vertebrate clade due to lack of phylogenetic signal.
+
+The newly inferred tree has genes from a number of outgroup species and from species divergin early within the orthogroup. They confirm the orthogroup from the original study, with some extra genes fitting clearly within the orthogroup (Pan & Danio, presumably new gene models) and missing a Ciona gene from the original study. This has been confirmed as a retired gene model (such a gene may exist but it is no longer in the benchmarks input data and so shouldn't be an expected output).
+

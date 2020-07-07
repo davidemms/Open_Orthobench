@@ -1,0 +1,39 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TriadP25989          -          KOG0951              -                  0 2728.7  14.1         0 2728.5  14.1   1.0   1   0   0   1   1   1   1 -
+TriadP51100          -          KOG0951              -                  0 1780.8   9.0         0 1779.0   9.0   1.6   1   1   0   1   1   1   1 -
+TriadP25163          -          KOG0951              -            6.9e-35  118.8   0.1   1.1e-34  118.1   0.1   1.2   1   0   0   1   1   1   1 -
+TriadP21387          -          KOG0951              -            1.7e-30  104.2   0.6   5.2e-15   52.9   0.0   2.1   2   0   0   2   2   2   2 -
+TriadP52688          -          KOG0951              -            9.2e-25   85.2   0.1   1.3e-19   68.1   0.0   2.0   1   1   1   2   2   2   2 -
+TriadP26257          -          KOG0951              -              3e-07   27.1   0.0   4.5e-07   26.5   0.0   1.2   1   0   0   1   1   1   1 -
+TriadP56581          -          KOG0951              -            2.4e-05   20.8   8.7   6.3e-05   19.4   8.7   1.5   1   1   0   1   1   1   1 -
+TriadP33010          -          KOG0951              -            0.00015   18.2   0.0    0.0042   13.4   0.0   2.0   2   0   0   2   2   2   1 -
+TriadP51339          -          KOG0951              -             0.0004   16.8   0.2    0.0062   12.8   0.0   2.0   2   0   0   2   2   2   1 -
+TriadP52102          -          KOG0951              -             0.0014   14.9   0.0      0.23    7.6   0.0   2.1   2   0   0   2   2   2   2 -
+TriadP30653          -          KOG0951              -             0.0018   14.6   0.0      0.15    8.2   0.0   2.1   2   0   0   2   2   2   2 -
+TriadP30218          -          KOG0951              -             0.0023   14.3   0.2      0.43    6.7   0.0   2.1   2   0   0   2   2   2   2 -
+TriadP55837          -          KOG0951              -              0.011   12.0   0.0     0.082    9.1   0.0   1.9   2   0   0   2   2   2   0 -
+TriadP56013          -          KOG0951              -              0.019   11.2   0.0     0.035   10.3   0.0   1.3   1   0   0   1   1   1   0 -
+TriadP55752          -          KOG0951              -              0.026   10.8   0.0      0.14    8.3   0.0   1.9   2   0   0   2   2   2   0 -
+TriadP11173          -          KOG0951              -              0.058    9.6   0.0     0.098    8.9   0.0   1.4   1   0   0   1   1   1   0 -
+TriadP52679          -          KOG0951              -              0.067    9.4   0.1     0.095    8.9   0.1   1.2   1   0   0   1   1   1   0 -
+TriadP21982          -          KOG0951              -              0.089    9.0   0.0      0.23    7.6   0.0   1.6   2   0   0   2   2   2   0 -
+TriadP23332          -          KOG0951              -               0.13    8.5   0.0      0.16    8.2   0.0   1.3   1   0   0   1   1   1   0 -
+TriadP18215          -          KOG0951              -               0.14    8.3   0.1      0.32    7.2   0.0   1.5   2   0   0   2   2   2   0 -
+TriadP25695          -          KOG0951              -               0.25    7.5   0.0       2.6    4.1   0.0   1.9   2   0   0   2   2   2   0 -
+TriadP61954          -          KOG0951              -               0.29    7.3   0.5      0.45    6.7   0.5   1.2   1   0   0   1   1   1   0 -
+TriadP38231          -          KOG0951              -               0.29    7.3   0.0      0.37    6.9   0.0   1.1   1   0   0   1   1   1   0 -
+TriadP24752          -          KOG0951              -               0.51    6.5   0.3        13    1.9   0.0   2.5   3   0   0   3   3   3   0 -
+TriadP55006          -          KOG0951              -               0.77    5.9   5.9      0.99    5.5   5.9   1.1   1   0   0   1   1   1   0 -
+TriadP58712          -          KOG0951              -               0.78    5.9   0.0       1.1    5.4   0.0   1.0   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG040.strict.hmm
+# Target file:     Trichoplax_adhaerens.ASM15027v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref040.Trichoplax_adhaerens.ASM15027v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG040.strict.hmm Trichoplax_adhaerens.ASM15027v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:22:21 2020
+# [ok]

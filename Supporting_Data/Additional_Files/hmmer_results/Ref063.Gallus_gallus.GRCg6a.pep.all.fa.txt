@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSGALP00000069911   -          NOG45942             -            8.3e-48  160.3   7.8     1e-47  160.0   7.8   1.0   1   0   0   1   1   1   1 -
+ENSGALP00000012612   -          NOG45942             -            3.6e-43  145.5   5.7   4.1e-43  145.3   5.7   1.0   1   0   0   1   1   1   1 -
+ENSGALP00000008890   -          NOG45942             -             0.0017   18.3   4.3    0.0017   18.3   4.3   2.7   1   1   1   2   2   2   1 -
+ENSGALP00000035922   -          NOG45942             -               0.89    9.5   1.5      0.97    9.4   0.2   1.7   1   1   1   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG063.strict.hmm
+# Target file:     Gallus_gallus.GRCg6a.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref063.Gallus_gallus.GRCg6a.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG063.strict.hmm Gallus_gallus.GRCg6a.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:37:46 2020
+# [ok]

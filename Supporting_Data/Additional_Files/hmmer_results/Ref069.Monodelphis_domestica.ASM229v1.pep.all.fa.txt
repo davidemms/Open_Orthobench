@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSMODP00000036360   -          NOG38852             -            4.1e-46  156.4   0.2     5e-46  156.1   0.2   1.1   1   0   0   1   1   1   1 -
+ENSMODP00000028973   -          NOG38852             -            5.2e-34  117.4   0.1   5.9e-34  117.2   0.1   1.0   1   0   0   1   1   1   1 -
+ENSMODP00000046926   -          NOG38852             -            0.00024   21.8   0.8   0.00045   20.9   0.8   1.6   1   1   0   1   1   1   1 -
+ENSMODP00000023062   -          NOG38852             -             0.0026   18.5   0.7    0.0029   18.4   0.7   1.3   1   1   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG069.strict.hmm
+# Target file:     Monodelphis_domestica.ASM229v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref069.Monodelphis_domestica.ASM229v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG069.strict.hmm Monodelphis_domestica.ASM229v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:44:58 2020
+# [ok]

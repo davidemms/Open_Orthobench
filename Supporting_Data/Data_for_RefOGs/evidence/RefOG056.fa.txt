@@ -1,0 +1,9 @@
+The RefOG is unrooted. Reooted on Danio & Tetraodon (there is a dropsophila gene in the tree but it is on a long branch in the mammalian clade).
+
+The inferred tree supports the RefOG with relatively high certainty. Mnemiopsis leidyi & Branchiostoma lanceolatum genes were identified and each have 100% bootstrap support for their respective clades. The only concern is that there are Drosophila & Tetraodon genes diverging from the target orthogroup clade before Mnemiopsis leidyi. On reflection, these genes probably belong to this orthogroup, but this is with low certainty. The clade containing the Mnemiopsis gene only has 51% bootstrap support, it is more likely that the Drosophila & Tetraodon belong in this orthogroup. 
+
+The only gene of doubt is Danio_rerio_ENSDARP00000104764. It is in the RefOG tree and fits perfectly but did not get found with the hmmer search for inclusion in the newly inferred tree. Note that the RefOG contained 10 genes whereas the top 55 hmmer hits have been used for the newly inferred tree so this is surprising.
+
+Ensembl says this gene has been retired. The tree suggests it is ok, but if it's not in the input dataset then it shouldn't be included in the expected benchmark output from these datasets (regardless of whether it is actually a real gene or not).
+
+RefOG is correct with updating of gene models.

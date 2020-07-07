@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BL14536_evm4         -          COG0123              -           4.8e-191  636.0   0.9  5.8e-191  635.8   0.9   1.0   1   0   0   1   1   1   1 -
+BL11384_evm3         -          COG0123              -            7.7e-71  240.1   0.1   9.4e-71  239.8   0.1   1.1   1   0   0   1   1   1   1 -
+BL04167_evm4         -          COG0123              -              3e-21   76.8   0.1   5.4e-21   75.9   0.1   1.3   1   1   0   1   1   1   1 -
+BL01902_evm0         -          COG0123              -            3.8e-10   40.2   0.2   4.3e-10   40.0   0.2   1.1   1   0   0   1   1   1   1 -
+BL05327_cuf5         -          COG0123              -            5.7e-06   26.4   0.0     7e-06   26.2   0.0   1.1   1   0   0   1   1   1   1 -
+BL17729_cuf0         -          COG0123              -              0.031   14.2   0.0      0.04   13.8   0.0   1.0   1   0   0   1   1   1   0 -
+BL04618_evm0         -          COG0123              -               0.31   10.8   2.8      0.54   10.0   2.8   1.3   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG070.strict.hmm
+# Target file:     Branchiostoma_lanceolatum.BraLan2.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref070.Branchiostoma_lanceolatum.BraLan2.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG070.strict.hmm Branchiostoma_lanceolatum.BraLan2.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:45:45 2020
+# [ok]

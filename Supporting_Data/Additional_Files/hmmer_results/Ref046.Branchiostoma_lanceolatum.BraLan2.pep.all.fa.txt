@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BL06627_evm0         -          COG1997              -            7.9e-43  145.6  10.2   8.7e-43  145.5  10.2   1.0   1   0   0   1   1   1   1 -
+BL13166_cuf19        -          COG1997              -               0.95   10.8   7.0        44    5.4   0.1   4.3   3   1   1   4   4   4   0 -
+BL46614_cuf0         -          COG1997              -               0.96   10.8   0.0       4.4    8.6   0.0   1.9   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG046.strict.hmm
+# Target file:     Branchiostoma_lanceolatum.BraLan2.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref046.Branchiostoma_lanceolatum.BraLan2.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG046.strict.hmm Branchiostoma_lanceolatum.BraLan2.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:24:41 2020
+# [ok]

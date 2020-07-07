@@ -1,0 +1,40 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSDARP00000050237   -          KOG4338              -                  0 1838.6  13.7         0 1838.4  13.7   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000113988   -          KOG4338              -                  0 1836.6  17.7         0 1836.3  17.7   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000115012   -          KOG4338              -                  0 1830.5  13.9         0 1830.3  13.9   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000061164   -          KOG4338              -                  0 1829.0  14.7         0 1828.7  14.7   1.1   1   0   0   1   1   1   1 -
+ENSDARP00000146007   -          KOG4338              -                  0 1826.4  12.7         0 1826.2  12.7   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000148221   -          KOG4338              -                  0 1826.1  13.3         0 1825.9  13.3   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000072687   -          KOG4338              -                  0 1819.3  14.3         0 1819.0  14.3   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000150799   -          KOG4338              -                  0 1817.3  17.4         0 1817.0  17.4   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000072678   -          KOG4338              -                  0 1809.0  13.8         0 1808.8  13.8   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000155970   -          KOG4338              -                  0 1808.4  14.5         0 1808.0  14.5   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000153660   -          KOG4338              -                  0 1788.9  13.0         0 1788.6  13.0   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000102472   -          KOG4338              -                  0 1784.2  13.5         0 1783.9  13.5   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000146600   -          KOG4338              -                  0 1719.2  10.9         0 1718.5  10.9   1.3   1   1   0   1   1   1   1 -
+ENSDARP00000146270   -          KOG4338              -                  0 1702.9  10.9         0 1650.5   8.8   2.0   1   1   1   2   2   2   2 -
+ENSDARP00000094194   -          KOG4338              -                  0 1687.0   0.0         0 1686.7   0.0   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000148974   -          KOG4338              -                  0 1297.9  13.1         0 1295.5  13.1   1.8   1   1   0   1   1   1   1 -
+ENSDARP00000147062   -          KOG4338              -                  0 1297.3  14.0         0 1294.8  14.0   1.8   1   1   0   1   1   1   1 -
+ENSDARP00000156030   -          KOG4338              -                  0 1297.3  14.0         0 1294.8  14.0   1.8   1   1   0   1   1   1   1 -
+ENSDARP00000119179   -          KOG4338              -            1.3e-25   89.7   0.7   1.3e-22   79.8   0.2   3.1   2   2   0   2   2   2   2 -
+ENSDARP00000062792   -          KOG4338              -            2.4e-25   88.9   2.9   8.4e-14   50.7   0.2   4.1   2   1   1   3   3   3   2 -
+ENSDARP00000120745   -          KOG4338              -            5.4e-22   77.8   0.1   5.2e-20   71.2   0.4   3.4   2   1   0   2   2   2   1 -
+ENSDARP00000117950   -          KOG4338              -            6.9e-13   47.6   0.1     4e-12   45.1   0.1   1.9   1   1   0   1   1   1   1 -
+ENSDARP00000024667   -          KOG4338              -            1.8e-12   46.3   2.4   2.3e-12   45.9   2.4   1.1   1   0   0   1   1   1   1 -
+ENSDARP00000073022   -          KOG4338              -               0.32    9.0   0.2      0.63    8.0   0.1   1.3   1   1   0   1   1   1   0 -
+ENSDARP00000018028   -          KOG4338              -               0.62    8.1   3.1      0.83    7.6   3.1   1.1   1   0   0   1   1   1   0 -
+ENSDARP00000114828   -          KOG4338              -               0.81    7.7   0.0       1.1    7.2   0.0   1.1   1   0   0   1   1   1   0 -
+ENSDARP00000120505   -          KOG4338              -               0.98    7.4   0.0         1    7.3   0.0   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG015.strict.hmm
+# Target file:     Danio_rerio.GRCz11.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref015.Danio_rerio.GRCz11.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG015.strict.hmm Danio_rerio.GRCz11.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:40:10 2020
+# [ok]

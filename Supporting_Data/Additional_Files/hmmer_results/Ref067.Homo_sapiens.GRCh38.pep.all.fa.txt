@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSP00000357285      -          KOG4107              -            1.5e-43  146.9   0.2   1.9e-43  146.6   0.2   1.2   1   0   0   1   1   1   1 -
+ENSP00000239451      -          KOG4107              -               0.78   10.1   0.2       4.8    7.6   0.0   2.2   2   0   0   2   2   2   0 -
+ENSP00000366738      -          KOG4107              -               0.92    9.9   0.0       1.2    9.5   0.0   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG067.strict.hmm
+# Target file:     Homo_sapiens.GRCh38.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref067.Homo_sapiens.GRCh38.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG067.strict.hmm Homo_sapiens.GRCh38.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:41:58 2020
+# [ok]

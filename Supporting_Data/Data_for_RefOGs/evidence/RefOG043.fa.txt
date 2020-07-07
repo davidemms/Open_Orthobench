@@ -1,0 +1,3 @@
+The RefOG tree is rooted on an outgroup gene, there is another within the clade but I agree with the interpretation that this is misplaced.
+
+The inferred tree agrees with the RefOG, with the updating of gene models. It has been rooted at the base of the Metazoan orthogroup.

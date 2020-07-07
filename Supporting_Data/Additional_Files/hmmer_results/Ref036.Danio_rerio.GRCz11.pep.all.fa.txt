@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSDARP00000022009   -          COG0642              -           1.7e-226  752.0   0.2    2e-226  751.8   0.2   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000071589   -          COG0642              -           1.3e-225  749.1   0.2  1.5e-225  748.9   0.2   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000012861   -          COG0642              -           1.1e-221  736.2   0.1  1.2e-221  736.0   0.1   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000150746   -          COG0642              -           1.2e-221  736.0   0.1  1.4e-221  735.8   0.1   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000042188   -          COG0642              -           4.8e-218  724.2   0.0  5.4e-218  724.0   0.0   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000138167   -          COG0642              -           1.1e-216  719.7   0.0  1.2e-216  719.5   0.0   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000153715   -          COG0642              -           2.8e-214  711.8   0.0  3.2e-214  711.6   0.0   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000021993   -          COG0642              -            5.5e-54  184.0   0.0   9.7e-54  183.2   0.0   1.3   1   0   0   1   1   1   1 -
+ENSDARP00000140064   -          COG0642              -               0.14   11.5   1.1      0.21   10.9   1.1   1.2   1   0   0   1   1   1   0 -
+ENSDARP00000152129   -          COG0642              -               0.14   11.5   1.1      0.21   10.9   1.1   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG036.strict.hmm
+# Target file:     Danio_rerio.GRCz11.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref036.Danio_rerio.GRCz11.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG036.strict.hmm Danio_rerio.GRCz11.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:07:09 2020
+# [ok]

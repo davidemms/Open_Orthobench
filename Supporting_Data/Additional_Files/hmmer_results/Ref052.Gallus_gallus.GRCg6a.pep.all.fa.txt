@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSGALP00000066916   -          KOG3511              -           4.5e-253  840.9   0.0  5.7e-253  840.6   0.0   1.0   1   0   0   1   1   1   1 -
+ENSGALP00000046461   -          KOG3511              -            1.2e-54  185.7   0.0   2.1e-54  185.0   0.0   1.3   1   0   0   1   1   1   1 -
+ENSGALP00000013726   -          KOG3511              -            4.9e-50  170.5   1.5   7.8e-50  169.8   1.5   1.2   1   0   0   1   1   1   1 -
+ENSGALP00000065887   -          KOG3511              -            8.8e-50  169.7   3.3   1.7e-49  168.7   3.3   1.3   1   0   0   1   1   1   1 -
+ENSGALP00000013781   -          KOG3511              -            6.8e-48  163.4   0.0   4.3e-47  160.8   0.0   1.9   1   1   0   1   1   1   1 -
+ENSGALP00000069077   -          KOG3511              -               0.23    9.8   0.0      0.36    9.2   0.0   1.1   1   0   0   1   1   1   0 -
+ENSGALP00000046852   -          KOG3511              -                0.5    8.7   0.2      0.63    8.3   0.2   1.1   1   0   0   1   1   1   0 -
+ENSGALP00000052914   -          KOG3511              -               0.74    8.1   0.0       1.1    7.6   0.0   1.1   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG052.strict.hmm
+# Target file:     Gallus_gallus.GRCg6a.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref052.Gallus_gallus.GRCg6a.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG052.strict.hmm Gallus_gallus.GRCg6a.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:28:15 2020
+# [ok]

@@ -1,0 +1,6 @@
+The RefOG tree is unrooted, it appears to show a single orthogroup with 4 duplications mostly around the base of the vertebrates. It has been rooted on one of these vertebrate orthogroups.
+
+The newly inferred tree (v0) shows the target orthogroup as part of the larger gene family, it has been rooted at the base of the metazoan orthogroup containing the target genes. Some of the clades in the tree look like they may be incomplete (as can be expected if only genes meeting a certain e-value threshold are used). This leaves uncertain the relationship to the target orthogroup of the 7 genes in the clade containing Homo_sapiens_ENSP00000216862. A new tree has been inferred with a wider net so as to better understand the position of these genes.
+
+This tree (v1) contains approximately 4 metazoan orthogroups in a gene family that includes the target bilaterian orthogroup. It has been rooted on the most distant of these from the target orthogroup, which is also the most clearly defined. The target orthogorup has two outgroup species genes and has very high bootstrap support throughout including 100% at its base. It clearly confirms the orthogroup identified in the original study and shows the clade containing Homo_sapiens_ENSP00000216862 is from a separate orthogroup.
+

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FBpp0082755          -          NOG74284             -               0.13    9.6   0.0      0.18    9.1   0.0   1.1   1   0   0   1   1   1   0 -
+FBpp0111364          -          NOG74284             -               0.93    6.7   0.1         1    6.6   0.1   1.0   1   0   0   1   1   1   0 -
+FBpp0307211          -          NOG74284             -               0.99    6.6   0.2       1.1    6.4   0.2   1.0   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG059.strict.hmm
+# Target file:     Drosophila_melanogaster.BDGP6.28.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref059.Drosophila_melanogaster.BDGP6.28.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG059.strict.hmm Drosophila_melanogaster.BDGP6.28.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:34:24 2020
+# [ok]

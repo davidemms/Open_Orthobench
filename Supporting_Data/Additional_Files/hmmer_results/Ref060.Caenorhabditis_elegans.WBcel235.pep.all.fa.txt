@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WBGene00007670.1     -          NOG43394             -            7.3e-35  120.5   1.3     9e-35  120.2   1.3   1.1   1   0   0   1   1   1   1 -
+WBGene00018743.1     -          NOG43394             -            1.5e-13   51.0   2.3   1.9e-13   50.6   2.3   1.1   1   0   0   1   1   1   1 -
+WBGene00000524.1     -          NOG43394             -            1.2e-06   28.4   3.5   1.6e-06   28.0   3.5   1.2   1   0   0   1   1   1   1 -
+WBGene00017400.1     -          NOG43394             -              6e-05   22.9   2.1   0.00027   20.8   2.1   1.8   1   1   0   1   1   1   1 -
+WBGene00000526.1     -          NOG43394             -            0.00066   19.5  14.1    0.0018   18.1  14.2   1.6   1   1   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG060.strict.hmm
+# Target file:     Caenorhabditis_elegans.WBcel235.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref060.Caenorhabditis_elegans.WBcel235.pep.all.fa.txt --noali -E 0.001 --max --cpu 2 ../../profiles/RefOG060.strict.hmm Caenorhabditis_elegans.WBcel235.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 18 14:43:44 2020
+# [ok]

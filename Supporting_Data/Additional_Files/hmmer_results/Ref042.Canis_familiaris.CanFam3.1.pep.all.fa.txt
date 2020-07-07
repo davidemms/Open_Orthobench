@@ -1,0 +1,26 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSCAFP00000040142   -          COG0229              -            1.7e-60  202.6   0.4     2e-60  202.3   0.4   1.1   1   0   0   1   1   1   1 -
+ENSCAFP00000047494   -          COG0229              -            2.6e-25   89.1   0.0   4.6e-25   88.3   0.0   1.4   1   0   0   1   1   1   1 -
+ENSCAFP00000058418   -          COG0229              -            6.4e-21   75.0   0.5   7.8e-21   74.7   0.5   1.0   1   0   0   1   1   1   1 -
+ENSCAFP00000011529   -          COG0229              -              0.026   15.0   1.1     0.029   14.8   1.1   1.1   1   0   0   1   1   1   0 -
+ENSCAFP00000027672   -          COG0229              -              0.059   13.8   3.2      0.52   10.8   0.0   3.2   2   0   0   2   2   2   0 -
+ENSCAFP00000059109   -          COG0229              -              0.086   13.3   0.1      0.55   10.7   0.1   2.1   1   1   0   1   1   1   0 -
+ENSCAFP00000040522   -          COG0229              -               0.14   12.6   1.0      0.27   11.7   1.0   1.5   1   1   0   1   1   1   0 -
+ENSCAFP00000032831   -          COG0229              -               0.29   11.6   0.3      0.36   11.3   0.3   1.1   1   0   0   1   1   1   0 -
+ENSCAFP00000011571   -          COG0229              -               0.34   11.4   1.1      0.66   10.5   1.1   1.5   1   1   0   1   1   1   0 -
+ENSCAFP00000004660   -          COG0229              -               0.56   10.7   0.3      0.66   10.4   0.3   1.2   1   0   0   1   1   1   0 -
+ENSCAFP00000033081   -          COG0229              -               0.56   10.7   0.3      0.66   10.4   0.3   1.2   1   0   0   1   1   1   0 -
+ENSCAFP00000033571   -          COG0229              -               0.56   10.7   0.3      0.66   10.4   0.3   1.2   1   0   0   1   1   1   0 -
+ENSCAFP00000048014   -          COG0229              -               0.57   10.6   0.4      0.67   10.4   0.4   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG042.strict.hmm
+# Target file:     Canis_familiaris.CanFam3.1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref042.Canis_familiaris.CanFam3.1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG042.strict.hmm Canis_familiaris.CanFam3.1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:21:57 2020
+# [ok]

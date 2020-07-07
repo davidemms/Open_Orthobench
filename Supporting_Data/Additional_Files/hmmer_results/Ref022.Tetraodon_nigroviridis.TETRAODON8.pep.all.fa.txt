@@ -1,0 +1,27 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSTNIP00000014051   -          KOG1601              -             4e-143  477.3  13.0  5.2e-143  477.0  13.0   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000017630   -          KOG1601              -           3.2e-137  457.9  12.4  3.6e-137  457.8  12.4   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000010123   -          KOG1601              -             8e-121  404.0   0.3  9.5e-121  403.8   0.3   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000006319   -          KOG1601              -           1.7e-107  360.2   4.9  2.1e-107  359.9   4.9   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000019466   -          KOG1601              -            5.4e-83  279.7   6.7   7.2e-83  279.3   6.7   1.1   1   0   0   1   1   1   1 -
+ENSTNIP00000017878   -          KOG1601              -            7.8e-82  275.9   5.6     1e-81  275.5   5.6   1.1   1   0   0   1   1   1   1 -
+ENSTNIP00000005330   -          KOG1601              -            2.7e-81  274.1   4.6   3.3e-81  273.8   4.6   1.1   1   0   0   1   1   1   1 -
+ENSTNIP00000004518   -          KOG1601              -            2.5e-31  109.8   0.6   2.8e-31  109.7   0.6   1.1   1   0   0   1   1   1   1 -
+ENSTNIP00000022954   -          KOG1601              -            3.5e-29  102.8   4.2   3.8e-29  102.7   4.2   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000012048   -          KOG1601              -            1.8e-20   74.2   1.9   4.2e-20   72.9   1.9   1.6   1   0   0   1   1   1   1 -
+ENSTNIP00000004766   -          KOG1601              -             0.0047   16.9   1.2    0.0047   16.9   1.2   2.0   1   1   1   2   2   2   1 -
+ENSTNIP00000020949   -          KOG1601              -               0.11   12.4   2.5      0.11   12.5   1.2   1.6   2   0   0   2   2   2   0 -
+ENSTNIP00000010215   -          KOG1601              -               0.14   12.1   0.1      0.22   11.4   0.1   1.2   1   0   0   1   1   1   0 -
+ENSTNIP00000021202   -          KOG1601              -               0.62    9.9   1.6      0.66    9.8   1.6   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG022.strict.hmm
+# Target file:     Tetraodon_nigroviridis.TETRAODON8.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref022.Tetraodon_nigroviridis.TETRAODON8.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG022.strict.hmm Tetraodon_nigroviridis.TETRAODON8.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:50:31 2020
+# [ok]

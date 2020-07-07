@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSMODP00000059367   -          COG0229              -            3.1e-48  163.1   0.6   3.5e-48  162.9   0.6   1.0   1   0   0   1   1   1   1 -
+ENSMODP00000043783   -          COG0229              -            4.7e-20   72.3   0.2   7.6e-20   71.6   0.2   1.4   1   0   0   1   1   1   1 -
+ENSMODP00000019374   -          COG0229              -             0.0031   18.0   0.0     0.004   17.7   0.0   1.2   1   0   0   1   1   1   1 -
+ENSMODP00000054393   -          COG0229              -             0.0039   17.7   0.0        11    6.6   0.0   3.3   3   0   0   3   3   3   1 -
+ENSMODP00000001147   -          COG0229              -              0.044   14.3   0.1      0.13   12.8   0.1   1.7   1   1   0   1   1   1   0 -
+ENSMODP00000045096   -          COG0229              -              0.059   13.9   0.0     0.059   13.9   0.0   3.7   3   1   0   3   3   3   0 -
+ENSMODP00000017946   -          COG0229              -               0.14   12.7   1.2      0.26   11.8   1.2   1.5   1   1   0   1   1   1   0 -
+ENSMODP00000025123   -          COG0229              -               0.37   11.3   1.1      0.69   10.5   1.1   1.5   1   1   0   1   1   1   0 -
+ENSMODP00000024362   -          COG0229              -               0.38   11.3   0.1      0.73   10.4   0.1   1.5   1   0   0   1   1   1   0 -
+ENSMODP00000025608   -          COG0229              -               0.68   10.5   3.4       1.2    9.7   1.2   2.0   2   0   0   2   2   2   0 -
+ENSMODP00000007905   -          COG0229              -               0.74   10.4   0.2       5.2    7.6   0.0   2.4   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG042.strict.hmm
+# Target file:     Monodelphis_domestica.ASM229v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref042.Monodelphis_domestica.ASM229v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG042.strict.hmm Monodelphis_domestica.ASM229v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:22:06 2020
+# [ok]

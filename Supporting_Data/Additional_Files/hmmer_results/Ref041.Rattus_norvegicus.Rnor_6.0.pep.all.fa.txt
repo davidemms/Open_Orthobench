@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSRNOP00000072829   -          COG0094              -            1.3e-68  229.5   0.3   1.5e-68  229.3   0.3   1.0   1   0   0   1   1   1   1 -
+ENSRNOP00000005511   -          COG0094              -            3.7e-57  192.5   0.0   4.1e-57  192.3   0.0   1.0   1   0   0   1   1   1   1 -
+ENSRNOP00000022317   -          COG0094              -               0.31   11.5   0.0      0.84   10.1   0.0   1.7   1   0   0   1   1   1   0 -
+ENSRNOP00000024171   -          COG0094              -               0.43   11.1   0.0       1.1    9.8   0.0   1.6   1   0   0   1   1   1   0 -
+ENSRNOP00000000077   -          COG0094              -               0.68   10.4   0.0       1.4    9.4   0.0   1.5   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG041.strict.hmm
+# Target file:     Rattus_norvegicus.Rnor_6.0.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref041.Rattus_norvegicus.Rnor_6.0.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG041.strict.hmm Rattus_norvegicus.Rnor_6.0.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:21:41 2020
+# [ok]

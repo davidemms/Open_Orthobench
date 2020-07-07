@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ML00739a-PA          -          COG1454              -           6.3e-203  674.1   0.0  7.5e-203  673.8   0.0   1.0   1   0   0   1   1   1   1 -
+ML00392a-PA          -          COG1454              -               0.83    8.1   0.0      0.87    8.1   0.0   1.0   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG050.strict.hmm
+# Target file:     Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref050.Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG050.strict.hmm Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:27:02 2020
+# [ok]

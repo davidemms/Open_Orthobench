@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSMUSP00000116627   -          COG1454              -           1.3e-263  874.5   0.2  1.5e-263  874.4   0.2   1.0   1   0   0   1   1   1   1 -
+ENSMUSP00000049225   -          COG1454              -               0.18   10.8   0.0       0.2   10.7   0.0   1.1   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG050.strict.hmm
+# Target file:     Mus_musculus.GRCm38.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref050.Mus_musculus.GRCm38.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG050.strict.hmm Mus_musculus.GRCm38.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:27:10 2020
+# [ok]

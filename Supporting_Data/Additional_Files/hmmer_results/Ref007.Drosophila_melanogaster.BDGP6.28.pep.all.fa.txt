@@ -1,0 +1,41 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FBpp0085101          -          KOG4194U             -              1e-45  155.9  13.4   1.6e-45  155.3  13.4   1.2   1   0   0   1   1   1   1 -
+FBpp0085099          -          KOG4194U             -            8.4e-44  149.6   9.6   1.2e-43  149.1   9.6   1.1   1   0   0   1   1   1   1 -
+FBpp0302596          -          KOG4194U             -            4.3e-37  127.5  24.1   6.5e-37  127.0  24.1   1.2   1   0   0   1   1   1   1 -
+FBpp0303451          -          KOG4194U             -            1.1e-29  103.2  13.5   1.9e-29  102.4  13.5   1.3   1   0   0   1   1   1   1 -
+FBpp0086614          -          KOG4194U             -            1.2e-27   96.5  18.6   1.7e-27   96.0  18.6   1.1   1   0   0   1   1   1   1 -
+FBpp0111988          -          KOG4194U             -            1.8e-26   92.6  18.6   2.6e-26   92.1  18.6   1.1   1   0   0   1   1   1   1 -
+FBpp0303580          -          KOG4194U             -            2.4e-22   79.1  17.2   3.3e-22   78.6  17.2   1.1   1   0   0   1   1   1   1 -
+FBpp0291183          -          KOG4194U             -            9.8e-20   70.5  15.0   1.7e-19   69.7  15.0   1.2   1   0   0   1   1   1   1 -
+FBpp0073584          -          KOG4194U             -            7.3e-18   64.3  21.0   1.1e-17   63.8  21.0   1.1   1   0   0   1   1   1   1 -
+FBpp0309136          -          KOG4194U             -            1.3e-15   56.9  13.2   1.9e-15   56.4  13.2   1.1   1   0   0   1   1   1   1 -
+FBpp0300789          -          KOG4194U             -            6.5e-15   54.6  22.1   1.5e-14   53.5  22.1   1.5   1   1   0   1   1   1   1 -
+FBpp0076796          -          KOG4194U             -            8.4e-15   54.3  21.8   1.3e-14   53.6  21.8   1.2   1   0   0   1   1   1   1 -
+FBpp0086113          -          KOG4194U             -            9.6e-15   54.1  22.3   1.4e-14   53.5  22.3   1.1   1   0   0   1   1   1   1 -
+FBpp0072470          -          KOG4194U             -            1.7e-13   49.9  19.5   2.6e-13   49.4  19.5   1.2   1   0   0   1   1   1   1 -
+FBpp0086111          -          KOG4194U             -            2.3e-13   49.6  22.2   3.3e-13   49.0  22.2   1.1   1   0   0   1   1   1   1 -
+FBpp0073587          -          KOG4194U             -            1.2e-11   43.9  12.6   4.3e-10   38.8  12.6   2.7   1   1   0   1   1   1   1 -
+FBpp0072472          -          KOG4194U             -            1.8e-11   43.3  14.8   2.8e-11   42.7  14.8   1.2   1   0   0   1   1   1   1 -
+FBpp0076503          -          KOG4194U             -            2.7e-10   39.4  14.2   3.9e-10   38.9  14.2   1.1   1   0   0   1   1   1   1 -
+FBpp0304810          -          KOG4194U             -            2.3e-06   26.5  18.7   3.2e-06   26.0  18.7   1.1   1   0   0   1   1   1   1 -
+FBpp0076449          -          KOG4194U             -            4.4e-06   25.6  17.9   6.6e-06   25.0  17.9   1.2   1   0   0   1   1   1   1 -
+FBpp0082214          -          KOG4194U             -              2e-05   23.4  22.9   2.8e-05   22.9  22.9   1.1   1   0   0   1   1   1   1 -
+FBpp0293249          -          KOG4194U             -            8.1e-05   21.4  20.6   0.00013   20.8  20.6   1.2   1   0   0   1   1   1   1 -
+FBpp0310692          -          KOG4194U             -             0.0088   14.7  24.4     0.017   13.8  24.4   1.3   1   0   0   1   1   1   1 -
+FBpp0072467          -          KOG4194U             -                0.3    9.7   3.4      0.32    9.6   3.4   1.1   1   0   0   1   1   1   0 -
+FBpp0303135          -          KOG4194U             -               0.52    8.9   7.7      0.17   10.5   4.6   1.6   2   0   0   2   2   2   0 -
+FBpp0423075          -          KOG4194U             -               0.64    8.6   0.1       1.9    7.1   0.1   1.7   1   0   0   1   1   1   0 -
+FBpp0307477          -          KOG4194U             -               0.97    8.0  10.1     0.068   11.8   5.0   1.6   2   0   0   2   2   2   0 -
+FBpp0311597          -          KOG4194U             -               0.97    8.0   0.0       1.3    7.6   0.0   1.1   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG007.strict.hmm
+# Target file:     Drosophila_melanogaster.BDGP6.28.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref007.Drosophila_melanogaster.BDGP6.28.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG007.strict.hmm Drosophila_melanogaster.BDGP6.28.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:20:00 2020
+# [ok]

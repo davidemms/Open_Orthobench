@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ML368913a-PA         -          KOG2806              -           1.6e-114  382.5   0.0  2.1e-114  382.1   0.0   1.1   1   0   0   1   1   1   1 -
+ML07445a-PA          -          KOG2806              -           3.3e-112  374.9   0.0    4e-112  374.6   0.0   1.0   1   0   0   1   1   1   1 -
+ML03134a-PA          -          KOG2806              -            3.7e-74  249.7   0.1   4.8e-51  173.6   0.0   2.0   1   1   1   2   2   2   2 -
+ML003271a-PA         -          KOG2806              -            2.2e-05   23.4   0.0   4.8e-05   22.3   0.0   1.5   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG024.strict.hmm
+# Target file:     Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref024.Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG024.strict.hmm Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:53:04 2020
+# [ok]

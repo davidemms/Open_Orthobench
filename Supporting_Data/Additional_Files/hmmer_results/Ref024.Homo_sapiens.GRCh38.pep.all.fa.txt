@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSP00000358755      -          KOG2806              -           2.3e-192  639.2   0.1  2.8e-192  638.9   0.1   1.0   1   0   0   1   1   1   1 -
+ENSP00000356198      -          KOG2806              -           8.4e-183  607.7   0.2    1e-182  607.5   0.2   1.0   1   0   0   1   1   1   1 -
+ENSP00000358747      -          KOG2806              -           1.1e-175  584.2   0.0  1.8e-175  583.6   0.0   1.2   1   0   0   1   1   1   1 -
+ENSP00000255409      -          KOG2806              -           1.3e-175  584.0   0.0  1.6e-175  583.8   0.0   1.0   1   0   0   1   1   1   1 -
+ENSP00000437082      -          KOG2806              -           7.2e-170  565.2   0.0  8.5e-170  564.9   0.0   1.0   1   0   0   1   1   1   1 -
+ENSP00000359664      -          KOG2806              -            1.2e-18   67.5   0.3   1.6e-18   67.1   0.3   1.1   1   0   0   1   1   1   1 -
+ENSP00000435503      -          KOG2806              -             0.0003   20.2   0.0   0.00048   19.5   0.0   1.2   1   0   0   1   1   1   1 -
+ENSP00000339063      -          KOG2806              -               0.29   10.4   0.0      0.46    9.7   0.0   1.2   1   0   0   1   1   1   0 -
+ENSP00000298049      -          KOG2806              -               0.43    9.8   0.0      0.66    9.2   0.0   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG024.strict.hmm
+# Target file:     Homo_sapiens.GRCh38.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref024.Homo_sapiens.GRCh38.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG024.strict.hmm Homo_sapiens.GRCh38.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:53:06 2020
+# [ok]

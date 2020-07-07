@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Smp_167890           -          COG0229              -            2.2e-52  175.5   0.9     3e-52  175.1   0.9   1.1   1   0   0   1   1   1   1 -
+Smp_196790           -          COG0229              -            1.1e-47  160.4   0.4   1.5e-47  159.9   0.4   1.2   1   0   0   1   1   1   1 -
+Smp_035800           -          COG0229              -             0.0099   15.4   0.1      0.01   15.4   0.1   1.1   1   0   0   1   1   1   1 -
+Smp_171850           -          COG0229              -              0.027   14.1   0.1     0.054   13.1   0.1   1.5   1   0   0   1   1   1   0 -
+Smp_055420           -          COG0229              -                0.1   12.2   0.1      0.16   11.6   0.1   1.3   1   0   0   1   1   1   0 -
+Smp_150780           -          COG0229              -               0.11   12.1   1.8       2.3    7.8   0.1   3.2   1   1   1   2   2   2   0 -
+Smp_200020           -          COG0229              -               0.39   10.3   2.3      0.66    9.6   2.3   1.5   1   1   0   1   1   1   0 -
+Smp_152180           -          COG0229              -               0.48   10.0   0.7       3.5    7.2   0.2   2.3   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG042.strict.hmm
+# Target file:     Schistosoma_mansoni.ASM23792v2.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref042.Schistosoma_mansoni.ASM23792v2.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG042.strict.hmm Schistosoma_mansoni.ASM23792v2.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:22:02 2020
+# [ok]

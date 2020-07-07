@@ -1,0 +1,26 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ML046317a-PA         -          KOG0297              -            1.5e-11   43.9  11.7   1.6e-11   43.8  11.3   1.2   1   1   0   1   1   1   1 -
+ML05302a-PA          -          KOG0297              -            2.8e-11   43.0  13.4   1.2e-07   31.0   5.2   2.2   1   1   1   2   2   2   2 -
+ML091713a-PA         -          KOG0297              -            1.1e-07   31.2   1.9   1.5e-07   30.7   1.9   1.2   1   0   0   1   1   1   1 -
+ML08522a-PA          -          KOG0297              -              0.036   13.0   1.3      0.05   12.5   1.3   1.2   1   0   0   1   1   1   0 -
+ML09127a-PA          -          KOG0297              -              0.045   12.7   0.9     0.045   12.7   0.9   1.1   1   0   0   1   1   1   0 -
+ML32749a-PA          -          KOG0297              -              0.055   12.4  13.6      0.13   11.2  13.6   1.6   1   1   0   1   1   1   0 -
+ML038823a-PA         -          KOG0297              -                0.2   10.5   0.4       0.3   10.0   0.4   1.2   1   0   0   1   1   1   0 -
+ML07805a-PA          -          KOG0297              -               0.24   10.3   3.3      0.36    9.7   3.3   1.2   1   0   0   1   1   1   0 -
+ML13485a-PA          -          KOG0297              -               0.27   10.1  17.3       0.4    9.6  17.3   1.4   1   1   0   1   1   1   0 -
+ML31035a-PA          -          KOG0297              -               0.44    9.4   0.7      0.62    8.9   0.7   1.2   1   0   0   1   1   1   0 -
+ML43438a-PA          -          KOG0297              -               0.47    9.3   2.0      0.77    8.6   2.0   1.3   1   0   0   1   1   1   0 -
+ML049013a-PA         -          KOG0297              -                0.5    9.2   2.5      0.66    8.8   2.5   1.1   1   0   0   1   1   1   0 -
+ML29627a-PA          -          KOG0297              -               0.59    9.0   2.7       1.2    7.9   2.7   1.5   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG025.strict.hmm
+# Target file:     Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref025.Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG025.strict.hmm Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:54:55 2020
+# [ok]

@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EDO41627             -          NOG25268             -            7.5e-11   42.8   0.2   8.8e-11   42.6   0.2   1.1   1   0   0   1   1   1   1 -
+EDO31007             -          NOG25268             -            2.9e-06   28.0   2.2     6e-06   26.9   2.2   1.8   1   1   0   1   1   1   1 -
+EDO41807             -          NOG25268             -            1.1e-05   26.1   0.7   2.2e-05   25.1   0.7   1.5   1   0   0   1   1   1   1 -
+EDO49927             -          NOG25268             -            3.5e-05   24.5   1.9   7.4e-05   23.4   1.9   1.6   1   1   0   1   1   1   1 -
+EDO31008             -          NOG25268             -             0.0096   16.6   0.3     0.025   15.2   0.1   1.8   2   0   0   2   2   2   1 -
+EDO42689             -          NOG25268             -              0.017   15.8   1.5     0.039   14.6   1.5   1.6   1   0   0   1   1   1   0 -
+EDO47342             -          NOG25268             -               0.15   12.7   0.2      0.17   12.6   0.2   1.1   1   0   0   1   1   1   0 -
+EDO47152             -          NOG25268             -               0.72   10.5   0.5       1.5    9.5   0.5   1.6   1   0   0   1   1   1   0 -
+EDO45058             -          NOG25268             -               0.81   10.3   0.1       2.3    8.8   0.1   1.8   1   0   0   1   1   1   0 -
+EDO46240             -          NOG25268             -               0.85   10.3   0.6       1.4    9.6   0.6   1.3   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG055.strict.hmm
+# Target file:     Nematostella_vectensis.ASM20922v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref055.Nematostella_vectensis.ASM20922v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG055.strict.hmm Nematostella_vectensis.ASM20922v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:30:53 2020
+# [ok]

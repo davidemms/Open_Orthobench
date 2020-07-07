@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TriadP54837          -          NOG46262             -              7e-06   23.5  11.4     7e-06   23.5  11.4   3.6   1   1   1   3   3   3   1 -
+TriadP30907          -          NOG46262             -              0.014   12.6   0.4     0.016   12.4   0.4   1.1   1   0   0   1   1   1   0 -
+TriadP59745          -          NOG46262             -              0.022   12.0   3.2     0.023   11.9   3.2   1.2   1   0   0   1   1   1   0 -
+TriadP59029          -          NOG46262             -              0.083   10.1   0.6      0.11    9.7   0.6   1.2   1   0   0   1   1   1   0 -
+TriadP54836          -          NOG46262             -               0.11    9.6  38.3       0.1    9.8  34.5   2.7   1   1   1   2   2   2   0 -
+TriadP51326          -          NOG46262             -               0.11    9.6   2.3      0.14    9.3   2.3   1.0   1   0   0   1   1   1   0 -
+TriadP52416          -          NOG46262             -               0.26    8.4   3.5      0.41    7.7   3.5   1.3   1   0   0   1   1   1   0 -
+TriadP57829          -          NOG46262             -                0.3    8.2   1.7      0.33    8.1   1.7   1.0   1   0   0   1   1   1   0 -
+TriadP59069          -          NOG46262             -               0.37    7.9   4.4      0.44    7.7   4.4   1.1   1   0   0   1   1   1   0 -
+TriadP53976          -          NOG46262             -                0.4    7.8   0.1       1.1    6.3   0.1   1.7   1   1   0   1   1   1   0 -
+TriadP50895          -          NOG46262             -               0.46    7.6   0.0      0.91    6.6   0.0   1.4   1   1   0   1   1   1   0 -
+TriadP52591          -          NOG46262             -               0.52    7.4   1.6      0.54    7.4   1.6   1.0   1   0   0   1   1   1   0 -
+TriadP61930          -          NOG46262             -               0.61    7.2   1.7      0.72    6.9   1.7   1.0   1   0   0   1   1   1   0 -
+TriadP21755          -          NOG46262             -               0.64    7.1   1.8      0.77    6.9   1.8   1.0   1   0   0   1   1   1   0 -
+TriadP53433          -          NOG46262             -               0.67    7.1   1.0      0.82    6.8   1.0   1.0   1   0   0   1   1   1   0 -
+TriadP8037           -          NOG46262             -                0.7    7.0   5.1      0.71    7.0   5.1   1.1   1   0   0   1   1   1   0 -
+TriadP60669          -          NOG46262             -                0.7    7.0   3.8      0.92    6.6   3.8   1.1   1   0   0   1   1   1   0 -
+TriadP51016          -          NOG46262             -               0.77    6.9   1.1      0.93    6.6   1.1   1.1   1   0   0   1   1   1   0 -
+TriadP20248          -          NOG46262             -               0.88    6.7   2.7       1.2    6.2   2.7   1.1   1   0   0   1   1   1   0 -
+TriadP55117          -          NOG46262             -               0.94    6.6   0.5       1.2    6.2   0.5   1.2   1   0   0   1   1   1   0 -
+TriadP20699          -          NOG46262             -               0.97    6.5   9.6       1.1    6.3   9.6   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG014.strict.hmm
+# Target file:     Trichoplax_adhaerens.ASM15027v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref014.Trichoplax_adhaerens.ASM15027v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG014.strict.hmm Trichoplax_adhaerens.ASM15027v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:35:46 2020
+# [ok]

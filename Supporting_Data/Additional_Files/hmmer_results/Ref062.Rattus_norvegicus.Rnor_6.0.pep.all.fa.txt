@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSRNOP00000073658   -          NOG133129            -             1e-261  869.0   1.9  1.3e-261  868.7   1.9   1.1   1   0   0   1   1   1   1 -
+ENSRNOP00000022065   -          NOG133129            -              0.043   12.7   0.1     0.093   11.6   0.1   1.5   1   1   1   2   2   2   0 -
+ENSRNOP00000062314   -          NOG133129            -              0.056   12.3   0.0       2.3    7.0   0.0   2.3   2   0   0   2   2   2   0 -
+ENSRNOP00000020781   -          NOG133129            -              0.092   11.6   0.0      0.13   11.1   0.0   1.1   1   0   0   1   1   1   0 -
+ENSRNOP00000044510   -          NOG133129            -               0.11   11.3   0.1       0.2   10.5   0.1   1.3   1   0   0   1   1   1   0 -
+ENSRNOP00000070780   -          NOG133129            -               0.37    9.6   0.2      0.36    9.7   0.2   1.0   1   0   0   1   1   1   0 -
+ENSRNOP00000047389   -          NOG133129            -               0.66    8.8   0.0       1.3    7.8   0.0   1.4   1   0   0   1   1   1   0 -
+ENSRNOP00000015793   -          NOG133129            -               0.69    8.7   1.9       7.4    5.3   0.0   2.7   3   0   0   3   3   3   0 -
+ENSRNOP00000072075   -          NOG133129            -               0.87    8.4   0.2       2.4    7.0   0.0   1.6   2   0   0   2   2   2   0 -
+ENSRNOP00000073303   -          NOG133129            -               0.96    8.3   1.0       1.2    7.9   1.0   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG062.strict.hmm
+# Target file:     Rattus_norvegicus.Rnor_6.0.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref062.Rattus_norvegicus.Rnor_6.0.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG062.strict.hmm Rattus_norvegicus.Rnor_6.0.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:38:26 2020
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Smp_123380           -          KOG4160              -              0.027   14.2   0.5      0.63    9.7   0.1   2.7   2   0   0   2   2   2   0 -
+Smp_138620           -          KOG4160              -               0.69    9.6   1.0        14    5.4   1.0   3.1   1   1   0   1   1   1   0 -
+Smp_149240           -          KOG4160              -               0.97    9.1   0.0       4.2    7.1   0.0   2.2   1   1   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG011.strict.hmm
+# Target file:     Schistosoma_mansoni.ASM23792v2.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref011.Schistosoma_mansoni.ASM23792v2.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG011.strict.hmm Schistosoma_mansoni.ASM23792v2.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:26:57 2020
+# [ok]

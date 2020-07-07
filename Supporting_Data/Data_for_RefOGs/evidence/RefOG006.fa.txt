@@ -1,0 +1,5 @@
+The RefOG tree is rooted on a Hydra gene, it has no branch lengths.
+
+The newly inferred tree shows the target orthogorup as part of a larger gene family and has been rooted at the root of the metazoan orthogroup that contains it. It provides good support for the orthogroup identified in the original study.
+
+

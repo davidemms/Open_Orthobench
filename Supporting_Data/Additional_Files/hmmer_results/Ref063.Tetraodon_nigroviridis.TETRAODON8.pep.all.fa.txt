@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSTNIP00000018181   -          NOG45942             -            4.6e-53  177.4   2.5   5.2e-53  177.2   2.5   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000010162   -          NOG45942             -            2.3e-38  130.3   6.5   2.8e-38  130.0   6.5   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000006119   -          NOG45942             -             0.0071   16.5   3.1    0.0087   16.2   0.8   2.3   2   0   0   2   2   2   1 -
+ENSTNIP00000020582   -          NOG45942             -               0.65   10.2   3.1         4    7.7   3.1   2.5   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG063.strict.hmm
+# Target file:     Tetraodon_nigroviridis.TETRAODON8.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref063.Tetraodon_nigroviridis.TETRAODON8.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG063.strict.hmm Tetraodon_nigroviridis.TETRAODON8.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:38:00 2020
+# [ok]

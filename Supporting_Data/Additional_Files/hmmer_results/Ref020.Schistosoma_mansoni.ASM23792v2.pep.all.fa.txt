@@ -1,0 +1,29 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Smp_170330           -          KOG3544              -                  0 1908.4 929.5  7.4e-237  787.7 269.0   5.2   2   2   3   5   5   5   5 -
+Smp_170340           -          KOG3544              -                  0 1302.4 666.1    7e-262  870.6 332.7   3.9   1   1   2   3   3   3   3 -
+Smp_159600           -          KOG3544              -                  0 1230.9 559.0  4.3e-173  576.3 124.0   3.9   1   1   3   4   4   4   4 -
+Smp_123830           -          KOG3544              -           8.7e-186  618.4 476.3  1.4e-110  369.1 296.4   2.1   1   1   1   2   2   2   2 -
+Smp_164590           -          KOG3544              -           2.3e-176  587.1 476.8  8.1e-101  336.8 257.8   2.7   1   1   1   2   2   2   2 -
+Smp_196840           -          KOG3544              -           2.1e-172  574.0 450.9   1.3e-92  309.5 238.6   2.2   1   1   1   2   2   2   2 -
+Smp_197370           -          KOG3544              -           9.6e-161  535.4 467.6   4.7e-96  321.0 267.5   3.0   1   1   1   2   2   2   2 -
+Smp_144910           -          KOG3544              -           1.1e-139  465.6 406.0   1.3e-68  230.0 185.8   2.5   1   1   0   2   2   2   2 -
+Smp_135560           -          KOG3544              -           7.8e-126  419.7 336.8  1.1e-125  419.2 336.8   1.0   1   0   0   1   1   1   1 -
+Smp_119050           -          KOG3544              -            1.9e-38  130.1  95.1   2.4e-38  129.7  95.1   1.1   1   0   0   1   1   1   1 -
+Smp_175630           -          KOG3544              -            2.8e-16   56.6  18.9   3.4e-16   56.3  18.9   1.0   1   0   0   1   1   1   1 -
+Smp_126540           -          KOG3544              -            3.7e-08   29.6   7.8   5.2e-08   29.1   7.8   1.0   1   0   0   1   1   1   1 -
+Smp_180850           -          KOG3544              -              0.001   14.9   5.7    0.0013   14.5   5.7   1.1   1   0   0   1   1   1   1 -
+Smp_153000           -          KOG3544              -             0.0023   13.7   0.2    0.0032   13.3   0.2   1.1   1   0   0   1   1   1   1 -
+Smp_023240           -          KOG3544              -              0.025   10.3   1.6      0.03   10.1   1.6   1.0   1   0   0   1   1   1   0 -
+Smp_000420           -          KOG3544              -               0.14    7.9   7.1      0.17    7.6   7.1   1.0   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG020.strict.hmm
+# Target file:     Schistosoma_mansoni.ASM23792v2.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref020.Schistosoma_mansoni.ASM23792v2.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG020.strict.hmm Schistosoma_mansoni.ASM23792v2.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:45:24 2020
+# [ok]

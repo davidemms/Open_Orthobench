@@ -1,0 +1,32 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSMODP00000047458   -          KOG1052              -            2.1e-22   79.7   0.0   4.5e-22   78.6   0.0   1.4   1   1   0   1   1   1   1 -
+ENSMODP00000056806   -          KOG1052              -            1.3e-17   64.0   0.0     2e-17   63.3   0.0   1.2   1   0   0   1   1   1   1 -
+ENSMODP00000016371   -          KOG1052              -            6.3e-15   55.1   0.0   1.4e-14   54.0   0.0   1.4   1   1   0   1   1   1   1 -
+ENSMODP00000058189   -          KOG1052              -            2.1e-14   53.3   0.0   4.3e-14   52.3   0.0   1.4   1   0   0   1   1   1   1 -
+ENSMODP00000008572   -          KOG1052              -            2.7e-13   49.7   0.0   4.1e-13   49.1   0.0   1.1   1   0   0   1   1   1   1 -
+ENSMODP00000022522   -          KOG1052              -            4.5e-13   49.0   0.0   1.6e-12   47.1   0.0   1.8   1   1   0   1   1   1   1 -
+ENSMODP00000046000   -          KOG1052              -            1.5e-12   47.3   0.0   7.5e-12   44.9   0.0   2.0   1   1   0   1   1   1   1 -
+ENSMODP00000018049   -          KOG1052              -            1.8e-12   47.0   0.0   4.2e-12   45.8   0.0   1.5   1   1   0   1   1   1   1 -
+ENSMODP00000022701   -          KOG1052              -            4.8e-12   45.6   0.0   2.1e-11   43.5   0.0   1.9   1   1   0   1   1   1   1 -
+ENSMODP00000026240   -          KOG1052              -            5.4e-12   45.4   0.0   1.6e-11   43.8   0.0   1.7   1   1   0   1   1   1   1 -
+ENSMODP00000036431   -          KOG1052              -            3.1e-09   36.3   0.0   1.2e-06   27.8   0.0   2.2   2   0   0   2   2   2   2 -
+ENSMODP00000007008   -          KOG1052              -            3.2e-09   36.3   0.1   2.3e-08   33.5   0.1   1.9   2   0   0   2   2   2   1 -
+ENSMODP00000058368   -          KOG1052              -            2.1e-08   33.6   0.0   7.8e-06   25.1   0.0   2.2   2   0   0   2   2   2   2 -
+ENSMODP00000018762   -          KOG1052              -            5.5e-08   32.2   0.0   2.9e-05   23.2   0.0   2.2   2   0   0   2   2   2   2 -
+ENSMODP00000011093   -          KOG1052              -            4.9e-07   29.1   0.0   7.2e-06   25.2   0.0   2.2   1   1   0   1   1   1   1 -
+ENSMODP00000043946   -          KOG1052              -              7e-06   25.3   0.0   1.1e-05   24.6   0.0   1.2   1   0   0   1   1   1   1 -
+ENSMODP00000017542   -          KOG1052              -               0.18   10.8   1.6      0.26   10.2   1.6   1.2   1   0   0   1   1   1   0 -
+ENSMODP00000026381   -          KOG1052              -               0.51    9.2   0.1      0.68    8.8   0.1   1.2   1   0   0   1   1   1   0 -
+ENSMODP00000056585   -          KOG1052              -               0.83    8.5   0.1         1    8.3   0.1   1.1   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG013.strict.hmm
+# Target file:     Monodelphis_domestica.ASM229v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref013.Monodelphis_domestica.ASM229v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG013.strict.hmm Monodelphis_domestica.ASM229v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:31:38 2020
+# [ok]

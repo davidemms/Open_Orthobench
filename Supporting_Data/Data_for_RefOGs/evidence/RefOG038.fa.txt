@@ -1,0 +1,7 @@
+The RefOG tree has been rooted on Nematostella. It has no branch lengths.
+
+The newly inferred tree covers a number of metazoan orthogroups. Each of the closest orthogroups to the target orthogorup are clearly demarcated by their own outgroup genes. The tree has been rooted on a duplication separating these orthogroups from a number of orthogroups included the target.
+
+The clade containing the target genes stretches appears to have a single gene from the Protostomes (Schistosoma_mansoni_Smp_179370) and many genes from the Deuterostomes. If this is the case then this is the complete orthogroup and it is in agreement with the original study. This clade has 100% boostrap support. 
+
+The two closely related orthogroups are each bounded by their own outgroups and suggest a duplication at the base of the Metazoa, confirming the target orthogroup identified in the original study.

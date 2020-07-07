@@ -1,0 +1,26 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSGALP00000004141   -          COG0123              -           3.3e-283  938.5   4.1  3.8e-283  938.3   4.1   1.0   1   0   0   1   1   1   1 -
+ENSGALP00000059784   -          COG0123              -           1.1e-199  663.4   2.1  1.6e-199  662.9   2.1   1.2   1   0   0   1   1   1   1 -
+ENSGALP00000057637   -          COG0123              -             1e-193  643.7   1.2  1.4e-193  643.3   1.2   1.1   1   0   0   1   1   1   1 -
+ENSGALP00000007696   -          COG0123              -           2.9e-108  362.3   0.1  3.5e-108  362.0   0.1   1.0   1   0   0   1   1   1   1 -
+ENSGALP00000033098   -          COG0123              -            1.4e-22   80.1   0.0   4.4e-22   78.4   0.0   1.7   2   0   0   2   2   2   1 -
+ENSGALP00000060489   -          COG0123              -            2.3e-22   79.4   0.0   3.1e-22   78.9   0.0   1.1   1   0   0   1   1   1   1 -
+ENSGALP00000067739   -          COG0123              -            2.2e-20   72.8   0.0   9.7e-20   70.7   0.0   1.9   2   0   0   2   2   2   1 -
+ENSGALP00000008151   -          COG0123              -            5.4e-17   61.7   0.0   7.8e-17   61.1   0.0   1.2   1   0   0   1   1   1   1 -
+ENSGALP00000054286   -          COG0123              -            1.9e-14   53.3   0.1     2e-14   53.2   0.1   1.0   1   0   0   1   1   1   1 -
+ENSGALP00000072433   -          COG0123              -              4e-07   29.2   0.0   5.1e-07   28.8   0.0   1.1   1   0   0   1   1   1   1 -
+ENSGALP00000038283   -          COG0123              -               0.16   10.8   0.2      0.32    9.7   0.2   1.5   1   0   0   1   1   1   0 -
+ENSGALP00000012779   -          COG0123              -               0.25   10.0   0.1      0.44    9.3   0.1   1.4   1   0   0   1   1   1   0 -
+ENSGALP00000012967   -          COG0123              -               0.62    8.8   0.0       1.7    7.3   0.0   1.7   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG070.strict.hmm
+# Target file:     Gallus_gallus.GRCg6a.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref070.Gallus_gallus.GRCg6a.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG070.strict.hmm Gallus_gallus.GRCg6a.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:45:23 2020
+# [ok]

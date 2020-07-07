@@ -1,0 +1,3 @@
+RefOG tree is presented unrooted, it has been rooted on Danio & Tetraodon, the earliest divergence in the tree.
+
+New tree with wider search shows clearly that the orthogroups goes back to the earlier diverging species: C. elegans & Drosophila. It has been rooted on the clade containing these two genes, the ciona gene is also in this clade, but such deviations from the expected topology are to be expected for some of these early branches, as the gene trees for other RefOGs in this study show.

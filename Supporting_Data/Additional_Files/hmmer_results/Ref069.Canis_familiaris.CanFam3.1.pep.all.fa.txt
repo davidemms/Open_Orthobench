@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSCAFP00000040748   -          NOG38852             -            2.8e-44  150.4   0.5   3.4e-44  150.1   0.5   1.1   1   0   0   1   1   1   1 -
+ENSCAFP00000031248   -          NOG38852             -            3.6e-43  146.8   0.2   4.1e-43  146.6   0.2   1.0   1   0   0   1   1   1   1 -
+ENSCAFP00000007854   -          NOG38852             -            0.00021   21.9   0.0   0.00027   21.6   0.0   1.2   1   0   0   1   1   1   1 -
+ENSCAFP00000048526   -          NOG38852             -                0.8   10.4   0.5       2.3    9.0   0.5   1.9   1   1   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG069.strict.hmm
+# Target file:     Canis_familiaris.CanFam3.1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref069.Canis_familiaris.CanFam3.1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG069.strict.hmm Canis_familiaris.CanFam3.1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:44:06 2020
+# [ok]

@@ -1,0 +1,35 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSGALP00000054065   -          COG5252              -           4.7e-189  627.7  30.4  5.3e-189  627.6  30.4   1.0   1   0   0   1   1   1   1 -
+ENSGALP00000020932   -          COG5252              -            7.5e-11   41.6  15.8   7.9e-05   21.8   0.3   4.2   3   1   1   4   4   4   3 -
+ENSGALP00000007982   -          COG5252              -            4.6e-09   35.8  16.3   5.2e-05   22.4   0.4   4.4   3   2   1   4   4   4   3 -
+ENSGALP00000007498   -          COG5252              -            8.4e-06   25.0  14.6   0.00093   18.3   0.6   3.9   2   2   2   4   4   4   3 -
+ENSGALP00000026067   -          COG5252              -            8.7e-06   25.0   1.6     0.029   13.4   0.0   2.1   1   1   1   2   2   2   2 -
+ENSGALP00000073166   -          COG5252              -            1.2e-05   24.5   1.5   8.3e-05   21.8   0.3   4.1   2   1   2   4   4   2   2 -
+ENSGALP00000013443   -          COG5252              -            0.00016   20.8  11.0    0.0015   17.6   4.3   4.7   2   2   2   4   4   3   3 -
+ENSGALP00000013088   -          COG5252              -             0.0027   16.8   0.3     0.003   16.6   0.3   1.1   1   0   0   1   1   1   1 -
+ENSGALP00000064190   -          COG5252              -             0.0061   15.6   2.3     0.013   14.5   2.3   1.5   1   0   0   1   1   1   1 -
+ENSGALP00000065792   -          COG5252              -             0.0078   15.3   0.1    0.0078   15.3   0.1   1.6   2   0   0   2   2   2   1 -
+ENSGALP00000026660   -          COG5252              -              0.022   13.8   0.8       3.3    6.6   0.0   2.4   2   0   0   2   2   2   0 -
+ENSGALP00000052876   -          COG5252              -              0.037   13.0   5.2      0.25   10.3   0.0   2.6   2   1   1   3   3   3   0 -
+ENSGALP00000058009   -          COG5252              -              0.037   13.0   2.0      0.59    9.1   0.4   2.0   1   1   1   2   2   2   0 -
+ENSGALP00000007054   -          COG5252              -              0.085   11.8   1.6       2.7    6.9   0.2   2.1   1   1   1   2   2   2   0 -
+ENSGALP00000004959   -          COG5252              -               0.17   10.9   1.2      0.51    9.3   0.1   2.2   2   0   0   2   2   2   0 -
+ENSGALP00000067625   -          COG5252              -               0.19   10.7   7.3       3.4    6.6   0.0   3.2   2   1   1   3   3   3   0 -
+ENSGALP00000004038   -          COG5252              -               0.46    9.5   0.1      0.79    8.7   0.1   1.3   1   0   0   1   1   1   0 -
+ENSGALP00000007237   -          COG5252              -                0.5    9.3   0.0      0.81    8.6   0.0   1.2   1   0   0   1   1   1   0 -
+ENSGALP00000039128   -          COG5252              -               0.55    9.2   0.6      0.92    8.4   0.6   1.4   1   0   0   1   1   1   0 -
+ENSGALP00000053764   -          COG5252              -               0.67    8.9   7.2        18    4.2   0.1   3.1   2   1   1   3   3   3   0 -
+ENSGALP00000017786   -          COG5252              -               0.78    8.7   0.2       1.3    8.0   0.2   1.3   1   0   0   1   1   1   0 -
+ENSGALP00000053201   -          COG5252              -               0.83    8.6   2.4      0.97    8.4   2.4   1.0   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG043.strict.hmm
+# Target file:     Gallus_gallus.GRCg6a.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref043.Gallus_gallus.GRCg6a.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG043.strict.hmm Gallus_gallus.GRCg6a.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:22:54 2020
+# [ok]

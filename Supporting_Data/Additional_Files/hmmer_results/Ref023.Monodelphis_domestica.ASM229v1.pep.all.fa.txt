@@ -1,0 +1,38 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSMODP00000050980   -          KOG1216              -                  0 1513.5 191.4         0 1507.8 191.4   3.9   1   1   0   1   1   1   1 -
+ENSMODP00000008408   -          KOG1216              -                  0 1321.3  77.2         0 1205.9  60.7   4.7   2   1   2   4   4   3   2 -
+ENSMODP00000017141   -          KOG1216              -                  0 1294.9 249.7    5e-115  385.5  72.7   9.1   1   1   7   8   8   8   8 -
+ENSMODP00000025620   -          KOG1216              -                  0 1255.9 129.0         0 1124.8  74.8   6.0   1   1   4   6   6   5   4 -
+ENSMODP00000003423   -          KOG1216              -                  0 1062.3 599.8  1.2e-245  818.1  48.3  19.4  13   5   4  18  18  16  16 -
+ENSMODP00000016307   -          KOG1216              -           1.1e-180  602.9 148.7  5.3e-101  339.1  76.5   5.8   2   1   3   5   5   4   4 -
+ENSMODP00000000037   -          KOG1216              -            3.4e-56  190.7  42.1   3.4e-56  190.7  42.1   4.9   1   1   3   4   4   4   1 -
+ENSMODP00000027290   -          KOG1216              -              3e-40  137.9  56.0   4.7e-21   74.3  30.3   6.5   1   1   2   4   4   3   3 -
+ENSMODP00000000366   -          KOG1216              -            3.5e-15   54.9   0.0   1.2e-08   33.2   0.0   2.0   1   1   1   2   2   2   2 -
+ENSMODP00000054390   -          KOG1216              -            2.7e-10   38.7  13.5   1.1e-07   30.0  13.5   2.0   1   1   0   1   1   1   1 -
+ENSMODP00000056160   -          KOG1216              -              1e-08   33.5  17.5   1.3e-08   33.2   0.6   2.0   1   1   1   2   2   2   1 -
+ENSMODP00000022966   -          KOG1216              -            5.1e-07   27.9   0.0   5.1e-07   27.9   0.0  10.9   3   1   0   3   3   1   1 -
+ENSMODP00000040581   -          KOG1216              -            2.6e-05   22.2   6.5   2.6e-05   22.2   6.5   1.4   1   1   0   2   2   1   1 -
+ENSMODP00000022725   -          KOG1216              -            0.00011   20.2   9.8   0.00011   20.2   9.8   1.8   2   0   0   2   2   1   1 -
+ENSMODP00000017876   -          KOG1216              -            0.00084   17.2   0.1   0.00084   17.2   0.1   1.1   1   0   0   1   1   1   1 -
+ENSMODP00000023432   -          KOG1216              -             0.0058   14.4  22.5    0.0094   13.7  22.5   1.3   1   0   0   1   1   1   1 -
+ENSMODP00000040312   -          KOG1216              -              0.027   12.2   0.0     0.027   12.2   0.0   1.2   1   0   0   1   1   1   0 -
+ENSMODP00000012360   -          KOG1216              -              0.074   10.8   4.2      0.14    9.9   4.2   1.3   1   0   0   1   1   1   0 -
+ENSMODP00000013550   -          KOG1216              -               0.11   10.1   1.2      0.16    9.6   1.2   1.1   1   0   0   1   1   1   0 -
+ENSMODP00000008695   -          KOG1216              -               0.14    9.9   6.6      0.14    9.8   6.6   1.1   1   0   0   1   1   1   0 -
+ENSMODP00000002790   -          KOG1216              -               0.22    9.2   2.5      0.31    8.7   2.5   1.2   1   0   0   1   1   1   0 -
+ENSMODP00000039471   -          KOG1216              -               0.35    8.5   3.6      0.36    8.5   3.6   1.1   1   0   0   1   1   1   0 -
+ENSMODP00000060465   -          KOG1216              -               0.63    7.7   3.4      0.83    7.3   3.4   1.0   1   0   0   1   1   1   0 -
+ENSMODP00000058235   -          KOG1216              -               0.73    7.5   1.7       1.3    6.6   1.7   1.3   1   0   0   1   1   1   0 -
+ENSMODP00000003868   -          KOG1216              -               0.82    7.3   0.0      0.97    7.1   0.0   1.2   1   1   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG023.strict.hmm
+# Target file:     Monodelphis_domestica.ASM229v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref023.Monodelphis_domestica.ASM229v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG023.strict.hmm Monodelphis_domestica.ASM229v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:55:33 2020
+# [ok]

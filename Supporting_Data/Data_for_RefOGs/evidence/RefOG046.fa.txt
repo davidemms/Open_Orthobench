@@ -1,0 +1,5 @@
+The RefOG is rooted on Hydra.
+
+The bipartitions in the RefOG and the inferred tree have mostly low support. The newly inferred tree has been rooted on Mnemiopsis leidyi.
+
+The orthogroup is easily identified and the RefOG from the previous study is in good agreement with the inferred tree (with updating of gene models).

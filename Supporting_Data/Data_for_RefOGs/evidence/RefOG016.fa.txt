@@ -1,0 +1,3 @@
+The RefOG tree is unrooted, it has been rooted on a Drosophila gene.
+
+The newly inferred tree contains the target orthogroup and a number of further homologous genes. It has been rooted at the base of the clade containing the target orthogroup and a gene from the outgroup species Nematostella. It confirms the orthogroup from the original study with high bootstrap support.

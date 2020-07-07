@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSMODP00000021797   -          NOG25268             -            2.7e-56  189.9   1.9   3.1e-56  189.7   1.9   1.0   1   0   0   1   1   1   1 -
+ENSMODP00000014981   -          NOG25268             -            2.2e-49  167.5   8.3   3.6e-49  166.8   8.3   1.3   1   0   0   1   1   1   1 -
+ENSMODP00000045700   -          NOG25268             -            6.1e-11   42.9   1.0   6.9e-11   42.7   1.0   1.1   1   0   0   1   1   1   1 -
+ENSMODP00000018813   -          NOG25268             -              0.002   18.5   0.1    0.0027   18.1   0.1   1.2   1   0   0   1   1   1   1 -
+ENSMODP00000008376   -          NOG25268             -              0.024   15.1   0.6       9.8    6.6   0.1   3.0   2   0   0   2   2   2   0 -
+ENSMODP00000059730   -          NOG25268             -              0.042   14.3   1.6     0.099   13.1   1.6   1.6   1   0   0   1   1   1   0 -
+ENSMODP00000006158   -          NOG25268             -               0.11   13.0   0.6      0.23   11.9   0.6   1.5   1   0   0   1   1   1   0 -
+ENSMODP00000010125   -          NOG25268             -               0.21   12.0   0.0       0.5   10.8   0.0   1.6   1   0   0   1   1   1   0 -
+ENSMODP00000059479   -          NOG25268             -               0.62   10.5   0.0      0.93    9.9   0.0   1.2   1   0   0   1   1   1   0 -
+ENSMODP00000048686   -          NOG25268             -               0.78   10.2   0.0      0.87   10.0   0.0   1.2   1   0   0   1   1   1   0 -
+ENSMODP00000052170   -          NOG25268             -                0.8   10.1   0.6     1e+02    3.3   0.0   2.9   1   1   1   2   2   2   0 -
+ENSMODP00000049619   -          NOG25268             -               0.86   10.0   2.2       1.1    9.6   2.2   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG055.strict.hmm
+# Target file:     Monodelphis_domestica.ASM229v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref055.Monodelphis_domestica.ASM229v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG055.strict.hmm Monodelphis_domestica.ASM229v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:30:37 2020
+# [ok]

@@ -1,0 +1,26 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSTNIP00000018191   -          KOG3511              -                  0 1112.7   0.9         0 1112.5   0.9   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000010080   -          KOG3511              -                  0 1071.7   0.6         0 1071.5   0.6   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000013946   -          KOG3511              -           1.8e-186  621.3   1.3  2.1e-186  621.1   1.3   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000006100   -          KOG3511              -            4.3e-53  180.8   0.0   1.9e-52  178.7   0.0   1.8   1   1   0   1   1   1   1 -
+ENSTNIP00000017394   -          KOG3511              -            1.3e-46  159.5   0.0   2.6e-46  158.5   0.0   1.4   1   1   0   1   1   1   1 -
+ENSTNIP00000016318   -          KOG3511              -            1.6e-43  149.2   0.5   2.2e-43  148.8   0.5   1.1   1   0   0   1   1   1   1 -
+ENSTNIP00000016316   -          KOG3511              -              3e-43  148.3   1.1   5.1e-43  147.6   1.1   1.2   1   0   0   1   1   1   1 -
+ENSTNIP00000006348   -          KOG3511              -            5.5e-35  121.0   0.2   8.1e-35  120.5   0.2   1.2   1   0   0   1   1   1   1 -
+ENSTNIP00000007890   -          KOG3511              -            6.2e-34  117.6   0.0   1.1e-33  116.8   0.0   1.3   1   1   0   1   1   1   1 -
+ENSTNIP00000004285   -          KOG3511              -             0.0026   16.4   0.0     0.014   14.0   0.0   1.9   1   1   0   1   1   1   1 -
+ENSTNIP00000007889   -          KOG3511              -             0.0035   16.0   0.0     0.004   15.8   0.0   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000004787   -          KOG3511              -             0.0043   15.7   0.2     0.026   13.1   0.2   1.8   1   1   0   1   1   1   1 -
+ENSTNIP00000016015   -          KOG3511              -               0.17   10.5   0.0      0.22   10.1   0.0   1.1   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG052.strict.hmm
+# Target file:     Tetraodon_nigroviridis.TETRAODON8.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref052.Tetraodon_nigroviridis.TETRAODON8.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG052.strict.hmm Tetraodon_nigroviridis.TETRAODON8.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:28:23 2020
+# [ok]

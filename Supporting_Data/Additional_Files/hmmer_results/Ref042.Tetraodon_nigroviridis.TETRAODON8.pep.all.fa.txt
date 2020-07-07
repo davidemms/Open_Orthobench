@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSTNIP00000010962   -          COG0229              -            2.1e-59  199.0   0.2   2.8e-59  198.6   0.2   1.2   1   0   0   1   1   1   1 -
+ENSTNIP00000010028   -          COG0229              -              2e-58  195.8   0.2   2.7e-58  195.4   0.2   1.2   1   0   0   1   1   1   1 -
+ENSTNIP00000015879   -          COG0229              -            8.3e-16   58.4   0.6   1.1e-15   58.1   0.6   1.1   1   0   0   1   1   1   1 -
+ENSTNIP00000021171   -          COG0229              -            8.8e-11   42.2   0.4     1e-10   42.0   0.4   1.1   1   0   0   1   1   1   1 -
+ENSTNIP00000020366   -          COG0229              -             0.0029   18.0   0.0    0.0037   17.7   0.0   1.2   1   0   0   1   1   1   1 -
+ENSTNIP00000006198   -          COG0229              -              0.064   13.7   3.6       3.3    8.1   2.1   2.2   1   1   1   2   2   2   0 -
+ENSTNIP00000021235   -          COG0229              -               0.13   12.7   0.2      0.32   11.4   0.2   1.6   1   0   0   1   1   1   0 -
+ENSTNIP00000017195   -          COG0229              -               0.23   11.9   1.2      0.44   11.0   1.2   1.5   1   1   0   1   1   1   0 -
+ENSTNIP00000005151   -          COG0229              -               0.43   11.0   0.1      0.52   10.7   0.1   1.1   1   0   0   1   1   1   0 -
+ENSTNIP00000004947   -          COG0229              -               0.57   10.6   1.4      0.99    9.8   1.4   1.4   1   1   0   1   1   1   0 -
+ENSTNIP00000009127   -          COG0229              -               0.73   10.3   0.6        12    6.4   0.3   2.3   1   1   1   2   2   2   0 -
+ENSTNIP00000021821   -          COG0229              -               0.91   10.0   0.1        13    6.2   0.0   2.9   3   0   0   3   3   3   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG042.strict.hmm
+# Target file:     Tetraodon_nigroviridis.TETRAODON8.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref042.Tetraodon_nigroviridis.TETRAODON8.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG042.strict.hmm Tetraodon_nigroviridis.TETRAODON8.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:22:11 2020
+# [ok]

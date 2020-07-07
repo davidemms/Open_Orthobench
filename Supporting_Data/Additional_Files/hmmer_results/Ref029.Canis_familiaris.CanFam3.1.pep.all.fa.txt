@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSCAFP00000021066   -          KOG2612              -           6.7e-110  365.7   5.8    8e-110  365.4   5.8   1.0   1   0   0   1   1   1   1 -
+ENSCAFP00000051492   -          KOG2612              -              0.092   12.6   1.0      0.14   12.0   1.0   1.3   1   0   0   1   1   1   0 -
+ENSCAFP00000063626   -          KOG2612              -               0.22   11.4   1.6      0.41   10.5   1.6   1.4   1   0   0   1   1   1   0 -
+ENSCAFP00000041663   -          KOG2612              -               0.36   10.7   1.4       6.1    6.7   0.2   2.3   2   0   0   2   2   2   0 -
+ENSCAFP00000000484   -          KOG2612              -               0.61    9.9   3.5        23    4.8   0.0   3.0   2   1   0   2   2   2   0 -
+ENSCAFP00000029779   -          KOG2612              -               0.65    9.8   0.1      0.92    9.3   0.1   1.2   1   0   0   1   1   1   0 -
+ENSCAFP00000024870   -          KOG2612              -               0.96    9.3   1.4       1.7    8.5   0.3   1.7   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG029.strict.hmm
+# Target file:     Canis_familiaris.CanFam3.1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref029.Canis_familiaris.CanFam3.1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG029.strict.hmm Canis_familiaris.CanFam3.1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:58:38 2020
+# [ok]

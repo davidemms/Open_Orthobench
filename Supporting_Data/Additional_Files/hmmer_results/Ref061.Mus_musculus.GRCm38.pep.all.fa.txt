@@ -1,0 +1,27 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSMUSP00000079722   -          NOG42950             -           3.8e-194  647.5 170.7  1.3e-190  635.9 170.7   2.8   1   1   0   1   1   1   1 -
+ENSMUSP00000108083   -          NOG42950             -           1.3e-177  592.9  57.9  1.5e-177  592.7  57.9   1.0   1   0   0   1   1   1   1 -
+ENSMUSP00000043583   -          NOG42950             -            2.9e-69  235.4 152.5   2.9e-69  235.4 152.5   3.4   1   1   1   2   2   1   1 -
+ENSMUSP00000004202   -          NOG42950             -             0.0046   17.0   0.1    0.0046   17.0   0.1   2.4   1   1   0   2   2   1   1 -
+ENSMUSP00000119609   -          NOG42950             -             0.0088   16.0   0.2    0.0088   16.0   0.2   1.7   1   1   0   2   2   2   1 -
+ENSMUSP00000031414   -          NOG42950             -              0.032   14.2   0.0     0.048   13.6   0.0   1.2   1   1   0   1   1   1   0 -
+ENSMUSP00000013759   -          NOG42950             -              0.064   13.2   9.9      0.23   11.3   0.0   3.3   1   1   1   2   2   1   0 -
+ENSMUSP00000088982   -          NOG42950             -               0.12   12.2  20.4      0.24   11.3  20.4   1.4   1   1   0   1   1   1   0 -
+ENSMUSP00000077273   -          NOG42950             -               0.38   10.6   0.1       1.2    9.0   0.1   1.7   1   1   0   1   1   1   0 -
+ENSMUSP00000029346   -          NOG42950             -               0.48   10.3   8.1      0.97    9.3   8.1   1.5   1   1   0   1   1   1   0 -
+ENSMUSP00000110965   -          NOG42950             -               0.51   10.2   0.9      0.65    9.8   0.9   1.1   1   0   0   1   1   1   0 -
+ENSMUSP00000112650   -          NOG42950             -               0.71    9.7   6.6      0.87    9.4   6.6   1.0   1   0   0   1   1   1   0 -
+ENSMUSP00000035452   -          NOG42950             -               0.72    9.7   1.0      0.89    9.4   1.0   1.2   1   0   0   1   1   1   0 -
+ENSMUSP00000099190   -          NOG42950             -               0.82    9.5   6.4      0.98    9.3   6.4   1.0   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG061.strict.hmm
+# Target file:     Mus_musculus.GRCm38.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref061.Mus_musculus.GRCm38.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG061.strict.hmm Mus_musculus.GRCm38.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:37:14 2020
+# [ok]

@@ -1,0 +1,32 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Smp_099900           -          COG5252              -           1.4e-127  424.9  22.3  1.6e-127  424.7  22.3   1.0   1   0   0   1   1   1   1 -
+Smp_093100           -          COG5252              -            1.8e-06   26.6   0.2    0.0064   14.9   0.0   2.1   1   1   0   2   2   2   2 -
+Smp_037380           -          COG5252              -              8e-05   21.2   5.6    0.0052   15.2   0.8   2.7   2   1   1   3   3   3   2 -
+Smp_172780           -          COG5252              -            9.4e-05   20.9   8.0    0.0046   15.4   0.3   3.3   1   1   2   3   3   3   2 -
+Smp_198980           -          COG5252              -             0.0098   14.3   4.0      0.87    7.9   0.7   2.4   1   1   1   2   2   2   2 -
+Smp_087320           -          COG5252              -              0.012   14.1   2.9       1.2    7.4   0.1   2.3   1   1   1   2   2   2   0 -
+Smp_002820           -          COG5252              -              0.015   13.7   0.3     0.015   13.7   0.3   3.1   1   1   2   3   3   3   0 -
+Smp_034980           -          COG5252              -               0.21    9.9   1.2      0.53    8.6   1.2   1.7   1   0   0   1   1   1   0 -
+Smp_068700           -          COG5252              -               0.24    9.7   0.2      0.29    9.4   0.2   1.1   1   0   0   1   1   1   0 -
+Smp_089050           -          COG5252              -               0.32    9.3   0.1      0.33    9.3   0.1   1.2   1   0   0   1   1   1   0 -
+Smp_200120           -          COG5252              -               0.38    9.1   2.4       0.4    9.0   2.4   1.2   1   0   0   1   1   1   0 -
+Smp_146300           -          COG5252              -               0.41    9.0   3.1      0.72    8.2   3.1   1.4   1   0   0   1   1   1   0 -
+Smp_023530           -          COG5252              -               0.42    8.9   4.2      0.67    8.3   1.9   2.1   2   0   0   2   2   2   0 -
+Smp_155150           -          COG5252              -               0.44    8.9   0.2       0.5    8.7   0.2   1.1   1   0   0   1   1   1   0 -
+Smp_025130           -          COG5252              -               0.54    8.6   0.0      0.89    7.9   0.0   1.2   1   0   0   1   1   1   0 -
+Smp_086480           -          COG5252              -               0.74    8.1   2.7       1.6    7.0   1.2   1.9   1   1   1   2   2   2   0 -
+Smp_039640           -          COG5252              -               0.97    7.7   5.4       1.7    7.0   5.4   1.3   1   0   0   1   1   1   0 -
+Smp_137840           -          COG5252              -               0.97    7.7   4.1       1.4    7.2   4.1   1.4   1   0   0   1   1   1   0 -
+Smp_014730           -          COG5252              -               0.97    7.7   0.1       1.9    6.7   0.1   1.4   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG043.strict.hmm
+# Target file:     Schistosoma_mansoni.ASM23792v2.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref043.Schistosoma_mansoni.ASM23792v2.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG043.strict.hmm Schistosoma_mansoni.ASM23792v2.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:22:52 2020
+# [ok]

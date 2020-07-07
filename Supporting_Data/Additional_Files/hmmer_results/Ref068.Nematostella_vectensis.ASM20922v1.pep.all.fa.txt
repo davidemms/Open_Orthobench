@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EDO36443             -          KOG3604              -            1.1e-61  208.8   0.0   1.4e-61  208.5   0.0   1.1   1   0   0   1   1   1   1 -
+EDO43069             -          KOG3604              -              2e-33  116.1   0.1   2.6e-33  115.7   0.1   1.1   1   0   0   1   1   1   1 -
+EDO36444             -          KOG3604              -            2.4e-17   63.4   0.3   2.8e-17   63.1   0.3   1.0   1   0   0   1   1   1   1 -
+EDO44214             -          KOG3604              -              0.026   14.0   0.0     0.035   13.6   0.0   1.2   1   0   0   1   1   1   0 -
+EDO36446             -          KOG3604              -               0.15   11.5   0.1      0.15   11.5   0.1   1.0   1   0   0   1   1   1   0 -
+EDO41831             -          KOG3604              -               0.62    9.5   0.0        14    5.1   0.0   2.9   1   1   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG068.strict.hmm
+# Target file:     Nematostella_vectensis.ASM20922v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref068.Nematostella_vectensis.ASM20922v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG068.strict.hmm Nematostella_vectensis.ASM20922v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:44:34 2020
+# [ok]

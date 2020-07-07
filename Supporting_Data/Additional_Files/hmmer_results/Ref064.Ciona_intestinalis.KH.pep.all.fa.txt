@@ -1,0 +1,27 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSCINP00000001689   -          NOG78005             -            7.3e-47  160.4  32.6   1.4e-24   87.1  10.8   3.1   1   1   2   3   3   3   3 -
+ENSCINP00000033523   -          NOG78005             -             0.0068   15.8  16.2    0.0078   15.6  16.2   1.1   1   0   0   1   1   1   1 -
+ENSCINP00000003904   -          NOG78005             -              0.019   14.4   3.2     0.018   14.4   3.2   1.1   1   0   0   1   1   1   0 -
+ENSCINP00000026904   -          NOG78005             -               0.11   11.8   7.7      0.13   11.6   7.7   1.2   1   0   0   1   1   1   0 -
+ENSCINP00000033710   -          NOG78005             -               0.22   10.8   8.1      0.68    9.2   8.1   1.7   1   1   0   1   1   1   0 -
+ENSCINP00000011599   -          NOG78005             -               0.41    9.9   0.8      0.55    9.5   0.8   1.2   1   0   0   1   1   1   0 -
+ENSCINP00000015402   -          NOG78005             -               0.47    9.7   8.0      0.72    9.1   8.0   1.2   1   0   0   1   1   1   0 -
+ENSCINP00000036552   -          NOG78005             -               0.66    9.3   9.6      0.83    8.9   9.6   1.1   1   0   0   1   1   1   0 -
+ENSCINP00000001261   -          NOG78005             -               0.71    9.2   0.8       1.1    8.6   0.8   1.2   1   0   0   1   1   1   0 -
+ENSCINP00000031675   -          NOG78005             -               0.74    9.1   3.6      0.97    8.7   3.6   1.1   1   0   0   1   1   1   0 -
+ENSCINP00000010330   -          NOG78005             -               0.84    8.9  10.2       3.5    6.9   6.7   2.1   2   0   0   2   2   2   0 -
+ENSCINP00000036453   -          NOG78005             -               0.87    8.9   2.3       1.5    8.1   2.3   1.4   1   0   0   1   1   1   0 -
+ENSCINP00000035226   -          NOG78005             -               0.93    8.8   3.6       1.3    8.3   3.6   1.2   1   0   0   1   1   1   0 -
+ENSCINP00000025664   -          NOG78005             -               0.95    8.7   1.7       1.1    8.5   1.7   1.1   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG064.strict.hmm
+# Target file:     Ciona_intestinalis.KH.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref064.Ciona_intestinalis.KH.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG064.strict.hmm Ciona_intestinalis.KH.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:38:34 2020
+# [ok]

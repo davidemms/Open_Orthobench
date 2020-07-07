@@ -1,0 +1,34 @@
+
+
+
+Extra Material
+==============
+
+The inferred tree (v1) used genes with hits better or equal to an e-value of 0.01. 
+
+
+
+There is a further, early duplication still within the orthogroup giving rise to genes in mouse, human, chimp and rat.
+
+
+Inspection of MSA:
+
+
+Tree of more sequences:
+
+v5 - iqtree of the v4 tree
+v6 - RAxML tree of the v4 tree
+(note, both of these have Galls & Monodelphus genes misplaced at the root of a clade. And I've not been able to fix it, perhaps not important?)
+
+Missing?
+ENSCAFP00000029286
+99	Homo_sapiens_ENSP00000295619	87	Pan_troglodytes_ENSPTRP00000072428	Rattus_norvegicus_ENSRNOP00000015058	Mus_musculus_ENSMUSP00000032152
+
+x3 looks the most convincing, but is still missing the homo, Pan, Mus, Rattus clade (above).
+v5-v6 get the complete pair of vertebrates clades but one of them is inverted (gene fusion? No). this goes back to a Branchiostoma gene, as for x3, but a different one.
+
+Why the inversion of part of the tree? That s
+
+
+Final tree:
+x3 members plus the 5 missing genes.

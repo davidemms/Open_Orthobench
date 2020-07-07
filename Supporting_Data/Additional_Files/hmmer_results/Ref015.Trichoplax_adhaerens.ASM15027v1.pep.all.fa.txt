@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TriadP57880          -          KOG4338              -            6.1e-94  314.7   6.2   2.8e-90  302.6   2.2   2.9   1   1   1   3   3   3   3 -
+TriadP55795          -          KOG4338              -            6.5e-19   66.2   0.6   2.8e-18   64.1   0.1   2.0   1   1   1   2   2   2   1 -
+TriadP55796          -          KOG4338              -            5.3e-15   53.3   0.4   1.4e-14   51.9   0.4   1.5   1   1   0   1   1   1   1 -
+TriadP57884          -          KOG4338              -             0.0017   15.2   0.0    0.0024   14.6   0.0   1.3   1   1   0   1   1   1   1 -
+TriadP62981          -          KOG4338              -              0.075    9.7   0.2     0.083    9.6   0.2   1.0   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG015.strict.hmm
+# Target file:     Trichoplax_adhaerens.ASM15027v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref015.Trichoplax_adhaerens.ASM15027v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG015.strict.hmm Trichoplax_adhaerens.ASM15027v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:38:44 2020
+# [ok]

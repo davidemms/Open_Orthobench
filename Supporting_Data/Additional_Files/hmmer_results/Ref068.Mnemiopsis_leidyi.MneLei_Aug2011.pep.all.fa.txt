@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ML124243a-PA         -          KOG3604              -            3.3e-20   72.1   0.0   4.9e-20   71.6   0.0   1.3   1   0   0   1   1   1   1 -
+ML040022a-PA         -          KOG3604              -            4.9e-19   68.3   0.0   5.4e-19   68.1   0.0   1.1   1   0   0   1   1   1   1 -
+ML040024a-PA         -          KOG3604              -             0.0011   17.9   0.0     0.012   14.6   0.0   2.3   1   1   0   2   2   2   1 -
+ML02452a-PA          -          KOG3604              -             0.0028   16.6   0.2    0.0036   16.2   0.2   1.2   1   0   0   1   1   1   1 -
+ML068129a-PA         -          KOG3604              -              0.072   12.0   0.0       4.7    6.0   0.1   2.5   1   1   0   2   2   2   0 -
+ML35934a-PA          -          KOG3604              -                0.2   10.5   0.1      0.47    9.3   0.0   1.7   2   0   0   2   2   2   0 -
+ML13258a-PA          -          KOG3604              -               0.98    8.2   0.1         1    8.1   0.1   1.1   1   0   0   1   1   1   0 -
+ML174744a-PA         -          KOG3604              -               0.99    8.2   0.4       1.5    7.6   0.2   1.4   1   1   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG068.strict.hmm
+# Target file:     Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref068.Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG068.strict.hmm Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:43:55 2020
+# [ok]

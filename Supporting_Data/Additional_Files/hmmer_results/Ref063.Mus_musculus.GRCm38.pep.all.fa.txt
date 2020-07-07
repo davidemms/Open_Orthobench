@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSMUSP00000060617   -          NOG45942             -            9.6e-59  195.8   7.2   1.1e-58  195.6   7.2   1.0   1   0   0   1   1   1   1 -
+ENSMUSP00000032152   -          NOG45942             -            2.3e-30  104.8   7.7   2.4e-21   75.9   0.8   2.1   1   1   1   2   2   2   2 -
+ENSMUSP00000033936   -          NOG45942             -            0.00029   21.1   5.8   0.00029   21.1   5.8   2.6   2   1   0   2   2   2   1 -
+ENSMUSP00000033036   -          NOG45942             -              0.017   15.4   5.0     0.017   15.4   5.0   2.5   1   1   0   2   2   2   0 -
+ENSMUSP00000022368   -          NOG45942             -               0.18   12.2   1.4      0.37   11.2   0.6   1.9   2   0   0   2   2   2   0 -
+ENSMUSP00000000395   -          NOG45942             -                0.2   12.0   0.4      0.91    9.9   0.2   2.3   2   0   0   2   2   2   0 -
+ENSMUSP00000065542   -          NOG45942             -                0.8   10.1   0.0       2.9    8.3   0.0   1.9   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG063.strict.hmm
+# Target file:     Mus_musculus.GRCm38.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref063.Mus_musculus.GRCm38.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG063.strict.hmm Mus_musculus.GRCm38.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:37:58 2020
+# [ok]

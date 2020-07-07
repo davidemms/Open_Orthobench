@@ -1,0 +1,42 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSMUSP00000036726   -          KOG0951              -                  0 3716.5   1.0         0 3716.3   1.0   1.0   1   0   0   1   1   1   1 -
+ENSMUSP00000099509   -          KOG0951              -                  0 1852.1   9.5         0 1850.4   9.5   1.7   1   1   0   1   1   1   1 -
+ENSMUSP00000112590   -          KOG0951              -           2.4e-133  446.2   6.0  7.1e-121  404.8   0.5   2.0   1   1   1   2   2   2   2 -
+ENSMUSP00000059757   -          KOG0951              -            2.3e-32  111.4   0.0   6.1e-16   56.9   0.0   2.0   1   1   0   2   2   2   2 -
+ENSMUSP00000041599   -          KOG0951              -            2.6e-31  107.9   0.0   3.8e-31  107.4   0.0   1.1   1   0   0   1   1   1   1 -
+ENSMUSP00000022281   -          KOG0951              -              1e-29  102.7   0.0     1e-18   66.2   0.0   2.1   2   0   0   2   2   2   2 -
+ENSMUSP00000036265   -          KOG0951              -            8.6e-28   96.2   0.1   2.7e-14   51.5   0.0   2.0   2   0   0   2   2   2   2 -
+ENSMUSP00000091197   -          KOG0951              -              2e-21   75.1   0.1   3.1e-10   38.0   0.0   2.4   2   0   0   2   2   2   2 -
+ENSMUSP00000019937   -          KOG0951              -            8.8e-08   29.9   5.5   8.2e-06   23.4   0.8   2.1   2   0   0   2   2   2   2 -
+ENSMUSP00000048802   -          KOG0951              -            1.3e-07   29.3   0.3    0.0057   13.9   0.1   2.1   1   1   1   2   2   2   2 -
+ENSMUSP00000054797   -          KOG0951              -            6.5e-06   23.7   0.0   1.1e-05   22.9   0.0   1.3   1   0   0   1   1   1   1 -
+ENSMUSP00000153328   -          KOG0951              -            8.7e-06   23.3   0.0   0.00056   17.3   0.0   2.2   2   0   0   2   2   2   1 -
+ENSMUSP00000042433   -          KOG0951              -            0.00025   18.5   0.0   0.00035   17.9   0.0   1.1   1   0   0   1   1   1   1 -
+ENSMUSP00000017974   -          KOG0951              -            0.00049   17.5   0.0   0.00091   16.6   0.0   1.3   1   0   0   1   1   1   1 -
+ENSMUSP00000020270   -          KOG0951              -             0.0011   16.3   0.0     0.049   10.8   0.0   2.0   2   0   0   2   2   2   1 -
+ENSMUSP00000096769   -          KOG0951              -             0.0033   14.7   0.0    0.0042   14.4   0.0   1.0   1   0   0   1   1   1   1 -
+ENSMUSP00000021097   -          KOG0951              -             0.0083   13.4   0.0      0.12    9.6   0.0   2.0   2   0   0   2   2   2   1 -
+ENSMUSP00000028259   -          KOG0951              -             0.0093   13.2   0.0     0.014   12.6   0.0   1.2   1   0   0   1   1   1   1 -
+ENSMUSP00000149620   -          KOG0951              -              0.011   13.1   1.9     0.033   11.4   0.1   1.9   2   0   0   2   2   2   0 -
+ENSMUSP00000044363   -          KOG0951              -              0.013   12.7   0.0      0.12    9.6   0.1   1.9   2   0   0   2   2   2   0 -
+ENSMUSP00000008004   -          KOG0951              -              0.044   11.0   0.0       0.1    9.8   0.0   1.6   2   0   0   2   2   2   0 -
+ENSMUSP00000033990   -          KOG0951              -               0.29    8.3   0.0      0.85    6.7   0.0   1.6   2   0   0   2   2   2   0 -
+ENSMUSP00000042691   -          KOG0951              -                0.3    8.2   0.0       1.4    6.1   0.0   1.8   2   0   0   2   2   2   0 -
+ENSMUSP00000058950   -          KOG0951              -               0.41    7.8   0.0      0.62    7.2   0.0   1.1   1   0   0   1   1   1   0 -
+ENSMUSP00000127034   -          KOG0951              -               0.44    7.7   0.0       2.8    5.0   0.0   1.8   2   0   0   2   2   2   0 -
+ENSMUSP00000026667   -          KOG0951              -                0.5    7.5   0.0      0.76    6.9   0.0   1.2   1   0   0   1   1   1   0 -
+ENSMUSP00000043676   -          KOG0951              -                0.6    7.2   0.0       1.1    6.3   0.0   1.3   1   0   0   1   1   1   0 -
+ENSMUSP00000144809   -          KOG0951              -               0.66    7.1   0.0       1.1    6.4   0.0   1.2   1   0   0   1   1   1   0 -
+ENSMUSP00000145194   -          KOG0951              -               0.69    7.0   0.0       1.1    6.4   0.0   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG040.strict.hmm
+# Target file:     Mus_musculus.GRCm38.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref040.Mus_musculus.GRCm38.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG040.strict.hmm Mus_musculus.GRCm38.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:22:19 2020
+# [ok]

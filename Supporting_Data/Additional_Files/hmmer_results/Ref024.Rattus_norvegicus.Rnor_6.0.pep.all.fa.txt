@@ -1,0 +1,28 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSRNOP00000073705   -          KOG2806              -           3.1e-192  638.7   0.0  3.9e-192  638.3   0.0   1.0   1   0   0   1   1   1   1 -
+ENSRNOP00000070204   -          KOG2806              -           3.3e-173  576.1   0.0  4.1e-173  575.8   0.0   1.0   1   0   0   1   1   1   1 -
+ENSRNOP00000074871   -          KOG2806              -           1.4e-172  574.0   0.0  1.7e-172  573.8   0.0   1.0   1   0   0   1   1   1   1 -
+ENSRNOP00000052819   -          KOG2806              -           1.8e-169  563.8   0.0  2.2e-169  563.5   0.0   1.0   1   0   0   1   1   1   1 -
+ENSRNOP00000052813   -          KOG2806              -           1.2e-167  557.8   0.5  1.4e-167  557.5   0.5   1.0   1   0   0   1   1   1   1 -
+ENSRNOP00000020972   -          KOG2806              -            6.9e-19   68.3   0.0     1e-18   67.7   0.0   1.1   1   0   0   1   1   1   1 -
+ENSRNOP00000048948   -          KOG2806              -               0.03   13.5   0.0      0.25   10.6   0.0   2.0   2   0   0   2   2   2   0 -
+ENSRNOP00000072589   -          KOG2806              -               0.03   13.5   0.0      0.25   10.6   0.0   2.0   2   0   0   2   2   2   0 -
+ENSRNOP00000062936   -          KOG2806              -               0.14   11.3   0.1      0.18   11.0   0.1   1.1   1   0   0   1   1   1   0 -
+ENSRNOP00000070777   -          KOG2806              -               0.27   10.4   0.0      0.43    9.7   0.0   1.2   1   0   0   1   1   1   0 -
+ENSRNOP00000070901   -          KOG2806              -               0.27   10.4   0.0      0.43    9.7   0.0   1.2   1   0   0   1   1   1   0 -
+ENSRNOP00000013608   -          KOG2806              -               0.27   10.4   0.0      0.44    9.7   0.0   1.2   1   0   0   1   1   1   0 -
+ENSRNOP00000046676   -          KOG2806              -                0.3   10.3   0.0      0.34   10.1   0.0   1.1   1   0   0   1   1   1   0 -
+ENSRNOP00000016947   -          KOG2806              -               0.37   10.0   0.0      0.57    9.4   0.0   1.2   1   0   0   1   1   1   0 -
+ENSRNOP00000061370   -          KOG2806              -               0.72    9.0   0.0      0.84    8.8   0.0   1.1   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG024.strict.hmm
+# Target file:     Rattus_norvegicus.Rnor_6.0.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref024.Rattus_norvegicus.Rnor_6.0.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG024.strict.hmm Rattus_norvegicus.Rnor_6.0.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:54:04 2020
+# [ok]

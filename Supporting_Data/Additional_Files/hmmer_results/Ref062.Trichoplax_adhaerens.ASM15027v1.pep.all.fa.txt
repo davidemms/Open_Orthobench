@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TriadP28123          -          NOG133129            -             0.0054   14.7   0.0    0.0096   13.9   0.0   1.3   1   0   0   1   1   1   1 -
+TriadP56416          -          NOG133129            -             0.0056   14.7   0.1    0.0069   14.4   0.1   1.1   1   0   0   1   1   1   1 -
+TriadP54966          -          NOG133129            -             0.0063   14.5   0.1    0.0079   14.2   0.1   1.2   1   0   0   1   1   1   1 -
+TriadP58127          -          NOG133129            -             0.0072   14.3   0.1    0.0075   14.3   0.1   1.1   1   0   0   1   1   1   1 -
+TriadP59271          -          NOG133129            -              0.011   13.8   0.1     0.022   12.7   0.1   1.5   1   0   0   1   1   1   0 -
+TriadP20071          -          NOG133129            -               0.14   10.0   0.1      0.17    9.8   0.1   1.0   1   0   0   1   1   1   0 -
+TriadP24037          -          NOG133129            -               0.28    9.1   0.1      0.49    8.3   0.1   1.3   1   0   0   1   1   1   0 -
+TriadP38221          -          NOG133129            -               0.36    8.7   0.0      0.39    8.6   0.0   1.1   1   0   0   1   1   1   0 -
+TriadP53493          -          NOG133129            -               0.63    7.9   0.4       1.1    7.1   0.4   1.3   1   0   0   1   1   1   0 -
+TriadP58522          -          NOG133129            -               0.66    7.8   0.6       5.8    4.7   0.0   2.4   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG062.strict.hmm
+# Target file:     Trichoplax_adhaerens.ASM15027v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref062.Trichoplax_adhaerens.ASM15027v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG062.strict.hmm Trichoplax_adhaerens.ASM15027v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:37:53 2020
+# [ok]

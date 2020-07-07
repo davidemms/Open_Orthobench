@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSRNOP00000052216   -          KOG4160              -              4e-44  151.2   4.9     4e-44  151.2   4.9   1.5   2   0   0   2   2   2   1 -
+ENSRNOP00000047586   -          KOG4160              -              2e-42  145.6   1.4     3e-42  145.1   1.4   1.2   1   0   0   1   1   1   1 -
+ENSRNOP00000038379   -          KOG4160              -            1.2e-36  126.8   1.0   2.2e-36  126.0   1.0   1.3   1   0   0   1   1   1   1 -
+ENSRNOP00000016431   -          KOG4160              -            2.3e-34  119.5   6.8   2.3e-34  119.5   6.8   1.5   2   0   0   2   2   1   1 -
+ENSRNOP00000052209   -          KOG4160              -              2e-32  113.1   0.1   7.4e-32  111.3   0.0   1.7   1   1   1   2   2   2   2 -
+ENSRNOP00000018581   -          KOG4160              -              6e-32  111.6   2.0   7.8e-32  111.2   2.0   1.1   1   0   0   1   1   1   1 -
+ENSRNOP00000020713   -          KOG4160              -            2.3e-30  106.5   0.4   2.9e-30  106.1   0.4   1.1   1   0   0   1   1   1   1 -
+ENSRNOP00000018512   -          KOG4160              -            1.3e-28  100.7   0.0   1.7e-28  100.4   0.0   1.1   1   0   0   1   1   1   1 -
+ENSRNOP00000017876   -          KOG4160              -            3.6e-21   76.5   0.0   4.4e-21   76.3   0.0   1.1   1   0   0   1   1   1   1 -
+ENSRNOP00000018226   -          KOG4160              -            1.1e-15   58.7   4.7   1.5e-15   58.3   4.7   1.2   1   0   0   1   1   1   1 -
+ENSRNOP00000049523   -          KOG4160              -            1.7e-12   48.4   0.4   3.2e-12   47.5   0.4   1.4   1   0   0   1   1   1   1 -
+ENSRNOP00000019787   -          KOG4160              -            4.2e-11   43.8   0.3   7.1e-11   43.1   0.3   1.3   1   0   0   1   1   1   1 -
+ENSRNOP00000022594   -          KOG4160              -            5.3e-07   30.5   0.3   9.3e-07   29.7   0.3   1.4   1   0   0   1   1   1   1 -
+ENSRNOP00000032123   -          KOG4160              -              5e-05   24.1   0.1     0.017   15.9   0.0   2.3   1   1   1   2   2   2   2 -
+ENSRNOP00000052212   -          KOG4160              -             0.0022   18.8   0.3    0.0028   18.4   0.3   1.1   1   0   0   1   1   1   1 -
+ENSRNOP00000067424   -          KOG4160              -             0.0025   18.5   3.9    0.0034   18.1   3.9   1.2   1   0   0   1   1   1   1 -
+ENSRNOP00000022185   -          KOG4160              -                0.3   11.8   3.2        14    6.4   0.1   3.1   2   0   0   2   2   2   0 -
+ENSRNOP00000040950   -          KOG4160              -               0.36   11.5   0.1      0.58   10.9   0.1   1.3   1   0   0   1   1   1   0 -
+ENSRNOP00000043044   -          KOG4160              -               0.72   10.6   0.0      0.91   10.2   0.0   1.1   1   0   0   1   1   1   0 -
+ENSRNOP00000056614   -          KOG4160              -               0.83   10.4   0.0   1.5e+02    3.0   0.1   2.9   2   2   1   3   3   3   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG011.strict.hmm
+# Target file:     Rattus_norvegicus.Rnor_6.0.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref011.Rattus_norvegicus.Rnor_6.0.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG011.strict.hmm Rattus_norvegicus.Rnor_6.0.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:27:08 2020
+# [ok]

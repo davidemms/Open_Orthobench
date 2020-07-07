@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSTNIP00000012844   -          NOG08919             -           1.8e-275  914.2   0.0    2e-275  914.1   0.0   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000008359   -          NOG08919             -           2.3e-206  686.2   0.0  2.5e-206  686.1   0.0   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000001461   -          NOG08919             -           1.6e-153  511.8   0.2  2.1e-153  511.4   0.2   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000014259   -          NOG08919             -           3.9e-149  497.4   0.8  3.4e-148  494.3   0.8   1.9   1   1   0   1   1   1   1 -
+ENSTNIP00000012049   -          NOG08919             -              0.018   13.4   1.9      0.39    9.0   0.8   2.0   2   0   0   2   2   2   0 -
+ENSTNIP00000004565   -          NOG08919             -               0.03   12.7   3.5      0.33    9.2   1.1   2.3   2   0   0   2   2   2   0 -
+ENSTNIP00000002572   -          NOG08919             -               0.21    9.9   8.8      0.12   10.7   6.0   1.9   1   1   2   3   3   3   0 -
+ENSTNIP00000011562   -          NOG08919             -               0.72    8.1   0.0      0.88    7.8   0.0   1.1   1   0   0   1   1   1   0 -
+ENSTNIP00000010139   -          NOG08919             -               0.99    7.7   0.1       1.5    7.1   0.1   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG054.strict.hmm
+# Target file:     Tetraodon_nigroviridis.TETRAODON8.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref054.Tetraodon_nigroviridis.TETRAODON8.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG054.strict.hmm Tetraodon_nigroviridis.TETRAODON8.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:30:24 2020
+# [ok]

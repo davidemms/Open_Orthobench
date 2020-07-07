@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EDO39068             -          KOG3511              -           5.8e-117  392.1   0.1  9.7e-117  391.3   0.1   1.3   1   0   0   1   1   1   1 -
+EDO45218             -          KOG3511              -            3.5e-34  118.7   2.0   3.3e-32  112.2   2.0   2.6   1   1   0   1   1   1   1 -
+EDO35926             -          KOG3511              -            4.6e-33  115.0   2.7   6.2e-33  114.6   2.7   1.1   1   0   0   1   1   1   1 -
+EDO26949             -          KOG3511              -            2.2e-05   23.6   0.3   6.9e-05   22.0   0.1   1.7   1   1   1   2   2   2   1 -
+EDO41879             -          KOG3511              -             0.0048   15.9   3.5    0.0065   15.5   0.6   2.3   2   1   1   3   3   3   1 -
+EDO27732             -          KOG3511              -              0.029   13.3   0.2      0.75    8.6   0.2   2.7   1   1   0   1   1   1   0 -
+EDO44191             -          KOG3511              -              0.092   11.7   0.1      0.12   11.2   0.1   1.1   1   0   0   1   1   1   0 -
+EDO26915             -          KOG3511              -               0.27   10.1   0.0      0.31    9.9   0.0   1.1   1   0   0   1   1   1   0 -
+EDO39428             -          KOG3511              -               0.42    9.5   2.1       0.5    9.2   2.1   1.1   1   0   0   1   1   1   0 -
+EDO26344             -          KOG3511              -               0.46    9.4   0.0      0.46    9.4   0.0   1.1   1   0   0   1   1   1   0 -
+EDO45773             -          KOG3511              -               0.64    8.9   0.0      0.86    8.5   0.0   1.2   1   0   0   1   1   1   0 -
+EDO44923             -          KOG3511              -               0.67    8.8   1.8      0.82    8.5   1.6   1.2   1   1   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG052.strict.hmm
+# Target file:     Nematostella_vectensis.ASM20922v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref052.Nematostella_vectensis.ASM20922v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG052.strict.hmm Nematostella_vectensis.ASM20922v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:28:50 2020
+# [ok]

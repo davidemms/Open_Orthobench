@@ -1,0 +1,29 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EDO37104             -          NOG43394             -            7.6e-07   29.4   1.2     1e-06   29.0   1.2   1.2   1   0   0   1   1   1   1 -
+EDO49995             -          NOG43394             -             0.0003   20.9  10.0   0.00048   20.3  10.0   1.4   1   1   0   1   1   1   1 -
+EDO34639             -          NOG43394             -            0.00081   19.5   0.9       0.5   10.4   0.1   2.3   2   0   0   2   2   2   2 -
+EDO32906             -          NOG43394             -             0.0009   19.4   1.0    0.0009   19.4   1.0   1.5   2   0   0   2   2   2   1 -
+EDO26369             -          NOG43394             -              0.015   15.4   0.2      0.02   15.0   0.2   1.3   1   0   0   1   1   1   0 -
+EDO30698             -          NOG43394             -              0.073   13.2   1.1        65    3.5   0.1   4.7   1   1   2   3   3   3   0 -
+EDO45284             -          NOG43394             -              0.096   12.8   0.1       1.3    9.0   0.0   2.4   2   0   0   2   2   2   0 -
+EDO30767             -          NOG43394             -                0.1   12.7   0.1      0.38   10.8   0.1   2.0   1   0   0   1   1   1   0 -
+EDO41959             -          NOG43394             -               0.24   11.5   0.4      0.72    9.9   0.4   1.8   1   0   0   1   1   1   0 -
+EDO43030             -          NOG43394             -               0.28   11.3   2.0      0.31   11.1   2.0   1.1   1   0   0   1   1   1   0 -
+EDO35917             -          NOG43394             -               0.36   10.9   2.6      0.44   10.6   1.6   1.7   1   1   0   1   1   1   0 -
+EDO35285             -          NOG43394             -               0.51   10.4   1.7        32    4.5   0.1   2.6   3   0   0   3   3   3   0 -
+EDO47616             -          NOG43394             -               0.51   10.4   5.1      0.79    9.8   5.1   1.3   1   0   0   1   1   1   0 -
+EDO26546             -          NOG43394             -                0.6   10.2   2.1         8    6.5   0.4   2.4   1   1   1   2   2   2   0 -
+EDO30915             -          NOG43394             -               0.62   10.1   2.5      0.75    9.8   0.1   2.2   2   0   0   2   2   2   0 -
+EDO35694             -          NOG43394             -               0.72    9.9   7.2      0.33   11.0   1.3   2.1   1   1   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG060.strict.hmm
+# Target file:     Nematostella_vectensis.ASM20922v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref060.Nematostella_vectensis.ASM20922v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG060.strict.hmm Nematostella_vectensis.ASM20922v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:35:01 2020
+# [ok]

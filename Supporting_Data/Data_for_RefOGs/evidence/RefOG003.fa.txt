@@ -1,0 +1,32 @@
+RefOG is rooted on a gene from Hydra magnipapillata.
+
+The RefOG tree is troubling since the poorest hit of the hmmer profile for any gene in the tree was 1.8e-25 whereas there are 1453 genes in the new study which are as good a match to the profile as this. The RefOG tree only contains 99 genes.
+
+1st newly inferred tree
+=======================
+A first attempt at a new tree for the orthgroup contained 250 genes. It shows that there are two clades from the original orthogroup that are separated by a large distance and a large number of other clades within the larger gene family. This shows clearly a number of bilaterian orthogroups that are homologous to the target orthogroup, but the resolution of the status of the target orthogroup is not entirely clear. To ensure that there are no false positives (genes missing from the tree that should be included) a new tree has been inferred with all 1453 genes with as good a hit as the poorest match to the hmm profile from the original tree. This should ensure that all relevant clades are captured in their entirety and so will allow for a clearer interpretation of the target orthogroup. If the orthogroup is of a still larger extent then a larger tree can be inferred.
+
+Second tree
+===========
+Clade A
+-------
+The second tree contains the genes from the wider gene family. It shows that the suggested RefOG from the previous study come from two very separate orthogroups and a few genes from elsewhere within the gene family. The true bilaterian-orthogroup containing Homo_sapiens_ENSP00000419199 (Clade A) appears to be the best fit to the profile used to search for members of the orthogroup. Approximately 50% of its members are genes indentified in the previous study. It is well-defined by the new gene tree and contains four clades originating from duplications in the MRCA of the vertebrates and stretches back to representatives in C. elegans. It has 84% bootstrap support in the FastTree tree.
+
+Clade B
+-------
+The tree also shows the second clade that contains genes identified in the previous study, e.g Homo_sapiens_ENSP00000350331. It is made up of two clades which originated at a duplication at the base of the Dueterostomes. It appears to have had at least one or two duplications at the same location. The presence of C. elgans and Drosophila genes in the orthogroup is not clear from an initial FastTree tree, and the full maximum likelihood tree will be required.
+
+The RefOG was built around COG0666, Ankyrin repeat and SOCS box-containing (ASB) family of proteins. This appears to be defined based on a family of genes within the Fungi, if so it may be that neither of the two clades from the original study is closer to the COG than the other, or one may be more closely related to COG0666 than the other.
+
+A number of analyses were performed that were not ultimately successful.
+
+Reanalysis
+==========
+A reanalysis of this RefOG was performed. A new hmm profile was built around 48 genes from the clade identified as clearly part of the orthogroup in the previous analyses (Clade A, with human genes: ENSP00000499751, ENSP00000397655, ENSP00000419199, ENSP00000451575 & ENSP00000480388). There were a very large number of good hits. An e-value cut-off of 10^-40 was chosen for a tentative first tree to see if it appeared likely to contain all genes which could potentially belong to the orthogroup. This produced 689 hits. These were aligned with mafft linisi, trimmed of columns with greater than 75% gaps and a tree was inferred using iqtree. The tree (v3) was rooted on 
+metazoan-level orthogroup that was distant in the tree from the genes of interest. The target RefOG appeared relatively clear in this tree. There were a number of duplications near the base of the dueterostomes and an outgroup gene (Mnemiopsis_leidyi_ML358816a-PA) at the base of the bilaterian orthogroup with 99% bootstrap support containing approximately 52 genes.
+
+The pattern of e-values for the hits in the tree was was initially unexpected. All genes in the bilaterian orthogorup had e-values for their hits mostly between 1e-170 and 1e-260. The hit for the outgroup gene was 1e-63 and for the sister orthogroup most hits were around 1e-45. So far this is as would be expected. However, there were three further clades throughout the tree (but at some distance) with e-values around 1e-170. This was explained by examination of the MSA. Genes with poorer hits had lost most of the sequence after approximately column 590 in the trimmed MSA, those with better hits had not. This explained the apparently distant clades that had been included in the RefOG from the original study to the exclusion of many genes more closely related in the tree. These genes had scored good hits whereas the more closely related genes had been missed in the search phase because of the lower hits due to part of the gene sequence having been lost. The loss of this part of the gene sequence appears to result in an e-value of around 1e-50.
+
+To ensure no true members of the bilaterian orthogroup had been lost due to the e-value cut-off an second tree was inferred with a cut-off of 1e-20, producing 1651 hits. It was aligned with mafft and trimmed of columns with greater than 75% gaps and a tree was inferred using IQTREE. In this tree (v4) no new genes were placed in the clade of interest in this tree. This RefOG is, however, the least certain of the 70. In the new tree there is an extra clade that could arguably be part of the RefOG according to the tree (containing ENSP00000468354). However, this clade was placed elsewhere in the v2 tree. It is hard to have confidence in the placement of the various clades in the tree of 1651 genes and so the RefOG accoriding to v2 will be used. The v3 tree was, however, useful in determining that no genes had been missed from *within* these clades. The exact membership of this orthogroup has only been established with low confidence.
+
+

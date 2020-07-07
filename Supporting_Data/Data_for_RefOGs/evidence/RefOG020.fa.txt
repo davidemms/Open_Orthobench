@@ -1,0 +1,5 @@
+The RefOG has been rooted on a Nematostella gene. The tree suggests it may contain a duplication prior to the divergence of the Protostomes and Deuterostomes, in which case it would contain two orthogroups. Note, there are two copies for C. elegans and two vertebrate clades likely descended from this duplication.
+
+The newly inferred tree (v1) contains the wider Metazoan orthogroup within it's wider gene family. It has been rooted at the base of this Metazoan orthogroup. Using the tree to select the cut-off (rather than an e-value/bit score from hmmer) a new alignment and tree has been inferred on just the sequences from this Metazoan orthogroup. This tree (v2) shows that these two clades are separate bilaterian orthogroups with one clade containing representatives from the vertebrates C. elegans & Drosophila and the second clade containing genes from the vertebrates & C. elegans. As an aside, the wider tree actually appears to contain two Metazoan orthogroups and has been rooted as such, on the ancient duplication separating them.
+
+The orthogroup containing Homo_sapiens_ENSP00000353654 has been arbitrarily taken as the target orthogroup.

@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BL96886_cuf4         -          NOG133129            -             0.0003   20.5   0.0   0.00031   20.4   0.0   1.1   1   0   0   1   1   1   1 -
+BL96887_cuf5         -          NOG133129            -            0.00067   19.3   0.0   0.00079   19.1   0.0   1.1   1   0   0   1   1   1   1 -
+BL95645_evm2         -          NOG133129            -             0.0016   18.1   0.0    0.0024   17.5   0.0   1.4   1   0   0   1   1   1   1 -
+BL70670_cuf4         -          NOG133129            -             0.0038   16.9   0.0    0.0043   16.7   0.0   1.1   1   0   0   1   1   1   1 -
+BL22408_evm0         -          NOG133129            -              0.088   12.4   0.1     0.088   12.4   0.1   1.0   1   0   0   1   1   1   0 -
+BL18374_evm0         -          NOG133129            -               0.12   11.9   0.0      0.12   11.9   0.0   1.1   1   0   0   1   1   1   0 -
+BL33749_cuf6         -          NOG133129            -               0.22   11.0   0.5        13    5.2   0.3   2.1   2   0   0   2   2   2   0 -
+BL17280_cuf3         -          NOG133129            -               0.42   10.1   0.3       2.3    7.7   0.1   1.9   2   0   0   2   2   2   0 -
+BL10528_evm0         -          NOG133129            -               0.57    9.7   0.1      0.81    9.2   0.1   1.1   1   0   0   1   1   1   0 -
+BL23615_evm0         -          NOG133129            -               0.66    9.5   0.1       0.9    9.0   0.1   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG062.strict.hmm
+# Target file:     Branchiostoma_lanceolatum.BraLan2.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref062.Branchiostoma_lanceolatum.BraLan2.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG062.strict.hmm Branchiostoma_lanceolatum.BraLan2.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:37:33 2020
+# [ok]

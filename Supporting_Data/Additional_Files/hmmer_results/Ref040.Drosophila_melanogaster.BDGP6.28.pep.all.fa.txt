@@ -1,0 +1,37 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FBpp0082601          -          KOG0951              -                  0 3222.4   6.4         0 3222.2   6.4   1.0   1   0   0   1   1   1   1 -
+FBpp0075282          -          KOG0951              -                  0 1770.3  11.4         0 1765.7  11.4   2.0   1   1   0   1   1   1   1 -
+FBpp0080319          -          KOG0951              -            2.1e-30  104.2   0.1   3.7e-17   60.3   0.0   2.1   2   0   0   2   2   2   2 -
+FBpp0082131          -          KOG0951              -            1.2e-29  101.7   0.0   7.1e-29   99.1   0.0   1.8   1   1   0   1   1   1   1 -
+FBpp0083853          -          KOG0951              -            4.1e-27   93.3   0.1   5.6e-16   56.4   0.0   2.1   2   0   0   2   2   2   2 -
+FBpp0076412          -          KOG0951              -            1.3e-23   81.7   0.0   5.3e-23   79.6   0.0   1.7   1   1   0   1   1   1   1 -
+FBpp0076558          -          KOG0951              -            7.9e-08   29.3   1.5   0.00049   16.8   0.5   2.0   2   0   0   2   2   2   2 -
+FBpp0083508          -          KOG0951              -            3.6e-05   20.5   0.0   5.3e-05   20.0   0.0   1.1   1   0   0   1   1   1   1 -
+FBpp0073828          -          KOG0951              -            0.00018   18.2   0.0    0.0012   15.5   0.0   2.0   2   0   0   2   2   2   1 -
+FBpp0074936          -          KOG0951              -             0.0007   16.3   0.0       0.1    9.1   0.0   2.1   2   0   0   2   2   2   2 -
+FBpp0079565          -          KOG0951              -             0.0012   15.5   0.9     0.027   11.0   0.1   2.0   2   0   0   2   2   2   2 -
+FBpp0077674          -          KOG0951              -             0.0014   15.3   0.7    0.0019   14.8   0.7   1.1   1   0   0   1   1   1   1 -
+FBpp0303628          -          KOG0951              -             0.0028   14.2   0.0     0.031   10.8   0.0   1.9   2   0   0   2   2   2   1 -
+FBpp0086061          -          KOG0951              -              0.013   12.0   0.0     0.019   11.5   0.0   1.1   1   0   0   1   1   1   0 -
+FBpp0306223          -          KOG0951              -              0.014   11.9   0.0       1.1    5.6   0.0   2.1   2   0   0   2   2   2   0 -
+FBpp0075458          -          KOG0951              -               0.11    9.0   0.0       1.4    5.3   0.0   2.0   2   0   0   2   2   2   0 -
+FBpp0072475          -          KOG0951              -               0.14    8.6   0.0       1.5    5.2   0.0   2.0   2   0   0   2   2   2   0 -
+FBpp0081910          -          KOG0951              -               0.23    7.9   0.0       5.1    3.4   0.0   2.1   2   0   0   2   2   2   0 -
+FBpp0075106          -          KOG0951              -               0.28    7.6   3.2      0.13    8.7   0.0   2.0   3   0   0   3   3   3   0 -
+FBpp0310396          -          KOG0951              -               0.33    7.4   0.1      0.45    6.9   0.1   1.1   1   0   0   1   1   1   0 -
+FBpp0087527          -          KOG0951              -               0.34    7.4   3.6      0.37    7.2   3.6   1.0   1   0   0   1   1   1   0 -
+FBpp0076452          -          KOG0951              -               0.41    7.1   0.0      0.87    6.0   0.0   1.4   2   0   0   2   2   2   0 -
+FBpp0081355          -          KOG0951              -               0.51    6.8   0.0       5.1    3.4   0.0   2.0   2   0   0   2   2   2   0 -
+FBpp0073836          -          KOG0951              -                0.9    5.9   3.8       1.1    5.6   3.8   1.0   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG040.strict.hmm
+# Target file:     Drosophila_melanogaster.BDGP6.28.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref040.Drosophila_melanogaster.BDGP6.28.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG040.strict.hmm Drosophila_melanogaster.BDGP6.28.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:19:23 2020
+# [ok]

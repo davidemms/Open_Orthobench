@@ -1,0 +1,27 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSCINP00000000728   -          KOG2612              -            7.8e-83  277.0   8.3   9.1e-83  276.8   8.3   1.0   1   0   0   1   1   1   1 -
+ENSCINP00000034039   -          KOG2612              -              0.058   13.0   0.0      0.13   11.9   0.0   1.5   1   0   0   1   1   1   0 -
+ENSCINP00000033618   -          KOG2612              -               0.08   12.5   2.2       1.3    8.6   0.2   2.0   2   0   0   2   2   2   0 -
+ENSCINP00000026821   -          KOG2612              -              0.081   12.5   7.7      0.15   11.6   7.7   1.5   1   1   0   1   1   1   0 -
+ENSCINP00000035733   -          KOG2612              -               0.35   10.4   0.2      0.34   10.5   0.2   1.1   1   0   0   1   1   1   0 -
+ENSCINP00000017699   -          KOG2612              -               0.41   10.2   1.9      0.59    9.7   1.9   1.2   1   0   0   1   1   1   0 -
+ENSCINP00000033219   -          KOG2612              -               0.44   10.1   0.0      0.61    9.6   0.0   1.3   1   0   0   1   1   1   0 -
+ENSCINP00000032821   -          KOG2612              -               0.46   10.0   0.0      0.46   10.0   0.0   1.1   1   0   0   1   1   1   0 -
+ENSCINP00000011943   -          KOG2612              -               0.49    9.9   0.6      0.48   10.0   0.6   1.1   1   0   0   1   1   1   0 -
+ENSCINP00000003937   -          KOG2612              -               0.62    9.6   0.2         1    8.9   0.2   1.3   1   1   0   1   1   1   0 -
+ENSCINP00000017628   -          KOG2612              -               0.62    9.6   0.9       1.1    8.8   0.9   1.3   1   0   0   1   1   1   0 -
+ENSCINP00000004958   -          KOG2612              -               0.73    9.4   2.1      0.88    9.1   2.1   1.2   1   0   0   1   1   1   0 -
+ENSCINP00000026231   -          KOG2612              -               0.95    9.0   6.0      0.94    9.0   5.4   1.3   1   1   0   1   1   1   0 -
+ENSCINP00000027338   -          KOG2612              -               0.95    9.0   6.0      0.94    9.0   5.4   1.3   1   1   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG029.strict.hmm
+# Target file:     Ciona_intestinalis.KH.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref029.Ciona_intestinalis.KH.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG029.strict.hmm Ciona_intestinalis.KH.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:59:04 2020
+# [ok]

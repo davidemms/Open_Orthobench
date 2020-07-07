@@ -1,0 +1,35 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BL23420_cuf0         -          NOG43394             -            4.8e-54  183.9   1.2   5.9e-54  183.6   1.2   1.1   1   0   0   1   1   1   1 -
+BL02025_evm0         -          NOG43394             -            9.3e-10   39.4   9.2   5.1e-09   37.0   9.3   1.8   1   1   0   1   1   1   1 -
+BL23422_cuf3         -          NOG43394             -            1.7e-08   35.3   0.0   2.5e-08   34.8   0.0   1.2   1   0   0   1   1   1   1 -
+BL08102_cuf0         -          NOG43394             -            9.3e-08   32.9   5.6   2.5e-07   31.5   5.6   1.7   1   1   0   1   1   1   1 -
+BL11038_evm7         -          NOG43394             -            4.1e-06   27.6   3.1   4.6e-05   24.1   3.1   2.0   1   1   0   1   1   1   1 -
+BL05428_evm0         -          NOG43394             -            2.8e-05   24.8  12.9   0.00027   21.6  12.9   2.2   1   1   0   1   1   1   1 -
+BL08236_evm1         -          NOG43394             -            4.7e-05   24.1   2.3   0.00011   22.8   2.3   1.5   1   1   0   1   1   1   1 -
+BL95139_evm1         -          NOG43394             -            7.5e-05   23.4   0.9   9.6e-05   23.1   0.9   1.1   1   0   0   1   1   1   1 -
+BL17582_evm0         -          NOG43394             -            0.00027   21.6   2.2    0.0003   21.5   2.2   1.1   1   0   0   1   1   1   1 -
+BL95140_evm0         -          NOG43394             -             0.0027   18.4  11.3     0.037   14.6  11.3   2.1   1   1   0   1   1   1   1 -
+BL03245_evm3         -          NOG43394             -             0.0098   16.5  11.4     0.037   14.6  11.4   1.8   1   1   0   1   1   1   1 -
+BL12349_evm0         -          NOG43394             -              0.034   14.8  16.4      0.59   10.7  16.4   2.7   1   1   0   1   1   1   0 -
+BL20666_evm0         -          NOG43394             -               0.16   12.5   1.7       0.2   12.3   1.7   1.1   1   0   0   1   1   1   0 -
+BL03320_cuf4         -          NOG43394             -               0.29   11.7   0.2      0.61   10.7   0.0   1.6   2   0   0   2   2   2   0 -
+BL20497_evm0         -          NOG43394             -               0.39   11.3   0.0      0.44   11.1   0.0   1.1   1   0   0   1   1   1   0 -
+BL27326_evm0         -          NOG43394             -               0.41   11.2   0.0      0.44   11.1   0.0   1.2   1   0   0   1   1   1   0 -
+BL27501_evm0         -          NOG43394             -               0.49   11.0   1.2      0.58   10.7   1.2   1.3   1   1   0   1   1   1   0 -
+BL02681_evm0         -          NOG43394             -               0.54   10.8   9.4       1.6    9.3   1.4   2.5   1   1   1   2   2   2   0 -
+BL77341_cuf3         -          NOG43394             -               0.56   10.8   0.2      0.79   10.3   0.2   1.2   1   0   0   1   1   1   0 -
+BL08618_evm0         -          NOG43394             -                0.7   10.5   3.1       1.3    9.6   3.1   1.4   1   0   0   1   1   1   0 -
+BL29282_evm0         -          NOG43394             -               0.77   10.3   1.5        28    5.2   0.0   2.3   1   1   1   2   2   2   0 -
+BL06556_evm0         -          NOG43394             -               0.84   10.2  10.8      0.99   10.0   0.4   2.9   1   1   1   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG060.strict.hmm
+# Target file:     Branchiostoma_lanceolatum.BraLan2.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref060.Branchiostoma_lanceolatum.BraLan2.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG060.strict.hmm Branchiostoma_lanceolatum.BraLan2.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:34:08 2020
+# [ok]

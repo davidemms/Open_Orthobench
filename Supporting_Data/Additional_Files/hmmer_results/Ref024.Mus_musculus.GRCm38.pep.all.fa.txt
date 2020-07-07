@@ -1,0 +1,28 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSMUSP00000078134   -          KOG2806              -           3.5e-191  635.3   0.0  4.4e-191  634.9   0.0   1.0   1   0   0   1   1   1   1 -
+ENSMUSP00000000573   -          KOG2806              -           7.4e-174  578.2   0.0  1.3e-173  577.5   0.0   1.3   1   0   0   1   1   1   1 -
+ENSMUSP00000123979   -          KOG2806              -           2.1e-172  573.5   0.0  2.5e-172  573.2   0.0   1.0   1   0   0   1   1   1   1 -
+ENSMUSP00000142477   -          KOG2806              -           5.2e-172  572.2   0.0  7.7e-172  571.6   0.0   1.2   1   0   0   1   1   1   1 -
+ENSMUSP00000053923   -          KOG2806              -             2e-171  570.2   0.0  2.5e-171  569.9   0.0   1.0   1   0   0   1   1   1   1 -
+ENSMUSP00000080851   -          KOG2806              -           2.6e-169  563.3   0.0  3.2e-169  563.0   0.0   1.0   1   0   0   1   1   1   1 -
+ENSMUSP00000029510   -          KOG2806              -           6.4e-169  562.0   0.3    8e-169  561.7   0.3   1.0   1   0   0   1   1   1   1 -
+ENSMUSP00000080717   -          KOG2806              -             2e-166  553.8   0.2  2.4e-166  553.6   0.2   1.0   1   0   0   1   1   1   1 -
+ENSMUSP00000059167   -          KOG2806              -            5.7e-20   71.9   0.4     8e-20   71.4   0.4   1.1   1   0   0   1   1   1   1 -
+ENSMUSP00000130360   -          KOG2806              -            0.00012   21.5   0.0    0.0002   20.8   0.0   1.2   1   0   0   1   1   1   1 -
+ENSMUSP00000042457   -          KOG2806              -               0.28   10.4   0.0      0.45    9.7   0.0   1.2   1   0   0   1   1   1   0 -
+ENSMUSP00000054556   -          KOG2806              -               0.38   10.0   0.0      0.58    9.4   0.0   1.2   1   0   0   1   1   1   0 -
+ENSMUSP00000080641   -          KOG2806              -               0.53    9.5   0.0      0.62    9.3   0.0   1.1   1   0   0   1   1   1   0 -
+ENSMUSP00000001963   -          KOG2806              -               0.93    8.7   0.0        22    4.2   0.0   2.2   2   0   0   2   2   2   0 -
+ENSMUSP00000143684   -          KOG2806              -               0.96    8.6   0.0       1.1    8.4   0.0   1.1   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG024.strict.hmm
+# Target file:     Mus_musculus.GRCm38.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref024.Mus_musculus.GRCm38.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG024.strict.hmm Mus_musculus.GRCm38.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:53:42 2020
+# [ok]

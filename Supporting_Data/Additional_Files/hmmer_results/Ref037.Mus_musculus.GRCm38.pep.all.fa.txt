@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSMUSP00000044903   -          NOG149771            -                  0 1041.6  78.9         0 1041.6  78.9   2.1   2   0   0   2   2   1   1 -
+ENSMUSP00000128308   -          NOG149771            -                  0 1025.9 102.2         0 1024.0 102.2   1.8   1   1   0   1   1   1   1 -
+ENSMUSP00000003659   -          NOG149771            -                  0 1012.8  77.2         0 1011.4  77.2   1.5   1   1   0   1   1   1   1 -
+ENSMUSP00000022213   -          NOG149771            -                  0 1012.2  83.1         0 1009.9  83.1   1.7   1   1   0   1   1   1   1 -
+ENSMUSP00000029682   -          NOG149771            -           2.2e-301 1001.1  66.1  3.8e-301 1000.3  65.5   1.4   1   1   0   1   1   1   1 -
+ENSMUSP00000083971   -          NOG149771            -            8.9e-05   21.6  68.1    0.0069   15.4  20.6   4.4   1   1   3   4   4   4   4 -
+ENSMUSP00000089009   -          NOG149771            -            0.00015   20.9  32.2   0.00015   20.9  32.2   3.4   1   1   2   3   3   2   2 -
+ENSMUSP00000075240   -          NOG149771            -              0.002   17.2  13.1     0.002   17.2  13.1   2.3   2   0   0   2   2   2   1 -
+ENSMUSP00000046199   -          NOG149771            -              0.003   16.6   5.7     0.003   16.6   5.7  14.3   4   4   8  12  12   7   4 -
+ENSMUSP00000145311   -          NOG149771            -             0.0031   16.5   4.0    0.0031   16.5   4.0   5.1   2   2   2   4   4   1   1 -
+ENSMUSP00000000412   -          NOG149771            -             0.0041   16.2  26.2    0.0041   16.2  26.2   2.5   1   1   1   2   2   1   1 -
+ENSMUSP00000005532   -          NOG149771            -             0.0098   14.9  48.7     0.039   12.9  16.7   4.4   2   1   2   4   4   4   3 -
+ENSMUSP00000105953   -          NOG149771            -              0.012   14.7  37.0     0.013   14.5  21.5   2.1   1   1   1   2   2   2   0 -
+ENSMUSP00000078374   -          NOG149771            -              0.089   11.7  20.0      0.76    8.7   0.9   3.1   1   1   2   3   3   3   0 -
+ENSMUSP00000002412   -          NOG149771            -               0.15   11.0   2.5      0.27   10.2   2.5   1.4   1   0   0   1   1   1   0 -
+ENSMUSP00000025363   -          NOG149771            -                0.3   10.0   0.4      0.37    9.7   0.4   1.0   1   0   0   1   1   1   0 -
+ENSMUSP00000088491   -          NOG149771            -               0.36    9.7   0.3      0.44    9.5   0.3   1.1   1   0   0   1   1   1   0 -
+ENSMUSP00000131426   -          NOG149771            -               0.42    9.5   0.3      0.62    9.0   0.3   1.2   1   0   0   1   1   1   0 -
+ENSMUSP00000131583   -          NOG149771            -               0.75    8.7   0.5      0.98    8.3   0.5   1.1   1   0   0   1   1   1   0 -
+ENSMUSP00000096876   -          NOG149771            -               0.92    8.4  40.1        45    2.8  40.1   2.3   1   1   0   1   1   1   0 -
+ENSMUSP00000022340   -          NOG149771            -               0.92    8.4  51.9     0.012   14.6   8.1   4.5   2   1   2   4   4   4   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG037.strict.hmm
+# Target file:     Mus_musculus.GRCm38.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref037.Mus_musculus.GRCm38.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG037.strict.hmm Mus_musculus.GRCm38.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:09:11 2020
+# [ok]

@@ -1,0 +1,27 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSPTRP00000045717   -          NOG133129            -           1.1e-268  892.0   2.6  1.3e-268  891.8   2.6   1.1   1   0   0   1   1   1   1 -
+ENSPTRP00000030230   -          NOG133129            -             0.0022   17.1   0.1    0.0078   15.2   0.0   1.6   1   1   0   2   2   2   1 -
+ENSPTRP00000082975   -          NOG133129            -             0.0048   15.9   0.0    0.0053   15.8   0.0   1.1   1   0   0   1   1   1   1 -
+ENSPTRP00000024244   -          NOG133129            -              0.027   13.4   0.0     0.044   12.7   0.0   1.2   1   0   0   1   1   1   0 -
+ENSPTRP00000039474   -          NOG133129            -              0.053   12.5   0.6       1.9    7.4   0.0   2.7   3   0   0   3   3   3   0 -
+ENSPTRP00000023263   -          NOG133129            -               0.12   11.3   1.1      0.16   10.9   1.1   1.1   1   0   0   1   1   1   0 -
+ENSPTRP00000001718   -          NOG133129            -               0.15   11.0   0.0       6.7    5.5   0.0   2.3   2   0   0   2   2   2   0 -
+ENSPTRP00000063925   -          NOG133129            -               0.23   10.3   0.2      0.29   10.0   0.2   1.2   1   0   0   1   1   1   0 -
+ENSPTRP00000074326   -          NOG133129            -               0.31   10.0   0.6      0.41    9.6   0.4   1.3   1   1   0   1   1   1   0 -
+ENSPTRP00000085305   -          NOG133129            -               0.42    9.5   0.2      0.65    8.9   0.2   1.4   1   0   0   1   1   1   0 -
+ENSPTRP00000077290   -          NOG133129            -               0.56    9.1   0.2       0.6    9.0   0.2   1.0   1   0   0   1   1   1   0 -
+ENSPTRP00000082402   -          NOG133129            -               0.64    8.9   0.2      0.76    8.7   0.2   1.1   1   0   0   1   1   1   0 -
+ENSPTRP00000031239   -          NOG133129            -               0.72    8.7   0.0      0.85    8.5   0.0   1.1   1   0   0   1   1   1   0 -
+ENSPTRP00000037562   -          NOG133129            -               0.87    8.5   0.0       1.2    8.0   0.0   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG062.strict.hmm
+# Target file:     Pan_troglodytes.Pan_tro_3.0.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref062.Pan_troglodytes.Pan_tro_3.0.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG062.strict.hmm Pan_troglodytes.Pan_tro_3.0.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:38:10 2020
+# [ok]

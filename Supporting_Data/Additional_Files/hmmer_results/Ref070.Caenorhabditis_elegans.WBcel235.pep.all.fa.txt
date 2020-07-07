@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WBGene00001834.1     -          COG0123              -             1e-181  604.4   0.5  1.3e-181  604.1   0.5   1.0   1   0   0   1   1   1   1 -
+WBGene00001836.1     -          COG0123              -           7.1e-179  595.1   3.4  8.3e-179  594.9   3.4   1.0   1   0   0   1   1   1   1 -
+WBGene00001835.1     -          COG0123              -           2.3e-148  494.6   0.1    3e-148  494.2   0.1   1.0   1   0   0   1   1   1   1 -
+WBGene00018319.1     -          COG0123              -            5.9e-44  150.7   0.7   4.4e-22   78.7   0.0   2.2   2   0   0   2   2   2   2 -
+WBGene00001837.1     -          COG0123              -            1.9e-23   83.2   2.0     4e-23   82.1   0.2   1.9   2   0   0   2   2   2   1 -
+WBGene00001838.1     -          COG0123              -            3.1e-19   69.3   0.0   4.2e-19   68.9   0.0   1.1   1   0   0   1   1   1   1 -
+WBGene00007953.1     -          COG0123              -            2.8e-12   46.4   0.7   4.2e-12   45.8   0.7   1.4   1   1   0   1   1   1   1 -
+WBGene00009663.1     -          COG0123              -            7.6e-09   35.1   0.6   1.1e-08   34.6   0.6   1.2   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG070.strict.hmm
+# Target file:     Caenorhabditis_elegans.WBcel235.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref070.Caenorhabditis_elegans.WBcel235.pep.all.fa.txt --noali -E 0.001 --max --cpu 2 ../../profiles/RefOG070.strict.hmm Caenorhabditis_elegans.WBcel235.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 18 14:44:07 2020
+# [ok]

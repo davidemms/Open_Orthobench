@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Smp_002080           -          COG0192              -           9.6e-170  563.6   0.3  1.1e-169  563.5   0.3   1.0   1   0   0   1   1   1   1 -
+Smp_081030           -          COG0192              -              0.087   10.8   0.0     0.098   10.6   0.0   1.0   1   0   0   1   1   1   0 -
+Smp_151370           -          COG0192              -               0.22    9.5   0.0      0.26    9.2   0.0   1.0   1   0   0   1   1   1   0 -
+Smp_154190           -          COG0192              -               0.59    8.1   0.0      0.63    8.0   0.0   1.1   1   0   0   1   1   1   0 -
+Smp_169830           -          COG0192              -               0.74    7.7   0.0      0.91    7.4   0.0   1.1   1   0   0   1   1   1   0 -
+Smp_141240           -          COG0192              -                0.9    7.4   0.1       2.8    5.8   0.1   1.6   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG047.strict.hmm
+# Target file:     Schistosoma_mansoni.ASM23792v2.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref047.Schistosoma_mansoni.ASM23792v2.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG047.strict.hmm Schistosoma_mansoni.ASM23792v2.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:25:31 2020
+# [ok]

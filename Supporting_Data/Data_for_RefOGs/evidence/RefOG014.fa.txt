@@ -1,0 +1,11 @@
+RefOG tree is unrooted. It has been rooted on the branch separating the Danio and Tetraodon genes from the remaining vertebrate genes. There are no ealier branches.
+
+The tree for the default search appeared incomplete and so a wider search with a less stringent e-value cut-off was used. 
+
+Inferred tree v1:
+The tree contains a clear clade, more ancient than the target orthogroup and the tree additionally contains some more distantly related or false postive genes. A new tree will be inferred on the clade of interest. The tree shows a sub-clade of 20 Human and Chimp genes containing Homo_sapiens_ENSP00000477979 which will be excluded from the new tree as spurious hits. They have less good hits to the hmm profile, but this decision is with low certainty.
+
+Inferred tree 2:
+The new tree has been inferred and rooted on Nematostella_vectensis_EDO31099, the earliest diverging gene in the clade. The new tree shows a number of new genes within the tetrapods that are clearly members of the orthogroup and were either missed in the earlier study or are new gene models. The tree shows two clades that duplicated before the root of the orthogroup. The placement of the duplication before the orthogroup rather than within it is with low confidence since the only evidence is the positioning of a single Drosophila gene within one of these post-duplication clades but with only 24% bootstrap support. This is also the most conservative interpretaion since it agrees with the previous study. No genes have changed position with respect to the orthogroup between the two trees.
+
+Revisiting the clade of 20 Pan & Homo genes: Re-examining the original tree, there is no good reason to exclude these genes. Their placement suggests that they are a divergent clade that originated from within the orthogroup. The alignment clearly has enough phylogenetically informative columns with which to place these genes and they are also clearly homologous to the target orthogroup (also confirmed by profile search: e-value of ~ 1e-46). As before, this is not with certainty. As a result, a file is included listing both genes that are in the orthogroup but with low certainty (Homo/Pan clade) and genes which have been excluded from the orthogroup with low certainty.

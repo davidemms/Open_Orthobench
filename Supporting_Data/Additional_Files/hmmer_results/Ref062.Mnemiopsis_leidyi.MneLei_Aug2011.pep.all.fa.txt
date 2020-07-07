@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ML46352a-PA          -          NOG133129            -            2.4e-83  280.2   0.7   6.7e-83  278.7   0.7   1.6   1   1   0   1   1   1   1 -
+ML05445a-PA          -          NOG133129            -            0.00039   19.0   0.1     0.027   12.9   0.1   2.1   2   0   0   2   2   2   1 -
+ML03239a-PA          -          NOG133129            -            0.00059   18.4   0.2     0.015   13.7   0.1   2.2   2   0   0   2   2   2   1 -
+ML104327a-PA         -          NOG133129            -              0.037   12.4   0.2     0.082   11.3   0.2   1.5   2   0   0   2   2   2   0 -
+ML03523a-PA          -          NOG133129            -              0.077   11.4   0.8      0.25    9.7   0.1   1.9   2   0   0   2   2   2   0 -
+ML13611a-PA          -          NOG133129            -               0.18   10.2   0.1      0.21    9.9   0.1   1.1   1   0   0   1   1   1   0 -
+ML40861a-PA          -          NOG133129            -               0.24    9.8   0.1      0.28    9.5   0.1   1.1   1   0   0   1   1   1   0 -
+ML066516a-PA         -          NOG133129            -               0.39    9.1   0.0      0.55    8.6   0.0   1.2   1   0   0   1   1   1   0 -
+ML054421a-PA         -          NOG133129            -               0.85    8.0   0.0      0.89    7.9   0.0   1.0   1   0   0   1   1   1   0 -
+ML071159a-PA         -          NOG133129            -               0.92    7.8   0.0       1.3    7.3   0.0   1.2   1   0   0   1   1   1   0 -
+ML016321a-PA         -          NOG133129            -               0.94    7.8   0.0       1.3    7.3   0.0   1.2   1   0   0   1   1   1   0 -
+ML08887a-PA          -          NOG133129            -               0.95    7.8   1.3         2    6.7   1.3   1.5   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG062.strict.hmm
+# Target file:     Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref062.Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG062.strict.hmm Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:37:37 2020
+# [ok]

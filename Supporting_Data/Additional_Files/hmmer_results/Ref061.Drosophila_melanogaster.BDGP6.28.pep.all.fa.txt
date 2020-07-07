@@ -1,0 +1,40 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FBpp0288515          -          NOG42950             -            5.2e-06   26.0   0.9   9.4e-06   25.1   0.9   1.3   1   1   0   1   1   1   1 -
+FBpp0303478          -          NOG42950             -            5.7e-06   25.8  16.1   5.7e-06   25.8  16.1   2.1   1   1   1   2   2   1   1 -
+FBpp0072706          -          NOG42950             -            7.3e-06   25.5   8.5   1.1e-05   24.9   0.2   2.5   2   1   0   2   2   2   1 -
+FBpp0074313          -          NOG42950             -            9.7e-06   25.1   2.5     2e-05   24.0   2.6   1.4   1   1   0   1   1   1   1 -
+FBpp0303331          -          NOG42950             -            0.00057   19.2   1.8   0.00057   19.2   1.8   6.1   3   1   2   5   5   2   1 -
+FBpp0308787          -          NOG42950             -             0.0043   16.3   6.5    0.0032   16.8   5.2   1.4   1   1   0   1   1   1   1 -
+FBpp0303238          -          NOG42950             -             0.0063   15.8   0.0    0.0063   15.8   0.0   3.3   1   1   1   3   3   1   1 -
+FBpp0291330          -          NOG42950             -              0.041   13.1   0.0     0.086   12.0   0.0   1.4   1   1   0   1   1   1   0 -
+FBpp0075579          -          NOG42950             -              0.053   12.7   8.2     0.064   12.5   8.2   1.1   1   0   0   1   1   1   0 -
+FBpp0113078          -          NOG42950             -              0.086   12.0   0.3       0.2   10.9   0.3   1.6   1   1   0   1   1   1   0 -
+FBpp0304560          -          NOG42950             -                0.1   11.8   0.9      0.12   11.5   0.9   1.2   1   1   0   1   1   1   0 -
+FBpp0072179          -          NOG42950             -               0.11   11.7   7.7      0.39    9.9   7.8   1.7   1   1   0   1   1   1   0 -
+FBpp0303261          -          NOG42950             -               0.16   11.1   0.0      0.37   10.0   0.0   1.6   1   1   0   1   1   1   0 -
+FBpp0072328          -          NOG42950             -               0.18   11.0   1.4      0.28   10.3   1.4   1.2   1   0   0   1   1   1   0 -
+FBpp0085568          -          NOG42950             -               0.19   10.9   7.3      0.28   10.4   7.3   1.2   1   0   0   1   1   1   0 -
+FBpp0303405          -          NOG42950             -               0.21   10.8   7.7      0.34   10.1   7.7   1.2   1   0   0   1   1   1   0 -
+FBpp0303119          -          NOG42950             -               0.24   10.6   0.0      0.41    9.8   0.0   1.3   1   1   0   1   1   1   0 -
+FBpp0289901          -          NOG42950             -               0.27   10.4   3.3      0.31   10.2   3.3   1.1   1   0   0   1   1   1   0 -
+FBpp0075450          -          NOG42950             -               0.32   10.2   0.0      0.32   10.2   0.0   2.5   1   1   0   2   2   1   0 -
+FBpp0099583          -          NOG42950             -               0.32   10.2   5.8      0.42    9.8   5.8   1.2   1   0   0   1   1   1   0 -
+FBpp0084029          -          NOG42950             -               0.47    9.6   0.0      0.47    9.6   0.0   4.8   1   1   3   5   5   2   0 -
+FBpp0084543          -          NOG42950             -               0.52    9.5   6.9      0.54    9.4   6.9   1.1   1   0   0   1   1   1   0 -
+FBpp0076470          -          NOG42950             -                0.7    9.0  15.2      0.85    8.8  15.2   1.1   1   0   0   1   1   1   0 -
+FBpp0075963          -          NOG42950             -               0.77    8.9   4.6      0.92    8.6   4.6   1.1   1   0   0   1   1   1   0 -
+FBpp0302960          -          NOG42950             -               0.87    8.7   7.4         4    6.5   7.4   2.0   1   1   0   1   1   1   0 -
+FBpp0076232          -          NOG42950             -               0.98    8.6   2.1      0.48    9.6   0.5   1.3   2   0   0   2   2   1   0 -
+FBpp0288984          -          NOG42950             -               0.99    8.5   1.5       4.4    6.4   1.7   1.9   1   1   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG061.strict.hmm
+# Target file:     Drosophila_melanogaster.BDGP6.28.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref061.Drosophila_melanogaster.BDGP6.28.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG061.strict.hmm Drosophila_melanogaster.BDGP6.28.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:36:22 2020
+# [ok]

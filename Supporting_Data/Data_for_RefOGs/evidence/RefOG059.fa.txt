@@ -1,0 +1,3 @@
+The RefOG tree is rooted on a Nematostella gene.
+
+The inferred tree has been rooted on a Mnemiopsis leidyi gene and is in good agreement with the RefOG tree.

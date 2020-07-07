@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSCAFP00000006152   -          KOG1601              -           3.8e-150  500.4   5.8  4.2e-150  500.3   5.8   1.0   1   0   0   1   1   1   1 -
+ENSCAFP00000007467   -          KOG1601              -           7.4e-146  486.4   8.4  8.1e-146  486.2   8.4   1.0   1   0   0   1   1   1   1 -
+ENSCAFP00000022898   -          KOG1601              -             1e-122  410.3   0.1  1.2e-122  410.1   0.1   1.0   1   0   0   1   1   1   1 -
+ENSCAFP00000038219   -          KOG1601              -            1.3e-87  294.9   3.7   1.7e-87  294.6   3.7   1.1   1   0   0   1   1   1   1 -
+ENSCAFP00000018678   -          KOG1601              -            2.8e-84  283.9   0.8   3.5e-84  283.6   0.8   1.1   1   0   0   1   1   1   1 -
+ENSCAFP00000001166   -          KOG1601              -            1.1e-19   71.6   0.4   1.1e-19   71.6   0.4   3.1   3   0   0   3   3   3   1 -
+ENSCAFP00000042702   -          KOG1601              -            9.2e-08   32.4   5.8   1.6e-07   31.7   5.8   1.4   1   0   0   1   1   1   1 -
+ENSCAFP00000009773   -          KOG1601              -               0.54   10.2   0.2         1    9.3   0.2   1.5   1   0   0   1   1   1   0 -
+ENSCAFP00000037159   -          KOG1601              -                0.7    9.8   2.3      0.74    9.7   1.1   1.6   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG022.strict.hmm
+# Target file:     Canis_familiaris.CanFam3.1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref022.Canis_familiaris.CanFam3.1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG022.strict.hmm Canis_familiaris.CanFam3.1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:49:08 2020
+# [ok]

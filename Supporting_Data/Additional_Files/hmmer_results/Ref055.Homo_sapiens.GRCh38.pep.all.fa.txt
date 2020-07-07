@@ -1,0 +1,35 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSP00000284486      -          NOG25268             -            5.6e-64  214.9   0.2   6.4e-64  214.7   0.2   1.0   1   0   0   1   1   1   1 -
+ENSP00000362684      -          NOG25268             -            6.7e-60  201.7   0.3   7.7e-60  201.5   0.3   1.0   1   0   0   1   1   1   1 -
+ENSP00000496084      -          NOG25268             -            5.2e-35  121.1   1.7   5.7e-35  120.9   1.7   1.0   1   0   0   1   1   1   1 -
+ENSP00000495051      -          NOG25268             -            3.7e-21   76.2   0.0   4.2e-21   76.0   0.0   1.0   1   0   0   1   1   1   1 -
+ENSP00000367528      -          NOG25268             -            6.1e-08   33.3   2.6   7.8e-08   33.0   2.6   1.2   1   0   0   1   1   1   1 -
+ENSP00000383474      -          NOG25268             -            4.7e-07   30.5   0.1   5.8e-07   30.2   0.1   1.1   1   0   0   1   1   1   1 -
+ENSP00000321026      -          NOG25268             -            0.00033   21.2   0.0   0.00048   20.7   0.0   1.2   1   0   0   1   1   1   1 -
+ENSP00000367429      -          NOG25268             -              0.091   13.3   0.0       0.1   13.2   0.0   1.2   1   0   0   1   1   1   0 -
+ENSP00000254250      -          NOG25268             -               0.13   12.8   0.0       0.2   12.2   0.0   1.3   1   1   0   1   1   1   0 -
+ENSP00000337439      -          NOG25268             -               0.15   12.6   0.2      0.34   11.5   0.2   1.5   1   0   0   1   1   1   0 -
+ENSP00000431459      -          NOG25268             -                0.2   12.2   0.0      0.25   11.9   0.0   1.1   1   0   0   1   1   1   0 -
+ENSP00000264072      -          NOG25268             -               0.38   11.3   8.4       1.5    9.4   8.4   1.8   1   1   0   1   1   1   0 -
+ENSP00000355614      -          NOG25268             -               0.46   11.0   0.0       0.5   10.9   0.0   1.2   1   0   0   1   1   1   0 -
+ENSP00000470037      -          NOG25268             -               0.48   11.0   0.0      0.73   10.4   0.0   1.3   1   0   0   1   1   1   0 -
+ENSP00000361048      -          NOG25268             -               0.49   10.9   0.0      0.69   10.5   0.0   1.2   1   0   0   1   1   1   0 -
+ENSP00000301656      -          NOG25268             -               0.54   10.8   4.4       3.4    8.2   0.0   2.8   1   1   1   2   2   2   0 -
+ENSP00000385480      -          NOG25268             -                0.7   10.4   2.2      0.79   10.3   2.2   1.1   1   0   0   1   1   1   0 -
+ENSP00000456953      -          NOG25268             -               0.73   10.4   3.1       1.4    9.5   3.1   1.6   1   0   0   1   1   1   0 -
+ENSP00000457689      -          NOG25268             -               0.73   10.4   3.1       1.4    9.5   3.1   1.6   1   0   0   1   1   1   0 -
+ENSP00000500820      -          NOG25268             -               0.79   10.3   3.2       1.5    9.4   3.2   1.6   1   0   0   1   1   1   0 -
+ENSP00000499958      -          NOG25268             -               0.81   10.3   3.1       1.6    9.3   3.1   1.6   1   0   0   1   1   1   0 -
+ENSP00000500683      -          NOG25268             -               0.81   10.3   3.1       1.6    9.3   3.1   1.6   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG055.strict.hmm
+# Target file:     Homo_sapiens.GRCh38.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref055.Homo_sapiens.GRCh38.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG055.strict.hmm Homo_sapiens.GRCh38.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:30:33 2020
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSPTRP00000018769   -          COG0048              -            6.6e-65  217.2   0.5   7.7e-65  216.9   0.5   1.0   1   0   0   1   1   1   1 -
+ENSPTRP00000090766   -          COG0048              -            7.6e-15   55.5   0.7   9.9e-15   55.1   0.7   1.1   1   0   0   1   1   1   1 -
+ENSPTRP00000063541   -          COG0048              -            3.7e-12   46.8   0.4   4.6e-12   46.5   0.4   1.1   1   0   0   1   1   1   1 -
+ENSPTRP00000065417   -          COG0048              -              1e-10   42.1   0.6   1.3e-10   41.8   0.6   1.1   1   0   0   1   1   1   1 -
+ENSPTRP00000025961   -          COG0048              -               0.23   12.0   0.1      0.45   11.0   0.1   1.4   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG030.strict.hmm
+# Target file:     Pan_troglodytes.Pan_tro_3.0.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref030.Pan_troglodytes.Pan_tro_3.0.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG030.strict.hmm Pan_troglodytes.Pan_tro_3.0.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:00:23 2020
+# [ok]

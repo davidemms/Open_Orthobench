@@ -1,0 +1,29 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSRNOP00000071791   -          COG0123              -           2.6e-270  896.4   1.6  2.9e-270  896.2   1.6   1.0   1   0   0   1   1   1   1 -
+ENSRNOP00000012854   -          COG0123              -           2.6e-199  662.6   2.3  3.5e-199  662.1   2.3   1.1   1   0   0   1   1   1   1 -
+ENSRNOP00000000742   -          COG0123              -           4.2e-197  655.3   2.4  5.2e-197  655.0   2.4   1.1   1   0   0   1   1   1   1 -
+ENSRNOP00000018423   -          COG0123              -           4.1e-193  642.2   2.9  5.4e-193  641.8   2.9   1.1   1   0   0   1   1   1   1 -
+ENSRNOP00000004224   -          COG0123              -           1.3e-109  367.1   0.5  1.5e-109  366.9   0.5   1.0   1   0   0   1   1   1   1 -
+ENSRNOP00000009295   -          COG0123              -            4.4e-41  141.4   0.0   2.4e-19   69.8   0.1   2.1   2   0   0   2   2   2   2 -
+ENSRNOP00000063689   -          COG0123              -            7.4e-40  137.4   0.0   3.1e-19   69.5   0.0   2.1   2   0   0   2   2   2   2 -
+ENSRNOP00000052059   -          COG0123              -            6.1e-23   81.7   0.1   1.6e-22   80.3   0.1   1.6   1   1   0   1   1   1   1 -
+ENSRNOP00000005521   -          COG0123              -            4.4e-22   78.8   0.0     1e-21   77.6   0.0   1.5   1   1   0   1   1   1   1 -
+ENSRNOP00000073744   -          COG0123              -            4.9e-22   78.7   0.1   8.6e-22   77.9   0.1   1.4   1   1   0   1   1   1   1 -
+ENSRNOP00000027622   -          COG0123              -            1.3e-21   77.3   0.0   1.3e-21   77.3   0.0   2.3   2   1   0   2   2   1   1 -
+ENSRNOP00000052717   -          COG0123              -            1.8e-17   63.6   0.0   2.5e-17   63.2   0.0   1.2   1   0   0   1   1   1   1 -
+ENSRNOP00000008962   -          COG0123              -              7e-16   58.4   0.1   1.1e-15   57.7   0.1   1.2   1   0   0   1   1   1   1 -
+ENSRNOP00000042330   -          COG0123              -               0.53    9.4   0.1      0.74    8.9   0.1   1.2   1   0   0   1   1   1   0 -
+ENSRNOP00000069557   -          COG0123              -               0.92    8.6   0.0       1.1    8.3   0.0   1.2   1   0   0   1   1   1   0 -
+ENSRNOP00000034797   -          COG0123              -               0.93    8.6   0.9       1.8    7.6   0.9   1.4   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG070.strict.hmm
+# Target file:     Rattus_norvegicus.Rnor_6.0.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref070.Rattus_norvegicus.Rnor_6.0.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG070.strict.hmm Rattus_norvegicus.Rnor_6.0.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:45:52 2020
+# [ok]

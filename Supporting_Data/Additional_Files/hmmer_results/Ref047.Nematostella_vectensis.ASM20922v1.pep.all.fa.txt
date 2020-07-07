@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EDO37850             -          COG0192              -           6.6e-225  746.4   0.1  7.6e-225  746.2   0.1   1.0   1   0   0   1   1   1   1 -
+EDO37825             -          COG0192              -           4.4e-219  727.2   0.0  5.1e-219  727.0   0.0   1.0   1   0   0   1   1   1   1 -
+EDO45117             -          COG0192              -           7.4e-199  660.6   0.0  8.8e-199  660.4   0.0   1.0   1   0   0   1   1   1   1 -
+EDO26870             -          COG0192              -            3.3e-82  276.7   0.0   3.6e-82  276.5   0.0   1.0   1   0   0   1   1   1   1 -
+EDO28547             -          COG0192              -               0.14   11.3   0.0      0.14   11.3   0.0   1.1   1   0   0   1   1   1   0 -
+EDO48735             -          COG0192              -                0.2   10.8   0.0      0.29   10.2   0.0   1.2   1   0   0   1   1   1   0 -
+EDO34260             -          COG0192              -               0.78    8.8   0.0       1.1    8.3   0.0   1.2   1   0   0   1   1   1   0 -
+EDO25688             -          COG0192              -               0.99    8.5   0.0       1.5    7.9   0.0   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG047.strict.hmm
+# Target file:     Nematostella_vectensis.ASM20922v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref047.Nematostella_vectensis.ASM20922v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG047.strict.hmm Nematostella_vectensis.ASM20922v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:25:50 2020
+# [ok]

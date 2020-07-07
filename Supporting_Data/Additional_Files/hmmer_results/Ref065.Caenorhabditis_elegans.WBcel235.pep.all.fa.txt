@@ -1,0 +1,26 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WBGene00014019.1     -          KOG1811              -            1.4e-22   79.5  10.8   1.8e-22   79.2  10.8   1.0   1   0   0   1   1   1   1 -
+WBGene00000101.1     -          KOG1811              -            5.4e-16   57.7   6.2     9e-16   56.9   6.2   1.3   1   0   0   1   1   1   1 -
+WBGene00003084.1     -          KOG1811              -            9.3e-14   50.3  11.8   9.3e-14   50.3  11.8   1.8   2   0   0   2   2   2   1 -
+WBGene00004089.1     -          KOG1811              -            1.5e-11   43.0   6.0   2.4e-11   42.3   6.0   1.2   1   0   0   1   1   1   1 -
+WBGene00003476.1     -          KOG1811              -            3.3e-11   41.8   6.9   4.8e-11   41.3   6.9   1.2   1   0   0   1   1   1   1 -
+WBGene00011696.1     -          KOG1811              -            3.6e-11   41.7   7.9   3.6e-11   41.7   7.9   4.3   1   1   0   4   4   2   1 -
+WBGene00009064.1     -          KOG1811              -            2.5e-10   38.9  12.7   3.6e-10   38.4  12.7   1.1   1   0   0   1   1   1   1 -
+WBGene00004101.1     -          KOG1811              -            3.6e-10   38.4   9.6   3.6e-10   38.4   9.6   2.5   3   0   0   3   3   2   1 -
+WBGene00006450.1     -          KOG1811              -            1.6e-09   36.2   2.3   2.7e-09   35.5   2.3   1.3   1   0   0   1   1   1   1 -
+WBGene00007752.1     -          KOG1811              -            7.6e-09   34.0  12.5   2.1e-08   32.5  12.5   1.7   1   0   0   1   1   1   1 -
+WBGene00021538.1     -          KOG1811              -            3.2e-07   28.6  10.2   3.2e-07   28.6  10.2   2.0   2   0   0   2   2   2   1 -
+WBGene00008402.1     -          KOG1811              -              4e-06   25.0   4.5   5.1e-06   24.6   4.5   1.0   1   0   0   1   1   1   1 -
+WBGene00011248.1     -          KOG1811              -            0.00016   19.7   4.6   0.00028   18.9   4.6   1.3   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG065.strict.hmm
+# Target file:     Caenorhabditis_elegans.WBcel235.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref065.Caenorhabditis_elegans.WBcel235.pep.all.fa.txt --noali -E 0.001 --max --cpu 2 ../../profiles/RefOG065.strict.hmm Caenorhabditis_elegans.WBcel235.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 18 14:45:05 2020
+# [ok]

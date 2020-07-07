@@ -1,0 +1,27 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSTNIP00000013021   -          COG0123              -           1.5e-276  916.8   3.1  1.7e-276  916.6   3.1   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000012136   -          COG0123              -           2.3e-201  669.1   2.5  2.8e-201  668.9   2.5   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000007837   -          COG0123              -           2.5e-200  665.7   3.3  3.1e-200  665.4   3.3   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000020022   -          COG0123              -           4.3e-197  655.1   3.4  5.3e-197  654.8   3.4   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000008499   -          COG0123              -             8e-110  367.6   0.2  9.8e-110  367.3   0.2   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000004593   -          COG0123              -            8.3e-39  133.7   0.0   1.2e-20   74.0   0.0   2.1   2   0   0   2   2   2   2 -
+ENSTNIP00000017010   -          COG0123              -            1.1e-22   80.6   0.1     2e-22   79.8   0.1   1.3   1   0   0   1   1   1   1 -
+ENSTNIP00000005847   -          COG0123              -            2.6e-21   76.1   0.0   3.6e-21   75.6   0.0   1.1   1   0   0   1   1   1   1 -
+ENSTNIP00000000291   -          COG0123              -            2.9e-21   75.9   0.0   5.7e-21   75.0   0.0   1.4   1   0   0   1   1   1   1 -
+ENSTNIP00000000138   -          COG0123              -            1.4e-20   73.7   0.0   2.7e-20   72.7   0.0   1.5   1   0   0   1   1   1   1 -
+ENSTNIP00000022824   -          COG0123              -            1.6e-20   73.5   0.0     4e-20   72.2   0.0   1.5   2   0   0   2   2   2   1 -
+ENSTNIP00000004820   -          COG0123              -              8e-18   64.6   0.0   9.9e-18   64.3   0.0   1.1   1   0   0   1   1   1   1 -
+ENSTNIP00000019057   -          COG0123              -            1.2e-17   64.0   0.3   1.5e-17   63.7   0.3   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000022857   -          COG0123              -               0.15   11.0   0.1      0.21   10.6   0.1   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG070.strict.hmm
+# Target file:     Tetraodon_nigroviridis.TETRAODON8.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref070.Tetraodon_nigroviridis.TETRAODON8.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG070.strict.hmm Tetraodon_nigroviridis.TETRAODON8.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:45:52 2020
+# [ok]

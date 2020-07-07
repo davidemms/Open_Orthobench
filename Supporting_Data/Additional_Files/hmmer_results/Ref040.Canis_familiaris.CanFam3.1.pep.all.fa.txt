@@ -1,0 +1,42 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSCAFP00000005292   -          KOG0951              -                  0 3716.8   1.3         0 3716.6   1.3   1.0   1   0   0   1   1   1   1 -
+ENSCAFP00000065424   -          KOG0951              -                  0 1842.8   9.8         0 1841.1   9.8   1.7   1   1   0   1   1   1   1 -
+ENSCAFP00000029936   -          KOG0951              -             9e-149  497.2   9.4  3.3e-115  385.9   0.8   2.0   1   1   1   2   2   2   2 -
+ENSCAFP00000016906   -          KOG0951              -            1.6e-30  105.1   0.0   9.4e-16   56.1   0.0   2.1   2   0   0   2   2   2   2 -
+ENSCAFP00000039284   -          KOG0951              -            3.5e-30  104.0   0.0   6.2e-30  103.2   0.0   1.3   1   0   0   1   1   1   1 -
+ENSCAFP00000010181   -          KOG0951              -            3.5e-29  100.7   0.0   3.5e-18   64.2   0.0   2.1   2   0   0   2   2   2   2 -
+ENSCAFP00000000965   -          KOG0951              -            8.5e-28   96.1   0.1     2e-14   51.7   0.0   2.0   2   0   0   2   2   2   2 -
+ENSCAFP00000013244   -          KOG0951              -            9.6e-23   79.3   0.0   1.4e-11   42.4   0.0   2.3   2   0   0   2   2   2   2 -
+ENSCAFP00000040495   -          KOG0951              -            4.1e-08   30.8   0.7    0.0029   14.8   0.0   2.2   1   1   0   2   2   2   2 -
+ENSCAFP00000026802   -          KOG0951              -            4.2e-08   30.8   1.0    0.0029   14.7   0.0   2.3   1   1   0   2   2   2   2 -
+ENSCAFP00000023103   -          KOG0951              -            3.1e-06   24.6   0.0   1.2e-05   22.6   0.0   1.8   2   0   0   2   2   2   1 -
+ENSCAFP00000041513   -          KOG0951              -            3.3e-06   24.5   0.0   5.1e-06   23.9   0.0   1.2   1   0   0   1   1   1   1 -
+ENSCAFP00000049108   -          KOG0951              -            7.7e-06   23.3   0.0   0.00049   17.3   0.0   2.2   2   0   0   2   2   2   1 -
+ENSCAFP00000002634   -          KOG0951              -            1.3e-05   22.6   0.0   1.9e-05   22.0   0.0   1.1   1   0   0   1   1   1   1 -
+ENSCAFP00000020312   -          KOG0951              -             0.0013   15.9   0.0     0.056   10.5   0.0   2.0   2   0   0   2   2   2   1 -
+ENSCAFP00000046169   -          KOG0951              -             0.0028   14.8   0.0    0.0036   14.4   0.0   1.0   1   0   0   1   1   1   1 -
+ENSCAFP00000007269   -          KOG0951              -             0.0046   14.1   0.0      0.38    7.7   0.0   2.1   2   0   0   2   2   2   2 -
+ENSCAFP00000018313   -          KOG0951              -             0.0092   13.1   1.9     0.029   11.4   0.1   1.9   2   0   0   2   2   2   1 -
+ENSCAFP00000009483   -          KOG0951              -              0.048   10.7   0.0       3.3    4.6   0.0   2.0   2   0   0   2   2   2   0 -
+ENSCAFP00000050202   -          KOG0951              -              0.066   10.2   0.0      0.16    9.0   0.0   1.5   2   0   0   2   2   2   0 -
+ENSCAFP00000009638   -          KOG0951              -                0.1    9.6   0.0      0.26    8.2   0.0   1.6   2   0   0   2   2   2   0 -
+ENSCAFP00000031142   -          KOG0951              -               0.25    8.3   0.0      0.25    8.3   0.0   2.5   3   0   0   3   3   2   0 -
+ENSCAFP00000047331   -          KOG0951              -               0.27    8.2   0.1         7    3.5   0.0   2.0   2   0   0   2   2   2   0 -
+ENSCAFP00000011322   -          KOG0951              -               0.31    8.0   4.3      0.44    7.5   4.3   1.1   1   0   0   1   1   1   0 -
+ENSCAFP00000038235   -          KOG0951              -               0.39    7.7   0.0       2.5    5.0   0.0   1.8   2   0   0   2   2   2   0 -
+ENSCAFP00000008399   -          KOG0951              -               0.43    7.6   0.0      0.67    6.9   0.0   1.2   1   0   0   1   1   1   0 -
+ENSCAFP00000059876   -          KOG0951              -               0.54    7.2   0.1       1.3    5.9   0.0   1.6   2   0   0   2   2   2   0 -
+ENSCAFP00000006438   -          KOG0951              -                0.7    6.8   4.1      0.95    6.4   4.1   1.1   1   0   0   1   1   1   0 -
+ENSCAFP00000020138   -          KOG0951              -               0.96    6.4   0.0       3.7    4.4   0.0   1.7   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG040.strict.hmm
+# Target file:     Canis_familiaris.CanFam3.1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref040.Canis_familiaris.CanFam3.1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG040.strict.hmm Canis_familiaris.CanFam3.1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:15:45 2020
+# [ok]

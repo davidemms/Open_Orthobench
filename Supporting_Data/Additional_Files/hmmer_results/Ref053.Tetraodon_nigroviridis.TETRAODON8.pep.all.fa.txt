@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSTNIP00000021045   -          KOG3781              -           3.9e-104  347.8   0.0    7e-104  347.0   0.0   1.4   1   1   0   1   1   1   1 -
+ENSTNIP00000007942   -          KOG3781              -            3.4e-99  331.6   0.0   3.8e-96  321.6   0.0   2.3   1   1   1   2   2   2   2 -
+ENSTNIP00000009917   -          KOG3781              -              0.032   14.0   0.3       7.1    6.3   0.0   3.8   4   0   0   4   4   4   0 -
+ENSTNIP00000022610   -          KOG3781              -                0.3   10.8   0.0        17    5.0   0.0   2.5   2   0   0   2   2   2   0 -
+ENSTNIP00000013754   -          KOG3781              -               0.66    9.6   0.6       1.3    8.7   0.6   1.4   1   0   0   1   1   1   0 -
+ENSTNIP00000006230   -          KOG3781              -               0.88    9.2   0.1        23    4.6   0.1   2.3   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG053.strict.hmm
+# Target file:     Tetraodon_nigroviridis.TETRAODON8.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref053.Tetraodon_nigroviridis.TETRAODON8.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG053.strict.hmm Tetraodon_nigroviridis.TETRAODON8.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:29:27 2020
+# [ok]

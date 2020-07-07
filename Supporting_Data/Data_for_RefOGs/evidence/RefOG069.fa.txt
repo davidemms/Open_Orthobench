@@ -1,0 +1,36 @@
+The RefOG tree is unrooted. It has been rooted on the duplication separating the two vertebrate clades. It only contains representatives from the vertebrates, there is no apparent evidence that the orthogroup only extends back to this duplication at the base of the vertebrates and not further.
+
+The newly inferred tree shows an additional duplication at the base of the vertebrates and a further clade of genes in this orthogroup. This tree only contains genes which obtained a HMMER hit better than an e-value of 0.001. Given that the Pan troglodytes gene ENSPTRP00000050875 only achieves and e-value of 0.00089 but clearly sits within this third clade, there is good reason to try a tree with more (also likely) homologous sequences to see where they appear in the tree. The e-value for the two Pan genes from the orginal study were 3.4e-46 and 6.3e-41, so that does suggest caution should be exercised when considering the genes from the third clade as also part of the orthogroup. It is necessary to weight up the two possibilities:
+1. Was there a duplication within the orthogroup and the sequences are short/divergent and so diverged considerably in the 3rd clade. It would be useful to search with a single sequence as a seed rather than a hmm profile to gauge how quickly sequence similarity falls off within this orthogroup. With a hmm profile built on the sequences themselves (as is the case for the two original Pan genes), the e-values will appear misleadingly strong.
+2. The homology suggested by hmmer is misleading. Or is it is very distant and there was a matched pattern of three losses (Protostomes, Branchiostoma, Ciona) in all three clades of genes. 
+
+
+Query ENSMUSP00000061185:
+ENSMUSP00000061185	ENSMUSP00000061185	100.0	187	0	0	1	187	1	187	1.0e-84	310.1
+ENSMUSP00000061185	ENSRNOP00000016953	87.2	187	24	0	1	187	1	187	2.1e-79	292.4
+ENSMUSP00000061185	ENSPTRP00000034753	76.5	196	37	1	1	187	1	196	1.1e-62	236.9
+ENSMUSP00000061185	ENSP00000276571	76.5	196	37	1	1	187	1	196	1.2e-62	236.9
+ENSMUSP00000061185	ENSCAFP00000040748	71.4	196	47	1	1	187	1	196	6.3e-60	227.6
+ENSMUSP00000061185	ENSMODP00000036360	64.4	194	62	3	1	187	1	194	3.0e-46	182.2
+ENSMUSP00000061185	ENSGALP00000050250	55.9	188	61	5	1	187	1	167	1.2e-32	136.7
+ENSMUSP00000061185	ENSDARP00000114719	46.3	188	74	4	1	187	1	162	2.2e-26	116.7
+ENSMUSP00000061185	ENSTNIP00000000470	40.0	190	84	5	1	187	1	163	1.9e-23	106.3
+ENSMUSP00000061185	ENSDARP00000118835	41.2	136	44	4	54	187	54	155	2.6e-14	76.6
+# Approx boundary of first clade
+ENSMUSP00000061185	ENSGALP00000073211	62.0	50	19	0	138	187	58	107	5.5e-09	58.2
+ENSMUSP00000061185	ENSDARP00000019621	54.2	48	22	0	140	187	91	138	1.6e-08	57.4
+ENSMUSP00000061185	ENSRNOP00000008037	48.1	54	27	1	134	187	70	122	1.6e-07	53.5
+ENSMUSP00000061185	ENSMUSP00000035321	48.1	54	27	1	134	187	70	122	1.8e-07	53.5
+ENSMUSP00000061185	ENSCAFP00000031248	46.3	67	35	1	121	187	61	126	1.6e-07	53.5
+ENSMUSP00000061185	ENSMODP00000028973	45.5	44	24	0	144	187	87	130	8.9e-06	47.8
+ENSMUSP00000061185	ENSPTRP00000020205	44.8	67	33	2	124	187	59	124	2.1e-05	46.6
+ENSMUSP00000061185	ENSP00000296099	44.8	67	33	2	124	187	59	124	2.3e-05	46.6
+ENSMUSP00000061185	ENSGALP00000071657	44.7	38	21	0	150	187	63	100	5.3e-04	41.6
+# Approx boundary of second clade 
+
+This strongly suggests that the detectable level of homology falls off quickly for this gene family and that the e-values for the third clade of genes when searching with a hmm profile are not any lower than would be expected for genes in the same orthogroup separated by a duplication prior the the divergence of the vertebrates but within the orthogroup. All the genes in the newly inferred tree are members of the orthogroup. I.e. it is larger than the originally proposed RefOG69.
+
+
+
+
+

@@ -1,0 +1,40 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSCAFP00000005033   -          NOG42950             -           4.6e-193  643.8 150.0  4.6e-193  643.8 150.0   3.0   1   1   1   2   2   1   1 -
+ENSCAFP00000019283   -          NOG42950             -             4e-162  541.7  66.3  4.8e-162  541.4  66.3   1.0   1   0   0   1   1   1   1 -
+ENSCAFP00000030955   -          NOG42950             -            1.9e-69  235.8 153.3   1.9e-69  235.8 153.3   3.2   1   1   1   2   2   1   1 -
+ENSCAFP00000000209   -          NOG42950             -              0.008   16.0   0.9     0.083   12.6   0.9   2.1   1   1   0   1   1   1   1 -
+ENSCAFP00000066518   -          NOG42950             -              0.011   15.5  23.1     0.015   15.1  23.1   1.2   1   0   0   1   1   1   0 -
+ENSCAFP00000035232   -          NOG42950             -              0.045   13.5  12.2     0.051   13.3  12.2   1.1   1   0   0   1   1   1   0 -
+ENSCAFP00000012643   -          NOG42950             -              0.064   13.0   5.2     0.096   12.4   5.2   1.2   1   0   0   1   1   1   0 -
+ENSCAFP00000065669   -          NOG42950             -               0.11   12.2   0.2      0.19   11.4   0.2   1.4   1   0   0   1   1   1   0 -
+ENSCAFP00000038654   -          NOG42950             -               0.12   12.2   8.3      0.14   11.8   8.3   1.2   1   0   0   1   1   1   0 -
+ENSCAFP00000015267   -          NOG42950             -               0.14   11.9   9.3       3.3    7.4   5.5   2.3   2   0   0   2   2   2   0 -
+ENSCAFP00000001900   -          NOG42950             -               0.23   11.2   2.5      0.29   10.8   2.5   1.1   1   0   0   1   1   1   0 -
+ENSCAFP00000026481   -          NOG42950             -               0.23   11.1   5.6       0.3   10.8   5.6   1.1   1   0   0   1   1   1   0 -
+ENSCAFP00000049626   -          NOG42950             -               0.26   11.0  17.2      0.28   10.9  17.2   1.1   1   0   0   1   1   1   0 -
+ENSCAFP00000006333   -          NOG42950             -               0.37   10.5   5.3      0.44   10.2   5.3   1.0   1   0   0   1   1   1   0 -
+ENSCAFP00000037515   -          NOG42950             -               0.38   10.4  11.6      0.48   10.1  11.6   1.1   1   0   0   1   1   1   0 -
+ENSCAFP00000020220   -          NOG42950             -                0.4   10.4   0.2      0.54    9.9   0.2   1.3   1   0   0   1   1   1   0 -
+ENSCAFP00000019552   -          NOG42950             -               0.49   10.1   4.7      0.66    9.7   4.7   1.1   1   0   0   1   1   1   0 -
+ENSCAFP00000006141   -          NOG42950             -               0.52   10.0  16.2       0.9    9.2  16.2   1.3   1   0   0   1   1   1   0 -
+ENSCAFP00000025084   -          NOG42950             -               0.54    9.9  10.0      0.68    9.6  10.0   1.0   1   0   0   1   1   1   0 -
+ENSCAFP00000010223   -          NOG42950             -               0.57    9.9   6.8      0.82    9.3   6.8   1.3   1   0   0   1   1   1   0 -
+ENSCAFP00000049839   -          NOG42950             -               0.59    9.8   5.7      0.79    9.4   5.7   1.3   1   0   0   1   1   1   0 -
+ENSCAFP00000018423   -          NOG42950             -               0.62    9.7   0.5      0.73    9.5   0.5   1.2   1   0   0   1   1   1   0 -
+ENSCAFP00000014186   -          NOG42950             -               0.67    9.6   0.0       7.9    6.1   0.0   2.4   1   1   0   2   2   1   0 -
+ENSCAFP00000048444   -          NOG42950             -               0.68    9.6  22.3      0.86    9.3  22.3   1.0   1   0   0   1   1   1   0 -
+ENSCAFP00000043690   -          NOG42950             -               0.87    9.3   0.8      0.86    9.3   0.8   1.2   1   0   0   1   1   1   0 -
+ENSCAFP00000023737   -          NOG42950             -               0.96    9.1   1.6      0.93    9.2   1.6   1.1   1   0   0   1   1   1   0 -
+ENSCAFP00000014755   -          NOG42950             -               0.96    9.1   9.5       7.6    6.2   9.5   2.1   1   1   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG061.strict.hmm
+# Target file:     Canis_familiaris.CanFam3.1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref061.Canis_familiaris.CanFam3.1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG061.strict.hmm Canis_familiaris.CanFam3.1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:37:09 2020
+# [ok]

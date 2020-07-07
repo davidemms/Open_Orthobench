@@ -1,0 +1,43 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FBpp0271797          -          KOG1366              -           1.6e-199  665.0   0.0  3.6e-198  660.5   0.0   2.9   1   1   0   1   1   1   1 -
+FBpp0088205          -          KOG1366              -            1.2e-21   75.5   0.0   7.6e-13   46.3   0.0   2.9   1   1   2   3   3   3   3 -
+FBpp0077410          -          KOG1366              -            2.9e-19   67.6   0.2   9.1e-09   32.8   0.0   2.2   2   0   0   2   2   2   2 -
+FBpp0303039          -          KOG1366              -            6.2e-18   63.2   0.0   4.1e-10   37.3   0.0   2.2   2   0   0   2   2   2   2 -
+FBpp0292346          -          KOG1366              -            3.4e-14   50.8   0.0   7.8e-09   33.0   0.0   2.1   2   0   0   2   2   2   2 -
+FBpp0071431          -          KOG1366              -            1.2e-13   48.9   0.0   4.5e-07   27.2   0.0   2.1   1   1   0   2   2   2   2 -
+FBpp0297166          -          KOG1366              -            1.7e-13   48.5   0.2   2.2e-05   21.6   0.1   3.0   3   0   0   3   3   3   3 -
+FBpp0086196          -          KOG1366              -              1e-12   45.9   0.0   1.6e-12   45.2   0.0   1.2   1   0   0   1   1   1   1 -
+FBpp0306407          -          KOG1366              -            4.9e-12   43.7   0.0   9.1e-07   26.2   0.0   2.9   2   1   1   3   3   3   3 -
+FBpp0305560          -          KOG1366              -            1.3e-10   38.9   0.1   4.9e-09   33.7   0.0   2.7   4   0   0   4   4   4   1 -
+FBpp0292144          -          KOG1366              -            1.7e-09   35.2   0.0   1.6e-06   25.4   0.0   2.1   2   0   0   2   2   2   2 -
+FBpp0086197          -          KOG1366              -            6.2e-09   33.4   0.1   1.6e-08   32.0   0.1   1.5   1   1   0   1   1   1   1 -
+FBpp0081097          -          KOG1366              -            1.2e-08   32.4   0.0   3.2e-05   21.1   0.0   2.1   2   0   0   2   2   2   2 -
+FBpp0289127          -          KOG1366              -            3.4e-08   30.9   0.1   7.6e-07   26.4   0.0   2.0   2   0   0   2   2   2   1 -
+FBpp0300963          -          KOG1366              -            1.7e-05   22.0   0.0   1.7e-05   22.0   0.0   2.0   3   0   0   3   3   3   1 -
+FBpp0289746          -          KOG1366              -            2.6e-05   21.3   0.1    0.0088   13.0   0.0   1.8   1   1   1   2   2   2   2 -
+FBpp0084728          -          KOG1366              -               0.11    9.3   0.0      0.16    8.8   0.0   1.1   1   0   0   1   1   1   0 -
+FBpp0271831          -          KOG1366              -               0.13    9.1   0.1      0.41    7.5   0.1   1.5   1   1   1   2   2   2   0 -
+FBpp0074785          -          KOG1366              -               0.22    8.3   1.4      0.29    8.0   1.4   1.0   1   0   0   1   1   1   0 -
+FBpp0288751          -          KOG1366              -               0.32    7.8   0.0      0.43    7.4   0.0   1.1   1   0   0   1   1   1   0 -
+FBpp0308634          -          KOG1366              -               0.33    7.8   0.0      0.52    7.1   0.0   1.2   1   0   0   1   1   1   0 -
+FBpp0293553          -          KOG1366              -               0.36    7.6   0.0       4.4    4.0   0.0   2.2   2   1   0   2   2   2   0 -
+FBpp0293465          -          KOG1366              -                0.4    7.5   1.1      0.48    7.2   1.1   1.1   1   0   0   1   1   1   0 -
+FBpp0309691          -          KOG1366              -               0.47    7.2   2.1      0.78    6.5   2.1   1.2   1   0   0   1   1   1   0 -
+FBpp0305371          -          KOG1366              -               0.55    7.0   0.0      0.78    6.5   0.0   1.0   1   0   0   1   1   1   0 -
+FBpp0089226          -          KOG1366              -               0.56    7.0   2.2      0.81    6.5   2.2   1.1   1   0   0   1   1   1   0 -
+FBpp0292024          -          KOG1366              -               0.67    6.7   4.9      0.72    6.6   4.9   1.0   1   0   0   1   1   1   0 -
+FBpp0306832          -          KOG1366              -               0.69    6.7   0.0         1    6.2   0.0   1.1   1   0   0   1   1   1   0 -
+FBpp0112540          -          KOG1366              -                0.7    6.7   0.0      0.96    6.2   0.0   1.1   1   0   0   1   1   1   0 -
+FBpp0303201          -          KOG1366              -               0.81    6.5   2.6       1.5    5.6   0.0   2.2   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG017.strict.hmm
+# Target file:     Drosophila_melanogaster.BDGP6.28.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref017.Drosophila_melanogaster.BDGP6.28.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG017.strict.hmm Drosophila_melanogaster.BDGP6.28.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:41:53 2020
+# [ok]

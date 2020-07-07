@@ -1,0 +1,3 @@
+RefOG tree is rooted on the Nematostella vectensis. The tree looks good and the important branches for delineating the orthogroup have high bootstrap support.
+
+The inferred tree supports the delineation of the original RefOG. A few genes appear to have been missed from the original RefOG (from Danio, Mus) but these may be new gene models. There was an extra Ciona gene in the RefOG but this has been retired.

@@ -1,0 +1,39 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSMODP00000002515   -          KOG3511              -                  0 1119.4   4.6         0 1119.3   4.6   1.0   1   0   0   1   1   1   1 -
+ENSMODP00000016287   -          KOG3511              -            8.3e-54  183.3   0.1   1.6e-53  182.4   0.1   1.4   1   0   0   1   1   1   1 -
+ENSMODP00000047037   -          KOG3511              -              8e-49  166.8   2.2   1.2e-48  166.3   2.2   1.1   1   0   0   1   1   1   1 -
+ENSMODP00000045499   -          KOG3511              -              3e-39  135.2   1.2     4e-33  115.0   0.3   2.1   2   0   0   2   2   2   2 -
+ENSMODP00000014129   -          KOG3511              -            0.00088   18.1   0.0       1.1    7.9   0.0   3.6   4   1   0   4   4   4   1 -
+ENSMODP00000016121   -          KOG3511              -              0.014   14.2   0.0       3.2    6.3   0.0   3.4   2   2   2   4   4   4   0 -
+ENSMODP00000012476   -          KOG3511              -               0.03   13.0   0.0       1.5    7.5   0.0   3.1   3   1   0   3   3   3   0 -
+ENSMODP00000020623   -          KOG3511              -              0.034   12.9   0.1     0.045   12.5   0.1   1.1   1   0   0   1   1   1   0 -
+ENSMODP00000049570   -          KOG3511              -              0.042   12.6   0.3        23    3.5   0.0   5.1   4   2   1   5   5   5   0 -
+ENSMODP00000026098   -          KOG3511              -              0.065   11.9   0.0        45    2.6   0.0   4.3   2   1   2   4   4   4   0 -
+ENSMODP00000031075   -          KOG3511              -              0.071   11.8   0.0        25    3.4   0.0   4.5   5   1   1   7   7   7   0 -
+ENSMODP00000049515   -          KOG3511              -              0.082   11.6   0.0        24    3.5   0.0   3.4   3   0   0   3   3   3   0 -
+ENSMODP00000030521   -          KOG3511              -              0.098   11.4   0.3        17    3.9   0.0   4.0   4   1   0   4   4   4   0 -
+ENSMODP00000015784   -          KOG3511              -               0.19   10.4   0.0        22    3.6   0.0   3.7   3   2   2   5   5   5   0 -
+ENSMODP00000047272   -          KOG3511              -                0.2   10.3   0.0      0.31    9.7   0.0   1.1   1   0   0   1   1   1   0 -
+ENSMODP00000026885   -          KOG3511              -                0.2   10.3   0.0        30    3.1   0.0   3.5   3   1   0   3   3   3   0 -
+ENSMODP00000029669   -          KOG3511              -               0.21   10.3   0.0        23    3.5   0.0   3.4   1   1   0   3   3   3   0 -
+ENSMODP00000028520   -          KOG3511              -               0.25   10.0   0.0         2    7.0   0.0   2.1   1   1   1   2   2   2   0 -
+ENSMODP00000013987   -          KOG3511              -               0.26   10.0   0.0        13    4.3   0.0   3.0   2   2   2   4   4   4   0 -
+ENSMODP00000009240   -          KOG3511              -               0.33    9.6   0.0        87    1.6   0.0   3.8   2   2   0   4   4   4   0 -
+ENSMODP00000030410   -          KOG3511              -               0.37    9.4   0.0        87    1.6   0.0   3.6   1   1   4   5   5   5   0 -
+ENSMODP00000028176   -          KOG3511              -               0.44    9.2   0.0        20    3.7   0.0   2.8   2   1   2   4   4   4   0 -
+ENSMODP00000046274   -          KOG3511              -               0.69    8.6   0.0        51    2.4   0.0   3.2   2   1   1   3   3   3   0 -
+ENSMODP00000041278   -          KOG3511              -               0.71    8.5   0.0      0.94    8.1   0.0   1.1   1   0   0   1   1   1   0 -
+ENSMODP00000045960   -          KOG3511              -               0.71    8.5   0.1      0.89    8.2   0.1   1.2   1   0   0   1   1   1   0 -
+ENSMODP00000058105   -          KOG3511              -               0.97    8.1   0.1       1.6    7.4   0.1   1.3   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG052.strict.hmm
+# Target file:     Monodelphis_domestica.ASM229v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref052.Monodelphis_domestica.ASM229v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG052.strict.hmm Monodelphis_domestica.ASM229v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:28:29 2020
+# [ok]

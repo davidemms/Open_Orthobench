@@ -1,0 +1,30 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FBpp0081863          -          KOG1811              -                  0 1888.3  48.9         0 1887.9  48.9   1.1   1   0   0   1   1   1   1 -
+FBpp0308661          -          KOG1811              -            8.1e-21   73.1   9.3   1.1e-20   72.7   9.3   1.1   1   0   0   1   1   1   1 -
+FBpp0071564          -          KOG1811              -            2.3e-18   65.0  11.9   5.2e-18   63.8  11.9   1.5   1   0   0   1   1   1   1 -
+FBpp0112209          -          KOG1811              -            2.3e-16   58.3  10.7   2.3e-16   58.3  10.7   2.3   3   0   0   3   3   2   1 -
+FBpp0308356          -          KOG1811              -            1.2e-15   56.0   4.6   1.2e-15   56.0   4.6   2.2   2   1   0   2   2   1   1 -
+FBpp0078775          -          KOG1811              -            3.6e-12   44.5   9.2     8e-12   43.3   9.2   1.6   1   0   0   1   1   1   1 -
+FBpp0088692          -          KOG1811              -            5.7e-11   40.5   5.5   5.7e-11   40.5   5.5   1.8   2   0   0   2   2   1   1 -
+FBpp0079610          -          KOG1811              -            3.6e-10   37.9   4.9   4.6e-10   37.5   4.9   1.1   1   0   0   1   1   1   1 -
+FBpp0111901          -          KOG1811              -            1.1e-09   36.2   6.7   1.4e-09   35.9   6.7   1.1   1   0   0   1   1   1   1 -
+FBpp0088523          -          KOG1811              -            1.3e-09   36.0   5.3   1.3e-09   36.0   5.3   1.7   2   0   0   2   2   1   1 -
+FBpp0071563          -          KOG1811              -            4.6e-09   34.2   7.9   4.6e-09   34.2   7.9   3.1   2   1   1   3   3   1   1 -
+FBpp0112713          -          KOG1811              -            7.7e-09   33.4  14.4   7.7e-09   33.4  14.4   2.3   2   1   1   3   3   3   1 -
+FBpp0071938          -          KOG1811              -            2.5e-06   25.1   0.9   3.3e-06   24.7   0.9   1.1   1   0   0   1   1   1   1 -
+FBpp0079203          -          KOG1811              -            0.00081   16.8   4.8    0.0013   16.1   4.8   1.2   1   0   0   1   1   1   1 -
+FBpp0080019          -          KOG1811              -               0.22    8.7   1.6      0.17    9.1   0.1   1.4   2   0   0   2   2   2   0 -
+FBpp0079889          -          KOG1811              -               0.27    8.4   0.3       0.3    8.3   0.3   1.1   1   0   0   1   1   1   0 -
+FBpp0305787          -          KOG1811              -               0.52    7.5   2.3      0.73    7.0   2.3   1.1   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG065.strict.hmm
+# Target file:     Drosophila_melanogaster.BDGP6.28.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref065.Drosophila_melanogaster.BDGP6.28.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG065.strict.hmm Drosophila_melanogaster.BDGP6.28.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:41:04 2020
+# [ok]

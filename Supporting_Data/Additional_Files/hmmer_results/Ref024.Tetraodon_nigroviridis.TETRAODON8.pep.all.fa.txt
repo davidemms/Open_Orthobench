@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSTNIP00000000910   -          KOG2806              -           1.7e-177  590.0   0.1  2.2e-177  589.6   0.1   1.1   1   0   0   1   1   1   1 -
+ENSTNIP00000001773   -          KOG2806              -           1.5e-176  586.9   0.0  1.9e-176  586.6   0.0   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000003161   -          KOG2806              -           6.8e-135  449.8   0.0  8.6e-135  449.5   0.0   1.0   1   0   0   1   1   1   1 -
+ENSTNIP00000018627   -          KOG2806              -            1.5e-16   60.4   0.0   2.1e-16   59.9   0.0   1.1   1   0   0   1   1   1   1 -
+ENSTNIP00000019160   -          KOG2806              -               0.01   14.9   0.0     0.018   14.1   0.0   1.4   1   0   0   1   1   1   0 -
+ENSTNIP00000012320   -          KOG2806              -                0.2   10.6   0.0       0.3   10.1   0.0   1.1   1   0   0   1   1   1   0 -
+ENSTNIP00000012710   -          KOG2806              -               0.25   10.3   0.0      0.41    9.7   0.0   1.2   1   0   0   1   1   1   0 -
+ENSTNIP00000005170   -          KOG2806              -               0.26   10.3   0.0      0.42    9.6   0.0   1.2   1   0   0   1   1   1   0 -
+ENSTNIP00000005171   -          KOG2806              -               0.27   10.2   0.0      0.41    9.6   0.0   1.2   1   0   0   1   1   1   0 -
+ENSTNIP00000005172   -          KOG2806              -               0.31   10.1   0.0      0.48    9.4   0.0   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG024.strict.hmm
+# Target file:     Tetraodon_nigroviridis.TETRAODON8.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref024.Tetraodon_nigroviridis.TETRAODON8.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG024.strict.hmm Tetraodon_nigroviridis.TETRAODON8.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:54:05 2020
+# [ok]

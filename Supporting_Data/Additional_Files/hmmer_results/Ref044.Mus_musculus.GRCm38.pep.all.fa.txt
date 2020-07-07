@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSMUSP00000003620   -          COG0506              -           3.3e-122  407.0   0.2  4.1e-122  406.7   0.2   1.1   1   0   0   1   1   1   1 -
+ENSMUSP00000149861   -          COG0506              -           3.3e-122  407.0   0.2  4.1e-122  406.7   0.2   1.1   1   0   0   1   1   1   1 -
+ENSMUSP00000062214   -          COG0506              -           9.9e-105  349.8   0.0  1.2e-104  349.5   0.0   1.1   1   0   0   1   1   1   1 -
+ENSMUSP00000072352   -          COG0506              -               0.18   11.5   1.2      0.21   11.3   1.2   1.0   1   0   0   1   1   1   0 -
+ENSMUSP00000113759   -          COG0506              -               0.48   10.1   0.3      0.51   10.0   0.3   1.2   1   0   0   1   1   1   0 -
+ENSMUSP00000092305   -          COG0506              -               0.64    9.7   0.4        12    5.5   0.3   2.2   1   1   0   1   1   1   0 -
+ENSMUSP00000112801   -          COG0506              -               0.84    9.3   0.3       2.3    7.9   0.3   1.7   1   0   0   1   1   1   0 -
+ENSMUSP00000156292   -          COG0506              -               0.93    9.2   0.0       2.1    8.0   0.0   1.6   1   1   0   1   1   1   0 -
+ENSMUSP00000033123   -          COG0506              -               0.94    9.2   0.1       7.8    6.2   0.0   2.3   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG044.strict.hmm
+# Target file:     Mus_musculus.GRCm38.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref044.Mus_musculus.GRCm38.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG044.strict.hmm Mus_musculus.GRCm38.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:23:58 2020
+# [ok]

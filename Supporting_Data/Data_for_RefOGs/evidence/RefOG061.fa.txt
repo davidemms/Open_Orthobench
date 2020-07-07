@@ -1,0 +1,5 @@
+The RefOG tree is unrooted, it has been rooted on the most ancient branch, separating the mammals from Danio/Tetraodon.
+
+The inferred tree tree has been rooted at the base of the clade of genes. It shows the two clades from the original study (A containing ENSP00000369004 & B ENSP00000346634) but additionally three Danio genes clearly orthologs of this first gene. Also an additional clade, C,  containing ENSP00000435210 more closely related to the B than B is to A, with 100% bootstrap support.
+
+There is some uncertainty as the rooting of the tree is not secure. This is because homology with the remaining genes in the tree is far from certain and so point the branch from those trees inserts into the tree for the target orthogroup is not necessarily the true root. With this unreliable rooting accounted for, the position of the three clades A, B & C as duplications within the orthogroup still remains the best interpretaton of the tree.

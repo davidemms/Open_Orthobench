@@ -1,0 +1,30 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FBpp0308450          -          COG5252              -           2.5e-166  552.7  20.8  2.9e-166  552.5  20.8   1.0   1   0   0   1   1   1   1 -
+FBpp0078039          -          COG5252              -            3.5e-08   32.6   0.3    0.0026   16.5   0.0   2.4   2   0   0   2   2   2   2 -
+FBpp0077792          -          COG5252              -            5.5e-06   25.3   0.4     0.021   13.6   0.3   2.1   1   1   1   2   2   2   2 -
+FBpp0073753          -          COG5252              -            0.00084   18.2   0.3     0.024   13.4   0.0   2.5   2   0   0   2   2   2   1 -
+FBpp0289271          -          COG5252              -             0.0019   17.0   0.1    0.0026   16.6   0.1   1.1   1   0   0   1   1   1   1 -
+FBpp0077676          -          COG5252              -             0.0021   16.8  13.4    0.0058   15.4   0.4   3.9   2   2   2   4   4   4   2 -
+FBpp0088653          -          COG5252              -               0.02   13.7   0.0      0.02   13.7   0.0   2.4   2   0   0   2   2   1   0 -
+FBpp0079899          -          COG5252              -              0.022   13.5   0.3     0.022   13.5   0.3   2.6   2   0   0   2   2   1   0 -
+FBpp0302819          -          COG5252              -              0.022   13.5   0.3     0.022   13.5   0.3   2.6   2   0   0   2   2   1   0 -
+FBpp0078624          -          COG5252              -              0.057   12.1   0.0     0.085   11.6   0.0   1.2   1   0   0   1   1   1   0 -
+FBpp0305898          -          COG5252              -               0.14   10.9   4.6      0.51    9.0   0.9   2.2   1   1   1   2   2   2   0 -
+FBpp0303113          -          COG5252              -               0.22   10.2   5.1      0.33    9.6   5.1   1.2   1   0   0   1   1   1   0 -
+FBpp0081493          -          COG5252              -               0.26   10.0   1.2      0.77    8.4   0.3   2.2   2   0   0   2   2   2   0 -
+FBpp0307646          -          COG5252              -                0.3    9.8   4.1     0.066   11.9   1.0   1.5   2   0   0   2   2   2   0 -
+FBpp0073752          -          COG5252              -               0.55    8.9   0.2       5.8    5.5   0.0   2.1   2   0   0   2   2   2   0 -
+FBpp0082696          -          COG5252              -                0.8    8.4   0.0       0.8    8.4   0.0   1.5   2   0   0   2   2   2   0 -
+FBpp0083960          -          COG5252              -               0.86    8.3   5.5       1.4    7.6   5.5   1.4   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG043.strict.hmm
+# Target file:     Drosophila_melanogaster.BDGP6.28.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref043.Drosophila_melanogaster.BDGP6.28.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG043.strict.hmm Drosophila_melanogaster.BDGP6.28.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:22:42 2020
+# [ok]

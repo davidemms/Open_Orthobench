@@ -1,0 +1,29 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BL04603_cuf1         -          COG5252              -           8.5e-144  480.0  28.5  9.6e-144  479.8  28.5   1.0   1   0   0   1   1   1   1 -
+BL15489_evm0         -          COG5252              -            3.5e-06   27.4   0.2      0.04   14.0   0.0   2.1   1   1   0   2   2   2   2 -
+BL12307_evm0         -          COG5252              -            3.8e-05   24.0   8.4     0.054   13.6   0.1   3.2   3   0   0   3   3   3   3 -
+BL95218_evm1         -          COG5252              -            9.6e-05   22.6   0.1   0.00017   21.8   0.1   1.3   1   0   0   1   1   1   1 -
+BL09501_cuf0         -          COG5252              -             0.0011   19.2   0.4    0.0011   19.2   0.4   3.2   2   1   2   4   4   4   1 -
+BL09100_evm0         -          COG5252              -             0.0052   16.9   0.1    0.0079   16.3   0.1   1.3   1   0   0   1   1   1   1 -
+BL13289_evm0         -          COG5252              -              0.018   15.1   0.0     0.022   14.9   0.0   1.1   1   0   0   1   1   1   0 -
+BL04410_cuf2         -          COG5252              -              0.068   13.3   0.1      0.11   12.6   0.1   1.2   1   0   0   1   1   1   0 -
+BL19094_evm0         -          COG5252              -              0.097   12.7   3.9       1.4    9.0   0.6   2.2   1   1   1   2   2   2   0 -
+BL16703_evm2         -          COG5252              -               0.24   11.4   1.3      0.44   10.6   1.3   1.3   1   0   0   1   1   1   0 -
+BL02107_evm0         -          COG5252              -               0.28   11.2   0.2      0.31   11.1   0.2   1.1   1   0   0   1   1   1   0 -
+BL01259_cuf1         -          COG5252              -               0.33   11.0   0.0      0.43   10.6   0.0   1.2   1   0   0   1   1   1   0 -
+BL25005_evm0         -          COG5252              -                0.4   10.7   0.1      0.45   10.5   0.1   1.2   1   0   0   1   1   1   0 -
+BL12149_evm5         -          COG5252              -               0.41   10.7   0.0      0.41   10.7   0.0   2.8   2   0   0   2   2   1   0 -
+BL97165_cuf5         -          COG5252              -               0.53   10.3   0.1      0.81    9.7   0.1   1.2   1   0   0   1   1   1   0 -
+BL22739_cuf0         -          COG5252              -               0.81    9.7   1.4       1.3    9.0   1.4   1.3   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG043.strict.hmm
+# Target file:     Branchiostoma_lanceolatum.BraLan2.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref043.Branchiostoma_lanceolatum.BraLan2.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG043.strict.hmm Branchiostoma_lanceolatum.BraLan2.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:23:14 2020
+# [ok]

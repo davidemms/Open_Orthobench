@@ -1,0 +1,27 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Smp_091480           -          NOG73730             -              0.034   12.0   0.6     0.039   11.8   0.6   1.1   1   0   0   1   1   1   0 -
+Smp_072370           -          NOG73730             -              0.064   11.1   0.0      0.96    7.2   0.0   2.2   1   1   0   2   2   1   0 -
+Smp_129580           -          NOG73730             -               0.14   10.0   0.0      0.14   10.0   0.0   3.2   3   2   0   3   3   3   0 -
+Smp_067900           -          NOG73730             -               0.16    9.8   5.7      0.25    9.2   5.7   1.3   1   0   0   1   1   1   0 -
+Smp_199130           -          NOG73730             -               0.16    9.8   1.5       0.2    9.5   1.5   1.1   1   0   0   1   1   1   0 -
+Smp_143190           -          NOG73730             -               0.26    9.1   1.2       1.5    6.6   0.8   2.3   2   1   0   2   2   2   0 -
+Smp_179530           -          NOG73730             -               0.32    8.8   0.0      0.41    8.4   0.0   1.1   1   0   0   1   1   1   0 -
+Smp_056930           -          NOG73730             -               0.37    8.6   1.1   2.7e+02   -0.8   2.6   3.0   2   2   1   3   3   3   0 -
+Smp_164500           -          NOG73730             -               0.43    8.4   0.9      0.84    7.4   0.9   1.4   1   1   0   1   1   1   0 -
+Smp_160970           -          NOG73730             -                0.5    8.2   0.0        78    0.9   0.0   2.9   2   1   0   3   3   3   0 -
+Smp_119910           -          NOG73730             -               0.68    7.7   2.7         1    7.2   2.7   1.3   1   0   0   1   1   1   0 -
+Smp_199540           -          NOG73730             -               0.75    7.6   0.1         1    7.1   0.1   1.1   1   0   0   1   1   1   0 -
+Smp_012600           -          NOG73730             -               0.87    7.4   3.3       3.6    5.4   4.0   1.5   1   1   1   2   2   2   0 -
+Smp_060070           -          NOG73730             -               0.93    7.3   0.1      0.87    7.4   0.1   1.1   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG056.strict.hmm
+# Target file:     Schistosoma_mansoni.ASM23792v2.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref056.Schistosoma_mansoni.ASM23792v2.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG056.strict.hmm Schistosoma_mansoni.ASM23792v2.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:31:31 2020
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSDARP00000070033   -          COG1454              -           3.6e-253  840.5   0.1  4.2e-253  840.3   0.1   1.0   1   0   0   1   1   1   1 -
+ENSDARP00000153882   -          COG1454              -               0.64    9.4   0.0       1.5    8.2   0.0   1.5   2   0   0   2   2   2   0 -
+ENSDARP00000155772   -          COG1454              -               0.65    9.4   0.0       1.5    8.2   0.0   1.5   2   0   0   2   2   2   0 -
+ENSDARP00000099431   -          COG1454              -               0.98    8.8   0.0       1.7    8.1   0.0   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG050.strict.hmm
+# Target file:     Danio_rerio.GRCz11.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref050.Danio_rerio.GRCz11.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG050.strict.hmm Danio_rerio.GRCz11.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:27:25 2020
+# [ok]

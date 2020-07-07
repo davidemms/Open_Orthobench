@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ML058011a-PA         -          COG0229              -            2.9e-18   66.1   1.4   3.8e-18   65.7   1.4   1.2   1   0   0   1   1   1   1 -
+ML010123a-PA         -          COG0229              -             0.0074   16.4   0.1      0.01   16.0   0.1   1.2   1   0   0   1   1   1   1 -
+ML06911a-PA          -          COG0229              -              0.042   14.0   0.3     0.051   13.7   0.3   1.2   1   0   0   1   1   1   0 -
+ML04213a-PA          -          COG0229              -              0.042   14.0   1.5     0.097   12.8   1.5   1.6   1   0   0   1   1   1   0 -
+ML087115a-PA         -          COG0229              -              0.047   13.8   1.8      0.85    9.8   0.1   3.2   3   0   0   3   3   3   0 -
+ML013518a-PA         -          COG0229              -               0.05   13.7   0.3     0.055   13.6   0.3   1.2   1   0   0   1   1   1   0 -
+ML02824a-PA          -          COG0229              -               0.06   13.5   0.1      0.79    9.9   0.0   2.9   3   1   0   3   3   3   0 -
+ML09061a-PA          -          COG0229              -                0.1   12.8   0.1       1.4    9.0   0.0   2.1   2   0   0   2   2   2   0 -
+ML03786a-PA          -          COG0229              -               0.68   10.1   0.7       2.3    8.4   0.1   2.1   2   0   0   2   2   2   0 -
+ML04673a-PA          -          COG0229              -               0.74   10.0   0.7        22    5.2   0.0   2.3   1   1   1   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG042.strict.hmm
+# Target file:     Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref042.Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG042.strict.hmm Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:22:00 2020
+# [ok]

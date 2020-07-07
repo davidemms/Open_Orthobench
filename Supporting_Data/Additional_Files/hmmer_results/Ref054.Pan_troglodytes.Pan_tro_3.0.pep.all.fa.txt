@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSPTRP00000007149   -          NOG08919             -                  0 1022.3   0.1         0 1022.2   0.1   1.0   1   0   0   1   1   1   1 -
+ENSPTRP00000071832   -          NOG08919             -           8.1e-152  506.5   0.7  7.1e-151  503.4   0.7   1.9   1   1   0   1   1   1   1 -
+ENSPTRP00000080305   -          NOG08919             -             2e-138  462.3   3.5  2.7e-121  405.8   1.1   2.1   1   1   1   2   2   2   2 -
+ENSPTRP00000087019   -          NOG08919             -               0.19   10.3   0.0      0.25    9.9   0.0   1.1   1   0   0   1   1   1   0 -
+ENSPTRP00000080672   -          NOG08919             -               0.55    8.8   0.3       3.1    6.3   0.0   1.8   1   1   1   2   2   2   0 -
+ENSPTRP00000093588   -          NOG08919             -               0.64    8.6   0.0      0.81    8.2   0.0   1.1   1   0   0   1   1   1   0 -
+ENSPTRP00000072925   -          NOG08919             -               0.64    8.6   0.0      0.85    8.1   0.0   1.2   1   0   0   1   1   1   0 -
+ENSPTRP00000023770   -          NOG08919             -               0.83    8.2   0.0         1    7.8   0.0   1.1   1   0   0   1   1   1   0 -
+ENSPTRP00000065655   -          NOG08919             -               0.97    8.0   0.0       1.2    7.6   0.0   1.1   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG054.strict.hmm
+# Target file:     Pan_troglodytes.Pan_tro_3.0.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref054.Pan_troglodytes.Pan_tro_3.0.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG054.strict.hmm Pan_troglodytes.Pan_tro_3.0.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:30:30 2020
+# [ok]

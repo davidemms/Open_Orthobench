@@ -1,0 +1,32 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FBpp0078640          -          KOG3544              -                  0 1606.5 649.9         0 1292.1 390.9   3.0   1   1   2   3   3   3   3 -
+FBpp0305720          -          KOG3544              -                  0 1386.2 500.2         0 1133.4 297.1   3.8   2   1   2   4   4   3   3 -
+FBpp0292667          -          KOG3544              -            1.9e-65  219.9 192.5   5.9e-40  135.4  97.6   3.7   1   1   1   3   3   3   3 -
+FBpp0301686          -          KOG3544              -            3.6e-40  136.1 122.3   1.1e-39  134.5 122.4   1.5   1   1   0   1   1   1   1 -
+FBpp0088539          -          KOG3544              -            5.6e-24   82.4  51.5   1.2e-23   81.4  51.5   1.4   1   0   0   1   1   1   1 -
+FBpp0306505          -          KOG3544              -            8.2e-13   45.4  91.1   8.2e-13   45.4  91.1   3.6   3   1   0   3   3   3   1 -
+FBpp0082831          -          KOG3544              -              3e-12   43.5  18.2     4e-12   43.1  18.2   1.0   1   0   0   1   1   1   1 -
+FBpp0074782          -          KOG3544              -            3.6e-10   36.7  28.1   4.5e-10   36.3  28.1   1.0   1   0   0   1   1   1   1 -
+FBpp0082830          -          KOG3544              -            1.3e-09   34.8  45.3   1.3e-09   34.8  45.3   2.2   1   1   1   2   2   1   1 -
+FBpp0084209          -          KOG3544              -            1.1e-05   21.8   5.5   1.3e-05   21.6   5.5   1.0   1   0   0   1   1   1   1 -
+FBpp0294051          -          KOG3544              -              0.019   11.1   0.5     0.026   10.7   0.5   1.0   1   0   0   1   1   1   0 -
+FBpp0288476          -          KOG3544              -              0.019   11.1   1.9     0.025   10.7   1.9   1.0   1   0   0   1   1   1   0 -
+FBpp0077189          -          KOG3544              -              0.062    9.4   3.3     0.084    8.9   3.3   1.0   1   0   0   1   1   1   0 -
+FBpp0073745          -          KOG3544              -               0.12    8.4   0.1      0.15    8.1   0.1   1.0   1   0   0   1   1   1   0 -
+FBpp0080638          -          KOG3544              -               0.15    8.1   0.7      0.23    7.5   0.7   1.1   1   0   0   1   1   1   0 -
+FBpp0073906          -          KOG3544              -               0.22    7.6   4.0      0.28    7.2   4.0   1.0   1   0   0   1   1   1   0 -
+FBpp0076834          -          KOG3544              -               0.23    7.5  13.4      0.29    7.1  13.4   1.1   1   0   0   1   1   1   0 -
+FBpp0070116          -          KOG3544              -               0.34    6.9   7.2      0.41    6.6   7.2   1.0   1   0   0   1   1   1   0 -
+FBpp0302837          -          KOG3544              -               0.52    6.3   0.5      0.91    5.5   0.5   1.3   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG020.strict.hmm
+# Target file:     Drosophila_melanogaster.BDGP6.28.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref020.Drosophila_melanogaster.BDGP6.28.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG020.strict.hmm Drosophila_melanogaster.BDGP6.28.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:45:09 2020
+# [ok]

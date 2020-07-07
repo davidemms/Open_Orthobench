@@ -1,0 +1,6 @@
+The RefOG tree is unrooted, it has been rooted on the Nematostella vectensis gene.
+
+The inferred tree was poorly resolved, with a number of ploytomies within the orthgroup. Inspection of the RefOG tree showed this also be the case for that tree. These are largely due to lack of changes between sequences within the orthogroup whereas there does appear to be sufficient resolution closer to the boundary of the orthogroup. The newly inferred tree has been rooted on Mnemiopsis leidyi with the next diverging species being Nematostella &	Trichoplax, indicating good resolution here. 
+
+There appear to be a large number of genes from within the orthogroup not identified in the previous study which should be added to the RefOG with high certainty. The limit of the bilaterian orthogroup are easy to distinguish and coincides with the limit identified in the previous study.
+

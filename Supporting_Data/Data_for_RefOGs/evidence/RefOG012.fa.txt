@@ -1,0 +1,3 @@
+The RefOG tree has been rooted on a Nematostella gene. It shows a relatively straightforward orthogroup with presence in all or most species.
+
+The tree shows multiple metazoan level orthogroups, it has been rooted at the base of a pair of metazoan orthogroups, with one of them containing the target RefOG. It shows good agreement with the orthogroup from the original study with 100% bootstrap support, with updating of genes to the new gene models.

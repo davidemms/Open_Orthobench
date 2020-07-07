@@ -1,0 +1,30 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSPTRP00000046582   -          KOG4160              -            1.9e-46  158.8   2.9   1.9e-46  158.8   2.9   1.4   2   0   0   2   2   2   1 -
+ENSPTRP00000022948   -          KOG4160              -            8.8e-44  150.1   0.7   1.3e-43  149.5   0.7   1.2   1   0   0   1   1   1   1 -
+ENSPTRP00000055611   -          KOG4160              -            3.8e-43  148.1   2.1   1.2e-42  146.4   1.8   1.8   2   0   0   2   2   2   1 -
+ENSPTRP00000024606   -          KOG4160              -            3.6e-40  138.4   2.0   5.4e-40  137.8   2.0   1.2   1   0   0   1   1   1   1 -
+ENSPTRP00000052264   -          KOG4160              -            8.3e-40  137.2   4.1   1.6e-35  123.3   0.0   2.1   1   1   1   2   2   2   2 -
+ENSPTRP00000022962   -          KOG4160              -            3.6e-33  115.6   0.8   4.6e-33  115.3   0.8   1.1   1   0   0   1   1   1   1 -
+ENSPTRP00000022947   -          KOG4160              -            6.6e-33  114.8   5.5   9.9e-33  114.2   5.5   1.2   1   0   0   1   1   1   1 -
+ENSPTRP00000022959   -          KOG4160              -              2e-27   97.0   0.0   2.5e-27   96.7   0.0   1.1   1   0   0   1   1   1   1 -
+ENSPTRP00000042215   -          KOG4160              -            8.3e-23   81.9   7.4   1.1e-22   81.6   7.4   1.1   1   0   0   1   1   1   1 -
+ENSPTRP00000023152   -          KOG4160              -            1.6e-10   42.0   0.1   3.5e-10   40.9   0.1   1.5   1   0   0   1   1   1   1 -
+ENSPTRP00000023154   -          KOG4160              -            6.8e-08   33.5   0.0   1.5e-07   32.4   0.0   1.5   1   1   0   1   1   1   1 -
+ENSPTRP00000067809   -          KOG4160              -            9.2e-07   29.8   0.1   1.6e-06   29.1   0.1   1.3   1   0   0   1   1   1   1 -
+ENSPTRP00000092888   -          KOG4160              -            0.00014   22.8   0.3   0.00024   22.0   0.3   1.4   1   1   0   1   1   1   1 -
+ENSPTRP00000087924   -          KOG4160              -             0.0003   21.6   0.0   0.00083   20.2   0.0   1.6   1   1   0   1   1   1   1 -
+ENSPTRP00000025564   -          KOG4160              -               0.16   12.8   0.2      0.21   12.4   0.2   1.1   1   0   0   1   1   1   0 -
+ENSPTRP00000021704   -          KOG4160              -               0.45   11.3   0.0        36    5.1   0.0   3.0   1   1   1   2   2   2   0 -
+ENSPTRP00000036236   -          KOG4160              -               0.57   11.0   0.0   1.1e+02    3.5   0.1   2.9   2   2   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG011.strict.hmm
+# Target file:     Pan_troglodytes.Pan_tro_3.0.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref011.Pan_troglodytes.Pan_tro_3.0.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG011.strict.hmm Pan_troglodytes.Pan_tro_3.0.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:27:11 2020
+# [ok]

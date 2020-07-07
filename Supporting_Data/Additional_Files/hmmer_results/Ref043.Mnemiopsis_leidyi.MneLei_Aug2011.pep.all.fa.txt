@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ML065325a-PA         -          COG5252              -           6.4e-117  390.4  38.0  7.8e-117  390.1  38.0   1.0   1   0   0   1   1   1   1 -
+ML014414a-PA         -          COG5252              -            0.00029   19.9   0.5   0.00057   18.9   0.5   1.5   1   0   0   1   1   1   1 -
+ML190421a-PA         -          COG5252              -            0.00069   18.7  15.1    0.0008   18.5   5.5   3.2   1   1   2   3   3   3   1 -
+ML05493a-PA          -          COG5252              -            0.00097   18.2   0.3      0.48    9.3   0.1   2.1   2   0   0   2   2   2   2 -
+ML05164a-PA          -          COG5252              -              0.033   13.1   5.2      0.16   10.9   0.4   2.1   1   1   1   2   2   2   0 -
+ML003018a-PA         -          COG5252              -               0.05   12.5   0.7     0.082   11.8   0.0   1.6   2   0   0   2   2   2   0 -
+ML000720a-PA         -          COG5252              -              0.068   12.1   1.8      0.63    8.9   0.2   2.1   1   1   1   2   2   2   0 -
+ML105426a-PA         -          COG5252              -               0.21   10.5   2.1       6.3    5.6   0.3   2.2   2   0   0   2   2   2   0 -
+ML40985a-PA          -          COG5252              -               0.38    9.7   0.3      0.94    8.3   0.3   1.6   1   0   0   1   1   1   0 -
+ML089210a-PA         -          COG5252              -               0.39    9.6   0.9      0.55    9.1   0.9   1.2   1   0   0   1   1   1   0 -
+ML051724a-PA         -          COG5252              -               0.43    9.5   0.4      0.68    8.8   0.4   1.2   1   0   0   1   1   1   0 -
+ML220722a-PA         -          COG5252              -               0.63    8.9   5.5      0.88    8.4   5.5   1.2   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG043.strict.hmm
+# Target file:     Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref043.Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG043.strict.hmm Mnemiopsis_leidyi.MneLei_Aug2011.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:22:56 2020
+# [ok]

@@ -1,0 +1,42 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSCINP00000010465   -          KOG0951              -                  0 1803.5  10.3         0 1803.1  10.3   1.1   1   0   0   1   1   1   1 -
+ENSCINP00000033683   -          KOG0951              -           1.7e-133  446.3   0.0  1.9e-133  446.1   0.0   1.0   1   0   0   1   1   1   1 -
+ENSCINP00000031503   -          KOG0951              -           5.4e-107  358.4   0.2    6e-107  358.2   0.2   1.0   1   0   0   1   1   1   1 -
+ENSCINP00000013050   -          KOG0951              -            1.6e-42  144.6   0.2     1e-29  102.2   0.0   2.0   1   1   1   2   2   2   2 -
+ENSCINP00000006656   -          KOG0951              -            1.7e-32  111.4   0.0   2.2e-18   64.6   0.0   2.1   2   0   0   2   2   2   2 -
+ENSCINP00000035961   -          KOG0951              -              1e-30  105.5   0.3   1.2e-30  105.2   0.3   1.0   1   0   0   1   1   1   1 -
+ENSCINP00000011555   -          KOG0951              -            8.9e-27   92.4   0.5   9.2e-15   52.6   0.0   2.4   2   0   0   2   2   2   2 -
+ENSCINP00000025135   -          KOG0951              -            2.6e-09   34.5   0.0   3.2e-09   34.2   0.0   1.0   1   0   0   1   1   1   1 -
+ENSCINP00000031621   -          KOG0951              -            2.4e-07   28.0   0.0   5.9e-07   26.7   0.0   1.6   2   0   0   2   2   2   1 -
+ENSCINP00000006094   -          KOG0951              -            2.6e-05   21.2   0.6   7.1e-05   19.8   0.0   1.7   2   0   0   2   2   2   1 -
+ENSCINP00000008258   -          KOG0951              -              7e-05   19.8   0.1      0.01   12.7   0.0   2.1   2   0   0   2   2   2   2 -
+ENSCINP00000023858   -          KOG0951              -             0.0013   15.7   0.0    0.0018   15.2   0.0   1.1   1   0   0   1   1   1   1 -
+ENSCINP00000019560   -          KOG0951              -             0.0019   15.1   0.0    0.0019   15.1   0.0   2.7   3   0   0   3   3   3   1 -
+ENSCINP00000016005   -          KOG0951              -             0.0098   12.7   0.0     0.025   11.3   0.0   1.5   2   0   0   2   2   2   1 -
+ENSCINP00000024709   -          KOG0951              -              0.012   12.4   0.0      0.18    8.5   0.0   2.2   2   0   0   2   2   2   0 -
+ENSCINP00000006134   -          KOG0951              -              0.025   11.3   5.8      0.12    9.1   5.8   1.8   1   1   0   1   1   1   0 -
+ENSCINP00000008747   -          KOG0951              -              0.036   10.8   0.4      0.27    7.9   0.3   2.1   1   1   1   2   2   2   0 -
+ENSCINP00000001420   -          KOG0951              -              0.044   10.5   5.9      0.12    9.1   0.0   2.4   3   0   0   3   3   3   0 -
+ENSCINP00000028219   -          KOG0951              -              0.054   10.3   0.0     0.074    9.8   0.0   1.3   1   0   0   1   1   1   0 -
+ENSCINP00000005836   -          KOG0951              -              0.059   10.1   0.6      0.96    6.1   0.0   2.0   1   1   1   2   2   2   0 -
+ENSCINP00000015910   -          KOG0951              -              0.098    9.4   0.2      0.11    9.2   0.2   1.2   1   0   0   1   1   1   0 -
+ENSCINP00000031276   -          KOG0951              -               0.11    9.2   4.0      0.13    9.0   4.0   1.2   1   0   0   1   1   1   0 -
+ENSCINP00000015240   -          KOG0951              -               0.14    8.9   1.0      0.17    8.6   0.1   1.5   2   0   0   2   2   2   0 -
+ENSCINP00000018842   -          KOG0951              -               0.15    8.7   0.4        12    2.5   0.1   2.0   1   1   0   1   1   1   0 -
+ENSCINP00000007210   -          KOG0951              -               0.18    8.5   0.1       4.7    3.8   0.0   2.0   2   0   0   2   2   2   0 -
+ENSCINP00000018487   -          KOG0951              -               0.18    8.5   0.0      0.17    8.6   0.0   1.0   1   0   0   1   1   1   0 -
+ENSCINP00000011868   -          KOG0951              -               0.52    7.0   0.0      0.63    6.7   0.0   1.1   1   0   0   1   1   1   0 -
+ENSCINP00000005701   -          KOG0951              -               0.67    6.6   1.3      0.84    6.3   1.3   1.0   1   0   0   1   1   1   0 -
+ENSCINP00000016544   -          KOG0951              -               0.88    6.2   0.0       6.8    3.3   0.0   1.9   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG040.strict.hmm
+# Target file:     Ciona_intestinalis.KH.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref040.Ciona_intestinalis.KH.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG040.strict.hmm Ciona_intestinalis.KH.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:18:23 2020
+# [ok]

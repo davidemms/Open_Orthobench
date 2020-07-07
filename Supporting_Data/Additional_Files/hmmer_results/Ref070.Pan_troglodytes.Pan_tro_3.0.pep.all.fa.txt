@@ -1,0 +1,29 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSPTRP00000029652   -          COG0123              -           4.1e-284  942.0   3.6  4.6e-284  941.8   3.6   1.0   1   0   0   1   1   1   1 -
+ENSPTRP00000075891   -          COG0123              -             3e-199  662.4   2.1  4.2e-199  662.0   2.1   1.1   1   0   0   1   1   1   1 -
+ENSPTRP00000049696   -          COG0123              -           3.2e-197  655.8   2.3  3.9e-197  655.5   2.3   1.1   1   0   0   1   1   1   1 -
+ENSPTRP00000067224   -          COG0123              -           7.6e-176  585.4   5.5  1.3e-105  354.1   4.8   2.0   1   1   1   2   2   2   2 -
+ENSPTRP00000082283   -          COG0123              -           8.5e-103  344.8   0.6  1.1e-102  344.4   0.6   1.0   1   0   0   1   1   1   1 -
+ENSPTRP00000032389   -          COG0123              -            7.2e-23   81.5   0.0   1.7e-22   80.3   0.0   1.5   1   1   0   1   1   1   1 -
+ENSPTRP00000088885   -          COG0123              -            2.4e-21   76.5   0.0   4.4e-21   75.6   0.0   1.3   1   1   0   1   1   1   1 -
+ENSPTRP00000073000   -          COG0123              -            3.4e-21   76.0   0.0   3.4e-21   76.0   0.0   2.2   3   0   0   3   3   2   1 -
+ENSPTRP00000015756   -          COG0123              -            5.3e-18   65.5   0.1   1.6e-17   63.9   0.1   1.7   1   1   0   1   1   1   1 -
+ENSPTRP00000025053   -          COG0123              -            3.5e-15   56.2   0.0   5.4e-15   55.6   0.0   1.2   1   0   0   1   1   1   1 -
+ENSPTRP00000084825   -          COG0123              -            1.3e-13   51.0   0.1   2.3e-13   50.2   0.1   1.3   1   0   0   1   1   1   1 -
+ENSPTRP00000069076   -          COG0123              -               0.43    9.8   0.1      0.66    9.2   0.1   1.2   1   0   0   1   1   1   0 -
+ENSPTRP00000089329   -          COG0123              -               0.45    9.7   0.1      0.69    9.1   0.1   1.2   1   0   0   1   1   1   0 -
+ENSPTRP00000080573   -          COG0123              -               0.49    9.6   0.1      0.75    9.0   0.1   1.2   1   0   0   1   1   1   0 -
+ENSPTRP00000077946   -          COG0123              -                0.5    9.6   0.1      0.74    9.0   0.1   1.1   1   0   0   1   1   1   0 -
+ENSPTRP00000090688   -          COG0123              -               0.99    8.6   0.0       2.3    7.4   0.0   1.5   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG070.strict.hmm
+# Target file:     Pan_troglodytes.Pan_tro_3.0.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref070.Pan_troglodytes.Pan_tro_3.0.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG070.strict.hmm Pan_troglodytes.Pan_tro_3.0.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:45:52 2020
+# [ok]

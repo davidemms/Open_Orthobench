@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSMODP00000003356   -          NOG08919             -           1.4e-280  931.2   8.8  7.2e-279  925.6   8.8   2.0   1   1   0   1   1   1   1 -
+ENSMODP00000018820   -          NOG08919             -           1.3e-152  509.0   1.2  7.6e-152  506.4   1.2   1.8   1   1   0   1   1   1   1 -
+ENSMODP00000011738   -          NOG08919             -           9.4e-147  489.6   0.1  1.1e-146  489.4   0.1   1.0   1   0   0   1   1   1   1 -
+ENSMODP00000055769   -          NOG08919             -              0.053   12.0   0.9       1.1    7.6   0.2   2.0   1   1   0   2   2   2   0 -
+ENSMODP00000046792   -          NOG08919             -               0.34    9.3   0.0       0.4    9.1   0.0   1.0   1   0   0   1   1   1   0 -
+ENSMODP00000005438   -          NOG08919             -                0.4    9.1   0.1      0.55    8.6   0.1   1.1   1   0   0   1   1   1   0 -
+ENSMODP00000047956   -          NOG08919             -               0.52    8.7   0.0      0.58    8.5   0.0   1.1   1   0   0   1   1   1   0 -
+ENSMODP00000003544   -          NOG08919             -               0.69    8.3   0.1         1    7.7   0.1   1.1   1   0   0   1   1   1   0 -
+ENSMODP00000051682   -          NOG08919             -                0.9    7.9   0.0       1.7    7.0   0.0   1.4   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG054.strict.hmm
+# Target file:     Monodelphis_domestica.ASM229v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref054.Monodelphis_domestica.ASM229v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG054.strict.hmm Monodelphis_domestica.ASM229v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:30:14 2020
+# [ok]

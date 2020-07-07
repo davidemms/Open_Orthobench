@@ -1,0 +1,31 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ENSRNOP00000013570   -          NOG42950             -           1.6e-193  645.4 167.0  5.5e-190  633.8 167.0   2.8   1   1   0   1   1   1   1 -
+ENSRNOP00000006867   -          NOG42950             -           9.9e-179  596.6  49.4  1.1e-178  596.4  49.4   1.0   1   0   0   1   1   1   1 -
+ENSRNOP00000071825   -          NOG42950             -              2e-52  179.8  89.0     2e-52  179.8  89.0   4.3   3   2   1   4   4   3   2 -
+ENSRNOP00000008560   -          NOG42950             -            4.4e-05   23.6   1.3     7e-05   22.9   1.3   1.4   1   0   0   1   1   1   1 -
+ENSRNOP00000065789   -          NOG42950             -              0.011   15.7   0.0     0.062   13.2   0.0   2.0   1   1   1   2   2   1   0 -
+ENSRNOP00000063994   -          NOG42950             -               0.04   13.8  13.0     0.064   13.1  13.0   1.4   1   0   0   1   1   1   0 -
+ENSRNOP00000010539   -          NOG42950             -               0.13   12.1   4.4      0.15   11.9   4.4   1.1   1   0   0   1   1   1   0 -
+ENSRNOP00000001113   -          NOG42950             -               0.24   11.3   0.7      0.29   11.0   0.7   1.2   1   0   0   1   1   1   0 -
+ENSRNOP00000063855   -          NOG42950             -               0.26   11.1  10.1       5.8    6.7   7.0   2.2   2   0   0   2   2   2   0 -
+ENSRNOP00000052548   -          NOG42950             -               0.29   11.0  27.1      0.55   10.1  27.1   1.4   1   0   0   1   1   1   0 -
+ENSRNOP00000073575   -          NOG42950             -               0.35   10.7   5.1      0.34   10.7   5.1   1.1   1   0   0   1   1   1   0 -
+ENSRNOP00000050120   -          NOG42950             -               0.44   10.4   0.1      0.47   10.3   0.1   1.0   1   0   0   1   1   1   0 -
+ENSRNOP00000033463   -          NOG42950             -               0.53   10.1   0.7      0.69    9.7   0.7   1.1   1   0   0   1   1   1   0 -
+ENSRNOP00000054283   -          NOG42950             -               0.54   10.1   5.3       1.1    9.0   5.3   1.5   1   1   0   1   1   1   0 -
+ENSRNOP00000034357   -          NOG42950             -               0.56   10.0   0.4      0.64    9.8   0.4   1.0   1   0   0   1   1   1   0 -
+ENSRNOP00000056095   -          NOG42950             -               0.69    9.7   0.2       3.1    7.6   0.0   1.8   1   1   1   2   2   2   0 -
+ENSRNOP00000009970   -          NOG42950             -               0.72    9.7  14.6      0.89    9.4  14.6   1.1   1   0   0   1   1   1   0 -
+ENSRNOP00000003939   -          NOG42950             -               0.76    9.6  10.5       6.7    6.5  10.6   2.0   1   1   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG061.strict.hmm
+# Target file:     Rattus_norvegicus.Rnor_6.0.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref061.Rattus_norvegicus.Rnor_6.0.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG061.strict.hmm Rattus_norvegicus.Rnor_6.0.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:37:30 2020
+# [ok]

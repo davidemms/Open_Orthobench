@@ -1,0 +1,30 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TriadP21952          -          KOG1216              -                  0 1059.2 179.9  7.7e-122  407.2  55.2   6.0   1   1   5   6   6   6   6 -
+TriadP64394          -          KOG1216              -           6.6e-138  460.4 648.6   8.8e-07   26.2   8.0  41.7   4   3  36  41  41  41  40 -
+TriadP54231          -          KOG1216              -              2e-33  114.4  10.9     2e-33  114.4  10.9   3.8   2   1   1   3   3   2   2 -
+TriadP51368          -          KOG1216              -            4.9e-13   46.9   0.0   4.9e-13   46.9   0.0   4.7   3   1   1   4   4   1   1 -
+TriadP53733          -          KOG1216              -            6.3e-13   46.5   4.3   3.7e-11   40.7   0.3   9.6   4   3   5   9   9   2   2 -
+TriadP14672          -          KOG1216              -            1.9e-12   44.9   0.0   3.4e-12   44.1   0.0   1.3   1   1   0   1   1   1   1 -
+TriadP54443          -          KOG1216              -            9.7e-11   39.3   0.0   9.7e-11   39.3   0.0   7.6   4   3   2   6   6   1   1 -
+TriadP62718          -          KOG1216              -            1.1e-10   39.1   0.0   1.1e-10   39.1   0.0   4.9   2   1   2   4   4   1   1 -
+TriadP53736          -          KOG1216              -            2.2e-10   38.1   0.0   2.2e-10   38.1   0.0   8.4   4   3   3   7   7   1   1 -
+TriadP51362          -          KOG1216              -            1.8e-07   28.4   0.0   1.8e-07   28.4   0.0   3.8   2   1   2   4   4   1   1 -
+TriadP54448          -          KOG1216              -            1.3e-05   22.3   0.1   1.3e-05   22.3   0.1   7.1   5   2   1   6   6   1   1 -
+TriadP57880          -          KOG1216              -            3.3e-05   21.0   0.6   8.3e-05   19.6   0.0   1.9   1   1   1   2   2   2   1 -
+TriadP52349          -          KOG1216              -               0.52    7.1   0.0         1    6.1   0.0   1.4   1   1   0   1   1   1   0 -
+TriadP58257          -          KOG1216              -               0.54    7.0   0.2       0.7    6.6   0.2   1.0   1   0   0   1   1   1   0 -
+TriadP52197          -          KOG1216              -               0.56    7.0   0.3      0.87    6.3   0.3   1.2   1   0   0   1   1   1   0 -
+TriadP24656          -          KOG1216              -                0.6    6.9   0.1      0.78    6.5   0.1   1.1   1   0   0   1   1   1   0 -
+TriadP61722          -          KOG1216              -               0.79    6.5   0.2      0.75    6.6   0.2   1.0   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG023.strict.hmm
+# Target file:     Trichoplax_adhaerens.ASM15027v1.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref023.Trichoplax_adhaerens.ASM15027v1.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG023.strict.hmm Trichoplax_adhaerens.ASM15027v1.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 18:53:15 2020
+# [ok]

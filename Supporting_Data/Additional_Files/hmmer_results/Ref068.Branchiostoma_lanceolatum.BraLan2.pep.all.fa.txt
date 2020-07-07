@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BL01326_evm1         -          KOG3604              -            3.7e-42  145.3   0.0   5.4e-42  144.8   0.0   1.2   1   0   0   1   1   1   1 -
+BL06986_evm0         -          KOG3604              -            3.5e-21   76.5   0.8   4.7e-21   76.1   0.8   1.2   1   0   0   1   1   1   1 -
+BL20310_cuf7         -          KOG3604              -              3e-12   47.1   0.3   3.8e-12   46.8   0.3   1.1   1   0   0   1   1   1   1 -
+BL15821_cuf1         -          KOG3604              -            1.2e-05   25.5   0.0   1.2e-05   25.5   0.0   1.1   1   0   0   1   1   1   1 -
+BL23407_evm0         -          KOG3604              -              0.095   12.7   0.0      0.26   11.3   0.0   1.4   1   1   0   1   1   1   0 -
+BL96472_cuf1         -          KOG3604              -               0.39   10.7   0.0      0.39   10.7   0.0   1.1   1   0   0   1   1   1   0 -
+BL09903_cuf1         -          KOG3604              -               0.73    9.8   0.2       1.8    8.5   0.1   1.8   1   1   0   1   1   1   0 -
+BL29511_evm0         -          KOG3604              -               0.82    9.6   0.0       1.2    9.1   0.0   1.3   1   0   0   1   1   1   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      ../../profiles/RefOG068.strict.hmm
+# Target file:     Branchiostoma_lanceolatum.BraLan2.pep.all.fa
+# Option settings: hmmsearch -o /dev/null --tblout ../../hmmer_results/Ref068.Branchiostoma_lanceolatum.BraLan2.pep.all.fa.txt --noali -E 1 --max --cpu 1 ../../profiles/RefOG068.strict.hmm Branchiostoma_lanceolatum.BraLan2.pep.all.fa 
+# Current dir:     /data/orig/projects/OrthoFinder/benchmarks/Orthobench/v2/proteomes/primary_transcripts
+# Date:            Wed Mar 11 19:45:23 2020
+# [ok]
