@@ -5,6 +5,9 @@ Trachana, K., Larsson, T.A., Powell, S., Chen, W.‐H., Doerks, T., Muller, J. a
 
 There have been a number of major corrections to the currated orthogroups, which together improve the accuracy of the benchmarks considerably. The paper reporting this reanalysis will be submitted for peer review. The updated orthogroups together with the complete set of data supporting the analysis are provided in this repository. The issues page is open, so anyone can identify any further corrections that are required and can submit the data supporting the correction.
 
+# Citation
+Please cite the original Orthobench paper above (Trachana et al.) and this GitHub repository. An updated citation in place of the GitHub repository will be provided once it is available. 
+
 # Description of Files
 
 There are two main directories
