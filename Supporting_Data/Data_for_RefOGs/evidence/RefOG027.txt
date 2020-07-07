@@ -1,3 +1,3 @@
-The RefOG tree is rooted on the Hydra magnipapillata gene. It appears to show a single orthogorup with a duplication in the vertebrates.
+The RefOG tree is rooted on the Hydra magnipapillata gene. It appears to show a single orthogroup with a duplication in the vertebrates.
 
-The newly inferred has tree contains a number of metazoan orthogroups within a larger gene family. It has been rooted at the base of the of the metazoan orthogorup for the target genes. It clearly confirms the orthogroup from the original study, with 100% bootstrap support at its base.
+The newly inferred has tree contains a number of metazoan orthogroups within a larger gene family. It has been rooted at the base of the of the metazoan orthogroup for the target genes. It clearly confirms the orthogroup from the original study, with 100% bootstrap support at its base.

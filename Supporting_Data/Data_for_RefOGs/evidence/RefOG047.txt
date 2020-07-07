@@ -1,3 +1,3 @@
-The RefOg tree is rooted on a Hydra magnipapillata gene.
+The RefOG tree is rooted on a Hydra magnipapillata gene.
 
 The newly inferred tree has been rooted on the Mnemiopsis leidyi gene. The extra species used in this tree have not all been arranged as would be expected from the species tree topology (Nematostella & Trichoplax), but the bootstrap support is not high for these placements either--they don't give evidence from the C. elegans genes being excluded from the orthogroup. Overall, it shows that there is a single orthogroup, in agreement with the original RefOG tree.

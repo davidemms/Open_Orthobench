@@ -3,8 +3,8 @@ RefOG is rooted on a Nematostella vectensis gene. The identification of the RefO
 The inferred tree clearly shows two metazoan-level orthogroups, with each containing genes from the outgroup species Mnemiopsis leidyi, Schistosoma mansoni & Trichoplax adhaerens. It is not entirely clear whether a small number of genes belong in the orthogroup or not: Drosophila_melanogaster_FBpp0309618, Ciona_intestinalis_ENSCINP00000027090, Ciona_intestinalis_ENSCINP00000001707, Caenorhabditis_elegans_B0511 & Danio_rerio_ENSDARP00000131597. They all appear in the tree to have diverged from the remaining orthogroup genes before the divergence of the outgroup genes Mnemiopsis_leidyi_ML040024a-PA & Nematostella_vectensis_EDO36444.
 
 1. Are some/all of these genes incorrectly included in the tree and do not belong in the orthogroup?
-2. Remanants of a duplication event predating the orthogroup and with the gene lost in the remaining species?
-3. Members of the orthogroup that have been forced out of the clade in the tree as a result of artifacts: atypical sequence divergence, poor alignemnt, truncated gene models etc?
+2. Remnants of a duplication event predating the orthogroup and with the gene lost in the remaining species?
+3. Members of the orthogroup that have been forced out of the clade in the tree as a result of artefacts: atypical sequence divergence, poor alignment, truncated gene models etc?
 
 With low certainty, all of these genes other than Danio_rerio_ENSDARP00000131597 belong in the orthogroup. The tree excludes this gene with high bootstrap support. Hard to resolve short branches has most likely resulted in the remaining four genes being placed amongst the outgroup genes to a greater or lesser extent.
 
@@ -12,11 +12,11 @@ With low certainty, all of these genes other than Danio_rerio_ENSDARP00000131597
 More notes:
 There are three closely related vertebrate clades, all with high bootstrap support. The two Branchiostoma lanceolatum	diverge prior to these clades, which is the correct location given the species tree. 
 
-From the MSA EDO36444 & EDO36443 appear to be two halves of the same gene and Mnemiopsis_leidyi_ML040024a-PA appears to be a faulty gene model and on a long branch. It is only included to serve as an outgroup and there are already a number of other closely related outgroup genes at this point so I have removed this in case it is interferring with the posiiton of the gene it has been placed as a sister to.
+From the MSA EDO36444 & EDO36443 appear to be two halves of the same gene and Mnemiopsis_leidyi_ML040024a-PA appears to be a faulty gene model and on a long branch. It is only included to serve as an outgroup and there are already a number of other closely related outgroup genes at this point so I have removed this in case it is interfering with the position of the gene it has been placed as a sister to.
 
-The tree, after these corrections to the alignment, shows more learly that the 2 Ciona and the Drosophila gene belong in the orthogroup. The C. elegan gene is more questionable, but it has a very truncated sequence and so its placement is not so surprising.
+The tree, after these corrections to the alignment, shows more clearly that the 2 Ciona and the Drosophila gene belong in the orthogroup. The C. elegans gene is more questionable, but it has a very truncated sequence and so its placement is not so surprising.
 
 
 Why were genes from two orthogroups incorrectly identified as belonging to a single orthogroup?
 
-The inferred tree shows that their are two separate orthogroups that have been labelled as a single orthogroup in the RefOG. Inclusion of more genes from outgroup species would have shown this. The tree has been rooted on a single gene from Nematostella despite the fact that a branch on the path between it and e.g. Homo_sapiens_ENSP00000385713 (most likely the branch dirrectly above the Nematostella gene) is a duplication event more ancient than the divergence of the Nematostella gene from the clade containing Homo_sapiens_ENSP00000347931. Note, the topology of the inferred unrooted tree "(Ingroup1, Outgroup, Ingroup2);" is insufficient to distinguish between these two cases, although viewing the tree as a 'Radial Phylogram' in dendroscope would give a strong indication of what had gone wrong here.
+The inferred tree shows that their are two separate orthogroups that have been labelled as a single orthogroup in the RefOG. Inclusion of more genes from outgroup species would have shown this. The tree has been rooted on a single gene from Nematostella despite the fact that a branch on the path between it and e.g. Homo_sapiens_ENSP00000385713 (most likely the branch directly above the Nematostella gene) is a duplication event more ancient than the divergence of the Nematostella gene from the clade containing Homo_sapiens_ENSP00000347931. Note, the topology of the inferred unrooted tree "(Ingroup1, Outgroup, Ingroup2);" is insufficient to distinguish between these two cases, although viewing the tree as a 'Radial Phylogram' in Dendroscope would give a strong indication of what had gone wrong here.

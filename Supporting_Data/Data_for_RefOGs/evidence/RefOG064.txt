@@ -1,5 +1,5 @@
 The RefOG tree is unrooted. It has been rooted on C. elegans & Drosophila.
 
-The inferred tree identified addtional outgroup genes and agrees with the RefOG orthogroup.
+The inferred tree identified additional outgroup genes and agrees with the RefOG orthogroup.
 
-The gene Caenorhabditis_elegans_WBGene00010139.1 appears amongst the orthogroup, but out of place in the inferred tree. A duplication could have occured before the origin of the orthogroup. There are also two genes from Trichoplax, weakly supporting a duplication before the orthogroup. It has been included in this orthogroup, but with low certainty.
+The gene Caenorhabditis_elegans_WBGene00010139.1 appears amongst the orthogroup, but out of place in the inferred tree. A duplication could have occurred before the origin of the orthogroup. There are also two genes from Trichoplax, weakly supporting a duplication before the orthogroup. It has been included in this orthogroup, but with low certainty.

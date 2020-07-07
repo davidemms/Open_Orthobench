@@ -1,5 +1,5 @@
 The RefOG is rooted on a Hydra magnipapillata gene.
 
-The newly inferred tree has extra outgroup genes from Nematostella, Trichoplax & Mnemiopsisi. They show that the RefOG from the previous study incorrectly combinded genes from two bilateria orthogroups. This reiterates the danger of rooting a tree on a single outgroup gene when there is a duplication adjacent to the root since two different cases can't be distinguished: (Outgroup,(Clade1, Clade2)); and ((Clade1, Outgroup), Clade2);
+The newly inferred tree has extra outgroup genes from Nematostella, Trichoplax & Mnemiopsis. They show that the RefOG from the previous study incorrectly combined genes from two bilateria orthogroups. This reiterates the danger of rooting a tree on a single outgroup gene when there is a duplication adjacent to the root since two different cases can't be distinguished: (Outgroup,(Clade1, Clade2)); and ((Clade1, Outgroup), Clade2);
 
 The newly inferred tree clearly shows two orthogroups with outgroups for both with 95% bootstrap support for them being separate bilaterian orthogroups. The one containing Homo_sapiens_ENSP00000349577 has been taken to be the target. The one containing Homo_sapiens_ENSP00000301175 has been labelled RefOG044b.

@@ -1,3 +1,3 @@
 The RefOG tree is rooted on Nematostella.
 
-The newly inferred tree has been rooted at the base of one (or two) metazoan orthogroups containing the target bilaterian orthogroup. It shows the orthogroup from the original study to be correct. It has 99% bootstrap support and is demarcated by a number of outgroup genes. There are a number of extra genes corrected placed within the tree, likey from new annotations of the genomes. 
+The newly inferred tree has been rooted at the base of one (or two) metazoan orthogroups containing the target bilaterian orthogroup. It shows the orthogroup from the original study to be correct. It has 99% bootstrap support and is demarcated by a number of outgroup genes. There are a number of extra genes corrected placed within the tree, likely from new annotations of the genomes. 

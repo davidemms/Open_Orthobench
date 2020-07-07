@@ -1,14 +1,14 @@
-The RefOG shows an orthogroup with genes in Danio rerio, Gallus gallus & Tertaodon nigroviridis. It has a duplication in the common ancestor of these species, giving rise to two clades. It has been rooted on this gene duplication event.
+The RefOG shows an orthogroup with genes in Danio rerio, Gallus gallus & Tetraodon nigroviridis. It has a duplication in the common ancestor of these species, giving rise to two clades. It has been rooted on this gene duplication event.
 
 The newly inferred trees shows the orthogroup to be part of a larger gene family. There are many extra Danio genes that are clearly part of the orthogroup, they may be new gene models (inspecting the Danio gene models used in the original study shows this not to be the case, at least for a number of the genes). The tree has been rooted on an ancient duplication separating two metazoan-orthogroups. The target orthogroup is part of one of these metazoan orthogroups. 
 
-There are genes from C. elegans & Drosophila which may or may not be memebers of the target orthogroup. There was:
+There are genes from C. elegans & Drosophila which may or may not be members of the target orthogroup. There was:
 
 Either a duplication before the origin of the orthogroup and then:
-1. In one branch: a loss of Deutrostome clade after the divergence of Branchiostoma.
+1. In one branch: a loss of Deuterostome clade after the divergence of Branchiostoma.
 2. In the other branch a loss of the Protostome clade and a loss in Branchiostoma
 Also, losses in Nematostella and Trichoplax in one clade. Or, more likely, the topology is not correct at this point.
 
 Alternatively, there was no duplication, the topology is not correct at this point and the Protostome clade and Branchiostoma genes belong in the orthogroup.
 
-The species sets match perfectly for this second alternative and it is a very tidy explanation. Arguing against this, there is a clade with 100% bootstrap support that would have to be incorrect. This is not uncommon (bootstrap support values only quantify sampling errors rahter than accounting for anything more systematic, and can often be overly confident) and so the C. elegans & Drosophila genes have been classed as members of the orthogroup, but with low confidence.
+The species sets match perfectly for this second alternative and it is a very tidy explanation. Arguing against this, there is a clade with 100% bootstrap support that would have to be incorrect. This is not uncommon (bootstrap support values only quantify sampling errors rather than accounting for anything more systematic, and can often be overly confident) and so the C. elegans & Drosophila genes have been classed as members of the orthogroup, but with low confidence.

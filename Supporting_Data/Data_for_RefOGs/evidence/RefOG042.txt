@@ -1,9 +1,9 @@
 The RefOG tree has been rooted on a Nematostella gene.
 
-The newly inferred tree (v1) contained two genes from species that had been added to help with the analysis, but were likely false positive homologs,  Trichoplax_adhaerens_TriadP63087 & Branchiostoma_lanceolatum_BL23244_evm4 which both had e-valeus for the hmm profile > 1e-4. Examination of the MSA provided further evidence for this. They were removed from the MSA and the tree was reinferred.
+The newly inferred tree (v1) contained two genes from species that had been added to help with the analysis, but were likely false positive homologs,  Trichoplax_adhaerens_TriadP63087 & Branchiostoma_lanceolatum_BL23244_evm4 which both had e-values for the hmm profile > 1e-4. Examination of the MSA provided further evidence for this. They were removed from the MSA and the tree was re-inferred.
 
 The second newly inferred tree (v2) was rooted on the ancient duplication separating the two clades. The topology of these two clades suggested that the comparatively long branch connecting them had intercepted each of the sub-trees deep within these sub-trees rather than at their respective roots. This can occur with a long branch intercepting a sub-tree with many short branches, it is equivalent to the inaccuracy possible when rooting a tree with a too-distant outgroup.
 
-The two clades are clearly distinct orthogroups, each having multiple representatives from the outgroup species. This confirms the focussing of attention on just one of these as the target clade in the original study. To confirm the orthogorup membership within this clade a third tree was inferred with just the genes from this clade.
+The two clades are clearly distinct orthogroups, each having multiple representatives from the outgroup species. This confirms the focusing of attention on just one of these as the target clade in the original study. To confirm the orthogroup membership within this clade a third tree was inferred with just the genes from this clade.
 
-The third newly inferred tree (v3) showed the clade to be composed of two bilaterian orthogroups, duplicating withing the metazoa and both having outgroup genes from the Cnidaria. The new RefOG was arbitrarily chosen to be the one containing Homo_sapiens_ENSP00000347324.
+The third newly inferred tree (v3) showed the clade to be composed of two bilaterian orthogroups, duplicating within the Metazoa and both having outgroup genes from the Cnidaria. The new RefOG was arbitrarily chosen to be the one containing Homo_sapiens_ENSP00000347324.

@@ -1,3 +1,3 @@
 The RefOG tree is unrooted. It has been rooted on Danio & Tetraodon.
 
-The inferred tree clearly shows this orthogroup and at least some of the members of the next most closely related orthogroup. Both orthogroups have a clear outgroup gene from the ctenophore Mnemiopsis leidyi with high bootstrap support. This gives high confidence in the orthogroup memebership. The tree has been rooted on the branch separating these two orthogroups. The tree is in good agreement with the orthogroup from the previous study.
+The inferred tree clearly shows this orthogroup and at least some of the members of the next most closely related orthogroup. Both orthogroups have a clear outgroup gene from the Ctenophore Mnemiopsis leidyi with high bootstrap support. This gives high confidence in the orthogroup membership. The tree has been rooted on the branch separating these two orthogroups. The tree is in good agreement with the orthogroup from the previous study.

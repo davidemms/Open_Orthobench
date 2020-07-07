@@ -1,3 +1,3 @@
 The RefOG tree is rooted on Nematostella. It shows a single orthogroup with a number of internal duplications at the base of the vertebrates.
 
-The inferred tree shows the target orthogroup with non-bilaterian outgroup genes and the ngibouring orthogroup that diverged near the base of the metazoa. It confirms the orthogroup memebership from the original study. There is are two outgroup genes between the Ciona gene and the rest of the clade, but the support values are low and so, as with the original study, this gene has been included in the orthogroup.
+The inferred tree shows the target orthogroup with non-bilaterian outgroup genes and the gibbering orthogroup that diverged near the base of the Metazoa. It confirms the orthogroup membership from the original study. There is are two outgroup genes between the Ciona gene and the rest of the clade, but the support values are low and so, as with the original study, this gene has been included in the orthogroup.

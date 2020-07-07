@@ -1,4 +1,4 @@
-The RefOG is unrooted. Reooted on Danio & Tetraodon (there is a dropsophila gene in the tree but it is on a long branch in the mammalian clade).
+The RefOG is unrooted. Rooted on Danio & Tetraodon (there is a Drosophila gene in the tree but it is on a long branch in the mammalian clade).
 
 The inferred tree supports the RefOG with relatively high certainty. Mnemiopsis leidyi & Branchiostoma lanceolatum genes were identified and each have 100% bootstrap support for their respective clades. The only concern is that there are Drosophila & Tetraodon genes diverging from the target orthogroup clade before Mnemiopsis leidyi. On reflection, these genes probably belong to this orthogroup, but this is with low certainty. The clade containing the Mnemiopsis gene only has 51% bootstrap support, it is more likely that the Drosophila & Tetraodon belong in this orthogroup. 
 

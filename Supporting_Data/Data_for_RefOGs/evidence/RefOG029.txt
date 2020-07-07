@@ -1,4 +1,4 @@
-RefOG is rooted on the cnidaria Nematostella vectensis. The tree looks clear, although the highest bipartition has bootstrap support of 1%, this is probably not an issue provided all the necessary genes were included. The tree has no branch lengths.
+RefOG is rooted on the Cnidaria Nematostella vectensis. The tree looks clear, although the highest bipartition has bootstrap support of 1%, this is probably not an issue provided all the necessary genes were included. The tree has no branch lengths.
 
 The inferred tree (v1) agrees with the RefOG tree in the broad outline. It splits the Ciona and Drosophila genes out and places them amongst the outgroups species but the clearest interpretation of these is that they belong in the orthogroup, as the RefOG also proposes.
 

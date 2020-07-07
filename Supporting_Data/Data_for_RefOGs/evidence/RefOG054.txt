@@ -1,5 +1,5 @@
-The RefOg tree is unrooted. It has been rooted on Ciona. 
+The RefOG tree is unrooted. It has been rooted on Ciona. 
 Most bipartitions have high support but there is no outgroup.
 
-The newly inferred tree has a number of outgroup genes from Nematostella vectensis & Mnemiopsis leidyi providing a highly supported outgroup clade. The tree has been rooted on the Mnemiopsis gene. The tree shows clearly that there was a duplicaiton within the Deuterostomes giving rise to the additional clade within the orthogroup, 96% bootstrap support (containing ENSP00000392762). The orthogroup also clearly extends to the Protostomes, with the topology closely matching what would be expected and with 96% bootstrap support.
+The newly inferred tree has a number of outgroup genes from Nematostella vectensis & Mnemiopsis leidyi providing a highly supported outgroup clade. The tree has been rooted on the Mnemiopsis gene. The tree shows clearly that there was a duplication within the Deuterostomes giving rise to the additional clade within the orthogroup, 96% bootstrap support (containing ENSP00000392762). The orthogroup also clearly extends to the Protostomes, with the topology closely matching what would be expected and with 96% bootstrap support.
 
