@@ -1,6 +1,6 @@
 The RefOG shows an orthogroup with genes in Danio rerio, Gallus gallus & Tetraodon nigroviridis. It has a duplication in the common ancestor of these species, giving rise to two clades. It has been rooted on this gene duplication event.
 
-The newly inferred trees shows the orthogroup to be part of a larger gene family. There are many extra Danio genes that are clearly part of the orthogroup, they may be new gene models (inspecting the Danio gene models used in the original study shows this not to be the case, at least for a number of the genes). The tree has been rooted on an ancient duplication separating two metazoan-orthogroups. The target orthogroup is part of one of these metazoan orthogroups. 
+The newly inferred tree shows the orthogroup to be part of a larger gene family. There are many extra Danio genes that are clearly part of the orthogroup, they may be new gene models (inspecting the Danio gene models used in the original study shows this not to be the case, at least for a number of the genes). The tree has been rooted on an ancient duplication separating two metazoan-orthogroups. The target orthogroup is part of one of these metazoan orthogroups. 
 
 There are genes from C. elegans & Drosophila which may or may not be members of the target orthogroup. There was:
 

@@ -1,5 +1,5 @@
 The RefOG tree is rooted on Nematostella.
 
-The newly inferred tree (v1) shows a large gene family made up of many bilaterian orthogroups. It is largely in agreement on the membership of the target orthogroup. There are two genes, in Gallus gallus and Danio rerio which are most likely members of another orthogroup, but it would be safe to infer a tree more closely focused around the target orthogroup in order to be sure. 
+The newly inferred tree (v1) shows a large gene family made up of many bilaterian orthogroups. It is largely in agreement on the membership of the target orthogroup. There are two genes, in Gallus gallus and Danio rerio which are most likely members of another orthogroup, but it would be safe to infer a tree more closely focused on the target orthogroup in order to be sure. 
 
 This more focused tree (v2) confirms that these two genes are not members of the orthogroup.

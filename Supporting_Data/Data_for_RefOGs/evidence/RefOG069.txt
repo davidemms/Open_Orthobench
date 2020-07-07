@@ -2,7 +2,7 @@ The RefOG tree is unrooted. It has been rooted on the duplication separating the
 
 The newly inferred tree shows an additional duplication at the base of the vertebrates and a further clade of genes in this orthogroup. This tree only contains genes which obtained a HMMER hit better than an e-value of 0.001. Given that the Pan troglodytes gene ENSPTRP00000050875 only achieves and e-value of 0.00089 but clearly sits within this third clade, there is good reason to try a tree with more (also likely) homologous sequences to see where they appear in the tree. The e-value for the two Pan genes from the original study were 3.4e-46 and 6.3e-41, so that does suggest caution should be exercised when considering the genes from the third clade as also part of the orthogroup. It is necessary to weight up the two possibilities:
 1. Was there a duplication within the orthogroup and the sequences are short/divergent and so diverged considerably in the 3rd clade. It would be useful to search with a single sequence as a seed rather than a hmm profile to gauge how quickly sequence similarity falls off within this orthogroup. With a hmm profile built on the sequences themselves (as is the case for the two original Pan genes), the e-values will appear misleadingly strong.
-2. The homology suggested by hmmer is misleading. Or is it is very distant and there was a matched pattern of three losses (Protostomes, Branchiostoma, Ciona) in all three clades of genes. 
+2. The homology suggested by hmmer is misleading. Or is it very distant and there was a matched pattern of three losses (Protostomes, Branchiostoma, Ciona) in all three clades of genes. 
 
 
 Query ENSMUSP00000061185:
@@ -28,7 +28,7 @@ ENSMUSP00000061185	ENSP00000296099	44.8	67	33	2	124	187	59	124	2.3e-05	46.6
 ENSMUSP00000061185	ENSGALP00000071657	44.7	38	21	0	150	187	63	100	5.3e-04	41.6
 # Approx boundary of second clade 
 
-This strongly suggests that the detectable level of homology falls off quickly for this gene family and that the e-values for the third clade of genes when searching with a hmm profile are not any lower than would be expected for genes in the same orthogroup separated by a duplication prior the the divergence of the vertebrates but within the orthogroup. All the genes in the newly inferred tree are members of the orthogroup. I.e. it is larger than the originally proposed RefOG69.
+This strongly suggests that the detectable level of homology falls off quickly for this gene family and that the e-values for the third clade of genes when searching with a hmm profile are not any lower than would be expected for genes in the same orthogroup separated by a duplication prior the divergence of the vertebrates but within the orthogroup. All the genes in the newly inferred tree are members of the orthogroup. I.e. it is larger than the originally proposed RefOG69.
 
 
 
