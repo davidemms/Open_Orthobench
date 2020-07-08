@@ -22,7 +22,7 @@ import argparse
 
 
 delims = " |,|\t"
-expected_gene_names_base = {"ENSG000": "Homo sapiens", 
+expected_gene_names_base = {"ENSP000": "Homo sapiens", 
     "ENSRNO":"Rattus norvegicus", 
     "ENSCAF":"Canis familiaris", 
     "ENSMUS":"Mus musculus", 
@@ -32,7 +32,7 @@ expected_gene_names_base = {"ENSG000": "Homo sapiens",
     "ENSTNI":"Tetraodon nigroviridis",
     "ENSPTR":"Pan troglodytes",
     "ENSDAR":"Danio rerio",
-    "FBgn":"Drosophila melanogaster",
+    "FBpp":"Drosophila melanogaster",
     "WBGene":"C elegans"}
 n_genes_total = 251378
 
