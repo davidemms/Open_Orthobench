@@ -150,7 +150,7 @@ def read_refogs(d_refogs):
     return refogs
 
 
-def calculate_benchmarks_pairwise(ref_ogs, pred_ogs, q_even=False):
+def calculate_benchmarks_pairwise(ref_ogs, pred_ogs, q_even=True):
     referenceOGs = ref_ogs
     predictedOGs = pred_ogs
     totalFP = 0.
@@ -191,7 +191,7 @@ def calculate_benchmarks_pairwise(ref_ogs, pred_ogs, q_even=False):
         if thisFN == 0 and thisFP == 0:
             n_exact += 1
         if q_even:
-            N = float(nPairs2)
+            N = float(len(refOg)-1)
             totalFN += thisFN/N
             totalFP += thisFP/N
             totalTP += thisTP/N
