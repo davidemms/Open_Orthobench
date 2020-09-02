@@ -150,7 +150,19 @@ def read_refogs(d_refogs):
     return refogs
 
 
-def calculate_benchmarks_pairwise(ref_ogs, pred_ogs, q_even=True):
+def read_uncertain_refogs(d_refogs):
+    refogs = []
+    for i in range(1, 71):
+        fn = d_refogs + ("RefOG%03d.txt" % i)
+        if not os.path.exists(fn): 
+            refogs.append(set())
+        else:
+            with open(fn, 'r') as infile:
+                refogs.append(set([g.rstrip() for g in infile.readlines()]))
+    return refogs
+
+
+def calculate_benchmarks_pairwise(ref_ogs, uncert_genes, pred_ogs, q_even=True):
     referenceOGs = ref_ogs
     predictedOGs = pred_ogs
     totalFP = 0.
@@ -158,14 +170,20 @@ def calculate_benchmarks_pairwise(ref_ogs, pred_ogs, q_even=True):
     totalTP = 0.
     totalGroundTruth = 0.
     n_exact = 0
-    for refOg in referenceOGs:
+    # so as not to count uncertain genes either way remove them from the 
+    # expected and remove them from any predicted OG (as though they never existed!)
+    for refOg, uncert in zip(referenceOGs, uncert_genes):
         thisFP = 0.
         thisFN = 0.
         thisTP = 0.
+        refOg = refOg.difference(uncert)
         nRefOG = len(refOg)
         not_present = set(refOg)
         for predOg in predictedOGs:
             overlap = len(refOg.intersection(predOg))
+            if overlap > 0:
+                predOg = predOg.difference(uncert)   # I.e. only discount genes that are uncertain w.r.t. this RefOG
+                overlap = len(refOg.intersection(predOg))
             if overlap > 0:
                 not_present = not_present.difference(predOg)
                 thisTP += overlap * (overlap - 1)/2    # n-Ch-2
@@ -199,11 +217,11 @@ def calculate_benchmarks_pairwise(ref_ogs, pred_ogs, q_even=True):
             totalFN += thisFN
             totalFP += thisFP
             totalTP += thisTP
-        # print("%d %d %d %d %d %d" % (thisTP, thisFN, thisFP, bestTP, bestFN, bestFP))  
+        # print("%d\t%d\t%d" % (thisTP, thisFN, thisFP))  
     TP, FP, FN = (totalTP, totalFP, totalFN)
-    print("%d Correct gene pairs" % TP)
-    print("%d False Positives gene pairs" % FP)
-    print("%d False Negatives gene pairs\n" % FN)
+    # print("%d Correct gene pairs" % TP)
+    # print("%d False Positives gene pairs" % FP)
+    # print("%d False Negatives gene pairs\n" % FN)
     pres = TP/(TP+FP)
     recall = TP/(TP+FN)
     f = 2*pres*recall/(pres+recall)
@@ -217,13 +235,16 @@ def calculate_benchmarks_pairwise(ref_ogs, pred_ogs, q_even=True):
 def benchmark(ogs_filename, d_refogs):
     print("\nReading RefOGs from: %s" % d_refogs)
     ref_ogs = read_refogs(d_refogs)
+    ref_ogs_uncertain = read_uncertain_refogs(d_refogs + "low_certainty_assignments/")
     exp_genes = get_expected_genes()
     print("\nReading predicted orthogroups from: %s" % ogs_filename)
     n_col_skip = get_n_col_skip(ogs_filename)
     pred_ogs = read_orthogroups(ogs_filename, exp_genes, n_col_skip)
     check_orthogroups(pred_ogs, exp_genes)
     print("\nCalculating benchmarks:")
-    calculate_benchmarks_pairwise(ref_ogs, pred_ogs)
+    # print(os.path.basename(ogs_filename))
+    x = calculate_benchmarks_pairwise(ref_ogs, ref_ogs_uncertain, pred_ogs)
+    # print("\t".join(map(str, x)))
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
