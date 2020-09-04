@@ -162,7 +162,7 @@ def read_uncertain_refogs(d_refogs):
     return refogs
 
 
-def calculate_benchmarks_pairwise(ref_ogs, uncert_genes, pred_ogs, q_even=True):
+def calculate_benchmarks_pairwise(ref_ogs, uncert_genes, pred_ogs, q_even=True, q_remove_uncertain=True):
     referenceOGs = ref_ogs
     predictedOGs = pred_ogs
     totalFP = 0.
@@ -176,13 +176,15 @@ def calculate_benchmarks_pairwise(ref_ogs, uncert_genes, pred_ogs, q_even=True):
         thisFP = 0.
         thisFN = 0.
         thisTP = 0.
-        refOg = refOg.difference(uncert)
+        if q_remove_uncertain:
+            refOg = refOg.difference(uncert)
         nRefOG = len(refOg)
         not_present = set(refOg)
         for predOg in predictedOGs:
             overlap = len(refOg.intersection(predOg))
             if overlap > 0:
-                predOg = predOg.difference(uncert)   # I.e. only discount genes that are uncertain w.r.t. this RefOG
+                if q_remove_uncertain:
+                    predOg = predOg.difference(uncert)   # I.e. only discount genes that are uncertain w.r.t. this RefOG
                 overlap = len(refOg.intersection(predOg))
             if overlap > 0:
                 not_present = not_present.difference(predOg)
@@ -228,7 +230,7 @@ def calculate_benchmarks_pairwise(ref_ogs, uncert_genes, pred_ogs, q_even=True):
     print("%0.1f%% F-score" % (100.*f))
     print("%0.1f%% Precision" % (100.*pres))
     print("%0.1f%% Recall\n" % (100.*recall))
-    print("%d Orthogroups exactly correct\n" % n_exact)
+    print("%d Orthogroups exactly correct" % n_exact)
     return [100.*f, 100.*pres, 100.*recall]
 
     
