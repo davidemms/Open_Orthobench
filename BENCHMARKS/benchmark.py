@@ -67,7 +67,7 @@ def read_orthogroups(fn, exp_genes, n_col_skip=1):
             genes = set([g for g in genes if g != ""])
             if q_past_header or (exp_genes & genes):
                 q_past_header = True
-                ogs.append(genes)
+                if len(genes) > 1: ogs.append(genes)
     return ogs
 
 
@@ -170,12 +170,14 @@ def calculate_benchmarks_pairwise(ref_ogs, uncert_genes, pred_ogs, q_even=True, 
     totalTP = 0.
     totalGroundTruth = 0.
     n_exact = 0
+    n_splits = []
     # so as not to count uncertain genes either way remove them from the 
     # expected and remove them from any predicted OG (as though they never existed!)
     for refOg, uncert in zip(referenceOGs, uncert_genes):
         thisFP = 0.
         thisFN = 0.
         thisTP = 0.
+        this_split = 0
         if q_remove_uncertain:
             refOg = refOg.difference(uncert)
         nRefOG = len(refOg)
@@ -187,14 +189,24 @@ def calculate_benchmarks_pairwise(ref_ogs, uncert_genes, pred_ogs, q_even=True, 
                     predOg = predOg.difference(uncert)   # I.e. only discount genes that are uncertain w.r.t. this RefOG
                 overlap = len(refOg.intersection(predOg))
             if overlap > 0:
+                this_split += 1
                 not_present = not_present.difference(predOg)
                 thisTP += overlap * (overlap - 1)/2    # n-Ch-2
                 thisFP += overlap * (len(predOg) - overlap)
                 thisFN += (nRefOG - overlap) * overlap
+        # Are FNs more from splintered OGs or missing genes?
+        # print("%f\t%f" % (thisFN/2./(nRefOG-1), len(not_present)*(nRefOG-1)/2./(nRefOG-1))) 
         # finally, count all the FN pairs from those not in any predicted OG
         thisFN += len(not_present)*(nRefOG-1)
+        # don't count 'orphan genes' as splits, it's more informative only to count 
+        # clusters that this orthogroup has been split into. Recall already counts
+        #  the missing genes, this should give a distinct measure.
+        # this_split += len(not_present)     
         # All FN have been counted twice
         assert(thisFN % 2 == 0)
+        n_splits.append(this_split)
+        # print(this_split)      # Orthogroup fragments
+        # print(len(not_present))  # Unclustered genes 
         thisFN /= 2 
         # sanity check
         nPairs1 = thisTP + thisFN
@@ -223,7 +235,7 @@ def calculate_benchmarks_pairwise(ref_ogs, uncert_genes, pred_ogs, q_even=True, 
     TP, FP, FN = (totalTP, totalFP, totalFN)
     # print("%d Correct gene pairs" % TP)
     # print("%d False Positives gene pairs" % FP)
-    # print("%d False Negatives gene pairs\n" % FN)
+    print("%d False Negatives gene pairs\n" % FN)
     pres = TP/(TP+FP)
     recall = TP/(TP+FN)
     f = 2*pres*recall/(pres+recall)
