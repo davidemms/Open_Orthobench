@@ -1,14 +1,16 @@
 # Orthobench Revisited
-This is the GitHub repository for a complete reanalysis of the Orthobench benchmarks for orthogroup inference accuracy. It contains 70 curated Bilaterian orthogroups based on the orthogroups from the original Orthobench study: 
+This is the GitHub repository for a complete reanalysis of the Orthobench benchmarks for orthogroup inference accuracy. It contains 70 curated Bilaterian orthogroups based on the orthogroups from the original Orthobench study. 
 
-Trachana, K., Larsson, T.A., Powell, S., Chen, W.‐H., Doerks, T., Muller, J. and Bork, P. (2011), Orthology prediction methods: A quality assessment using curated protein families. Bioessays, 33: 769-780. [doi:10.1002/bies.201100062](https://doi.org/10.1002/bies.201100062)
-
-There have been a number of major corrections to the curated orthogroups, which together improve the accuracy of the benchmarks considerably. The paper reporting this reanalysis will be submitted for peer review. The updated orthogroups together with the complete set of data supporting the analysis are provided in this repository. The issues page is open, so anyone can identify any further corrections that are required and can submit the data supporting the correction.
+There have been a number of major corrections to the curated orthogroups, which together improve the accuracy of the benchmarks considerably. The updated orthogroups together with the complete set of data supporting the analysis are provided in this repository. The issues page is open, so anyone can identify any further corrections that are required and can submit the data supporting the correction.
 
 # Citation
-Please cite the original Orthobench paper above (Trachana et al.) and the paper for the new study:
+If using this work please cite:
 
-D M Emms, S Kelly, Benchmarking Orthogroup Inference Accuracy: Revisiting Orthobench, Genome Biology and Evolution, evaa211, https://doi.org/10.1093/gbe/evaa211
+**D M Emms, S Kelly, Benchmarking Orthogroup Inference Accuracy: Revisiting Orthobench, Genome Biology and Evolution, evaa211, https://doi.org/10.1093/gbe/evaa211**
+
+As well as the original study:
+
+**Trachana, K., Larsson, T.A., Powell, S., Chen, W.‐H., Doerks, T., Muller, J. and Bork, P. (2011), Orthology prediction methods: A quality assessment using curated protein families. Bioessays, 33: 769-780. [doi:10.1002/bies.201100062](https://doi.org/10.1002/bies.201100062)**
 
 
 # Benchmarking an Orthogroup Inference Method
