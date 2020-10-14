@@ -4,15 +4,22 @@ This script calculates the benchmarks for an input set of orthogroups
 
 Instructions:
 1. Predict the complete set of orthogroups for the genes in the "Input/" directory
-2. Write Orthogroups to a file, one orthogroup per line. First line is a header and is
-   ignored. Genes can be separated by commas, spaces or tabs. Lines starting with '#' 
-   are ignored:
-   E.g. "OG0000001: Gene1, Gene2"
-   Optionally, each line can start with the name of the orthogroup followed by a colon.
-   I.e. any text before the first colon on each line will be ignored.
-   This aim of this format is to be flexible, e.g. OrthoFinder .tsv and OrthoMCL output
-   files are both valid under this format.
+2. Write Orthogroups to a file, one orthogroup per line (header lines and commented
+   out lines starting with '#' are allowed). 
+3. Download this script and the accompanying RefOGs directory
 3. Call the script with the the orthogroup filename as the only argument
+
+By default the script with use regular expressions to extract the genes from the 
+additional text on each line. 
+
+You can also specify the option '-b' to use the more basic file reader which requires 
+the following format:
+- First line is a header and is ignored. 
+- One orthogroup per line
+- Genes can be separated by commas, spaces or tabs. 
+- Lines starting with '#' are comments and are ignored
+- Optionally, each line can start with the name of the orthogroup followed by a colon.
+   E.g. "OG0000001: Gene1, Gene2"
 """
 import os
 import re
@@ -49,6 +56,19 @@ def read_hierarchical_orthogroup(infile):
         ogs.append(set(genes))
     return ogs
 
+def read_orthogroups_smart(fn):
+    ogs = []
+    gene_pat = re.compile("WBGene00\d+\.1|ENSCAFP\d+|ENSCINP\d+|ENSDARP\d+|FBpp0\d+|ENSGALP\d+|ENSP000\d+|ENSMODP\d+|ENSMUSP\d+|ENSPTRP\d+|ENSRNOP\d+|ENSTNIP\d+")
+    with open(fn, 'r') as infile:
+        for l in infile:
+            if l.startswith("#"):
+                continue
+            genes = re.findall(gene_pat, l)
+            # print(genes)
+            # sys.exit()
+            if len(genes) > 0:
+                ogs.append(set(genes))
+    return ogs
 
 def read_orthogroups(fn, exp_genes, n_col_skip=1):
     """
@@ -235,7 +255,7 @@ def calculate_benchmarks_pairwise(ref_ogs, uncert_genes, pred_ogs, q_even=True, 
     TP, FP, FN = (totalTP, totalFP, totalFN)
     # print("%d Correct gene pairs" % TP)
     # print("%d False Positives gene pairs" % FP)
-    print("%d False Negatives gene pairs\n" % FN)
+    # print("%d False Negatives gene pairs\n" % FN)
     pres = TP/(TP+FP)
     recall = TP/(TP+FN)
     f = 2*pres*recall/(pres+recall)
@@ -246,14 +266,17 @@ def calculate_benchmarks_pairwise(ref_ogs, uncert_genes, pred_ogs, q_even=True, 
     return [100.*f, 100.*pres, 100.*recall]
 
     
-def benchmark(ogs_filename, d_refogs):
+def benchmark(ogs_filename, d_refogs, q_basic_read):
     print("\nReading RefOGs from: %s" % d_refogs)
     ref_ogs = read_refogs(d_refogs)
     ref_ogs_uncertain = read_uncertain_refogs(d_refogs + "low_certainty_assignments/")
     exp_genes = get_expected_genes()
     print("\nReading predicted orthogroups from: %s" % ogs_filename)
-    n_col_skip = get_n_col_skip(ogs_filename)
-    pred_ogs = read_orthogroups(ogs_filename, exp_genes, n_col_skip)
+    if q_basic_read:
+        n_col_skip = get_n_col_skip(ogs_filename)
+        pred_ogs = read_orthogroups(ogs_filename, exp_genes, n_col_skip)
+    else:
+        pred_ogs = read_orthogroups_smart(ogs_filename)
     check_orthogroups(pred_ogs, exp_genes)
     print("\nCalculating benchmarks:")
     # print(os.path.basename(ogs_filename))
@@ -263,6 +286,7 @@ def benchmark(ogs_filename, d_refogs):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("ogs_filename", help="File containing orthogroups.")
+    parser.add_argument("-b", "--basic", action="store_true", help="Basic delimited orthogroup file reader")
     args = parser.parse_args()
     d_refogs = os.path.dirname(__file__) + os.sep + "RefOGs" + os.sep
-    benchmark(args.ogs_filename, d_refogs)
+    benchmark(args.ogs_filename, d_refogs, args.basic)
